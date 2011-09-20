@@ -154,6 +154,7 @@ display_element_dialog (GtkWidget * w, gpointer d)
             gtk_label_set_markup (GTK_LABEL (label), _(header.info[row]));
           } else {
             gtk_label_set_markup (GTK_LABEL (label), _(entry->info[row]));
+            gtk_label_set_selectable (label, TRUE);
           }
           gtk_misc_set_alignment (GTK_MISC (label), 0, 0);
           gtk_table_attach_defaults (GTK_TABLE (tbl), label, col, col + 1,
