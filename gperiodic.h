@@ -72,7 +72,7 @@ struct table_entry
   GdkColor color;
   GtkStyle *style;
   GtkWidget *button;            /* associated gtk button */
-  GtkTooltips *tooltip;         /* associated gtk tooltip */
+  GtkTooltip *tooltip;         /* associated gtk tooltip */
 };
 
 struct colorscale
