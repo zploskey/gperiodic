@@ -150,11 +150,11 @@ display_element_dialog (GtkWidget * w, gpointer d)
           GtkWidget *label;
 
           label = gtk_label_new (NULL);
-          if (col == 0)
+          if (col == 0) {
             gtk_label_set_markup (GTK_LABEL (label), _(header.info[row]));
-          else
+          } else {
             gtk_label_set_markup (GTK_LABEL (label), _(entry->info[row]));
-
+          }
           gtk_misc_set_alignment (GTK_MISC (label), 0, 0);
           gtk_table_attach_defaults (GTK_TABLE (tbl), label, col, col + 1,
                                      row, row + 1);
