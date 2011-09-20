@@ -1,0 +1,660 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gperiodic 2.0.6\n"
+"POT-Creation-Date: 2003-07-25 20:37+0300\n"
+"PO-Revision-Date: 2004-01-07 06:00+0100\n"
+"Last-Translator: Andrea Tasso <andrea@tasso.info>\n"
+"Language-Team: Italian <debian-l10n-italian@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gperiodic.c:191
+#, c-format
+msgid ""
+"%s<u>Authors:</u>\n"
+"%s\n"
+"\n"
+"This program shows the periodic table of elements\n"
+"and information about these elements.\n"
+"\n"
+"Released under the GPL license."
+msgstr ""
+"%s<u>Autori:</u>\n"
+"%s\n"
+"\n"
+"Questo programma mostra la tavola periodica degli elementi\n"
+"ed informazioni su di essi.\n"
+"\n"
+"Rilasciato sotto licenza GPL ."
+
+#: gperiodic.c:201
+msgid "GPeriodic - About"
+msgstr "Informazioni su GPeriodic"
+
+#: gperiodic.c:302
+msgid "/_File"
+msgstr "/_File"
+
+#: gperiodic.c:303
+msgid "/File/_Quit"
+msgstr "/File/_Esci"
+
+#: gperiodic.c:304
+msgid "/_Help"
+msgstr "/A_iuto"
+
+#: gperiodic.c:305
+msgid "/Help/_About ..."
+msgstr "/Aiuto/I_nformazioni ..."
+
+#: gperiodic.c:338
+msgid "No symbol for index"
+msgstr "Nessun simbolo per l'indice"
+
+#: gperiodic.c:345
+msgid "Error button was null?"
+msgstr "Errore, il bottone era vuoto?"
+
+#: gperiodic.c:393
+#, c-format
+msgid "%s  n:%s w:%s"
+msgstr "%s n:%s p:%s"
+
+#: table_data.h:33
+msgid "Name: "
+msgstr "Nome: "
+
+#: table_data.h:34
+msgid "Symbol: "
+msgstr "Simbolo: "
+
+#: table_data.h:35
+msgid "Atomic Number: "
+msgstr "Numero atomico: "
+
+#: table_data.h:36
+msgid "Atomic Weight (u.m): "
+msgstr "Peso atomico (u.m.): "
+
+#: table_data.h:37
+msgid "Density (g/cm<sup>3</sup>) : "
+msgstr "Densità (g/cm<sup>3</sup>) : "
+
+#: table_data.h:38
+msgid "Melting Point (K): "
+msgstr "Punto di fusione (K): "
+
+#: table_data.h:39
+msgid "Boiling Point (K): "
+msgstr "Punto di ebollizione (K): "
+
+#: table_data.h:40
+msgid "Atomic Radius (pm): "
+msgstr "Raggio atomico (pm): "
+
+#: table_data.h:41
+msgid "Covalent Radius (pm): "
+msgstr "Raggio covalente (pm): "
+
+#: table_data.h:42
+msgid "Ionic Radius (pm): "
+msgstr "Raggio ionico (pm): "
+
+#: table_data.h:43
+msgid "Atomic Volume (cm<sup>3</sup>/mol): "
+msgstr "Volume atomico (cm<sup>3</sup>/mol): "
+
+#: table_data.h:44
+msgid "Specific Heat (@20"
+msgstr "Calore specifico (@20"
+
+#: table_data.h:44
+msgid "C J/g mol): "
+msgstr "C J/g mol): "
+
+#: table_data.h:45
+msgid "Fusion Heat (kJ/mol): "
+msgstr "Calore di fusione (kJ/mol): "
+
+#: table_data.h:46
+msgid "Evaporation Heat (kJ/mol): "
+msgstr "Calore di evaporazione (kJ/mol): "
+
+#: table_data.h:47
+msgid "Termal Conductivity (@25"
+msgstr "Conducibilità termica (@25"
+
+#: table_data.h:47
+msgid "C W/m K): "
+msgstr "C W/m K): "
+
+#: table_data.h:48
+msgid "Debye temperature (K): "
+msgstr "Temperatura di Debye (K): "
+
+#: table_data.h:49
+msgid "Pauling Negativity Number: "
+msgstr "Elettronegatività di Pauling: "
+
+#: table_data.h:50
+msgid "First Ionizing Energy (kJ/mol): "
+msgstr "Energia di prima ionizzazione (kJ/mol): "
+
+#: table_data.h:51
+msgid "Oxidation states: "
+msgstr "Stati di ossidazione: "
+
+#: table_data.h:52
+msgid "Electronic Configuration: "
+msgstr "Configurazione elettronica: "
+
+#: table_data.h:53
+msgid "Lattice structure: "
+msgstr "Struttura cristallina: "
+
+#: table_data.h:54
+msgid "Lattice constant ("
+msgstr "Costante reticolare ("
+
+#: table_data.h:54
+msgid "): "
+msgstr "): "
+
+#: table_data.h:55
+msgid "Lattice c/a ratio: "
+msgstr "Rapporto c/a del reticolo: "
+
+#: table_data.h:56
+msgid "Appearance: "
+msgstr "Aspetto: "
+
+#: table_data.h:57
+msgid "Discovery date: "
+msgstr "Data della scoperta: "
+
+#: table_data.h:58
+msgid "Discovered by: "
+msgstr "Scopritore: "
+
+#: table_data.h:59
+msgid "Named after: "
+msgstr "Origine del nome: "
+
+#: table_data.h:148
+msgid "Hydrogen"
+msgstr "Idrogeno"
+
+#: table_data.h:149
+msgid "Helium"
+msgstr "Elio"
+
+#: table_data.h:151
+msgid "Lithium"
+msgstr "Litio"
+
+#: table_data.h:152
+msgid "Beryllium"
+msgstr "Berillio"
+
+#: table_data.h:153
+msgid "Boron"
+msgstr "Boro"
+
+#: table_data.h:154
+msgid "Carbon"
+msgstr "Carbonio"
+
+#: table_data.h:155
+msgid "Nitrogen"
+msgstr "Azoto"
+
+#: table_data.h:156
+msgid "Oxygen"
+msgstr "Ossigeno"
+
+#: table_data.h:157
+msgid "Fluorine"
+msgstr "Fluoro"
+
+#: table_data.h:158
+msgid "Neon"
+msgstr "Neon"
+
+#: table_data.h:160
+msgid "Sodium"
+msgstr "Sodio"
+
+#: table_data.h:161
+msgid "Magnesium"
+msgstr "Magnesio"
+
+#: table_data.h:162
+msgid "Aluminum"
+msgstr "Alluminio"
+
+#: table_data.h:163
+msgid "Silicon"
+msgstr "Silicio"
+
+#: table_data.h:164
+msgid "Phosphorus"
+msgstr "Fosforo"
+
+#: table_data.h:165
+msgid "Sulfur"
+msgstr "Zolfo"
+
+#: table_data.h:166
+msgid "Chlorine"
+msgstr "Cloro"
+
+#: table_data.h:167
+msgid "Argon"
+msgstr "Argon"
+
+#: table_data.h:169
+msgid "Potassium"
+msgstr "Potassio"
+
+#: table_data.h:170
+msgid "Calcium"
+msgstr "Calcio"
+
+#: table_data.h:171
+msgid "Scandium"
+msgstr "Scandio"
+
+#: table_data.h:172
+msgid "Titanium"
+msgstr "Titanio"
+
+#: table_data.h:173
+msgid "Vanadium"
+msgstr "Vanadio"
+
+#: table_data.h:174
+msgid "Chromium"
+msgstr "Cromo"
+
+#: table_data.h:175
+msgid "Manganese"
+msgstr "Manganese"
+
+#: table_data.h:176
+msgid "Iron"
+msgstr "Ferro"
+
+#: table_data.h:177
+msgid "Cobalt"
+msgstr "Cobalto"
+
+#: table_data.h:178
+msgid "Nickel"
+msgstr "Nichel"
+
+#: table_data.h:179
+msgid "Copper"
+msgstr "Rame"
+
+#: table_data.h:180
+msgid "Zinc"
+msgstr "Zinco"
+
+#: table_data.h:181
+msgid "Gallium"
+msgstr "Gallio"
+
+#: table_data.h:182
+msgid "Germanium"
+msgstr "Germanio"
+
+#: table_data.h:183
+msgid "Arsenic"
+msgstr "Arsenico"
+
+#: table_data.h:184
+msgid "Selenium"
+msgstr "Selenio"
+
+#: table_data.h:185
+msgid "Bromine"
+msgstr "Bromo"
+
+#: table_data.h:186
+msgid "Krypton"
+msgstr "Kripton"
+
+#: table_data.h:188
+msgid "Rubidium"
+msgstr "Rubidio"
+
+#: table_data.h:189
+msgid "Strontium"
+msgstr "Stronzio"
+
+#: table_data.h:190
+msgid "Yttrium"
+msgstr "Ittrio"
+
+#: table_data.h:191
+msgid "Zirconium"
+msgstr "Zirconio"
+
+#: table_data.h:192
+msgid "Niobium"
+msgstr "Niobio"
+
+#: table_data.h:193
+msgid "Molybdenum"
+msgstr "Molibdeno"
+
+#: table_data.h:194
+msgid "Technetium"
+msgstr "Tecnezio"
+
+#: table_data.h:195
+msgid "Ruthenium"
+msgstr "Rutenio"
+
+#: table_data.h:196
+msgid "Rhodium"
+msgstr "Rodio"
+
+#: table_data.h:197
+msgid "Palladium"
+msgstr "Palladio"
+
+#: table_data.h:198
+msgid "Silver"
+msgstr "Argento"
+
+#: table_data.h:199
+msgid "Cadmium"
+msgstr "Cadmio"
+
+#: table_data.h:200
+msgid "Indium"
+msgstr "Indio"
+
+#: table_data.h:201
+msgid "Tin"
+msgstr "Stagno"
+
+#: table_data.h:202
+msgid "Antimony"
+msgstr "Antimonio"
+
+#: table_data.h:203
+msgid "Tellurium"
+msgstr "Tellurio"
+
+#: table_data.h:204
+msgid "Iodine"
+msgstr "Iodio"
+
+#: table_data.h:205
+msgid "Xenon"
+msgstr "Xeno"
+
+#: table_data.h:207
+msgid "Cesium"
+msgstr "Cesio"
+
+#: table_data.h:208
+msgid "Barium"
+msgstr "Bario"
+
+#: table_data.h:210
+msgid "Lanthanum"
+msgstr "Lantanio"
+
+#: table_data.h:211
+msgid "Cerium"
+msgstr "Cerio"
+
+#: table_data.h:212
+msgid "Praseodymium"
+msgstr "Praseodimio"
+
+#: table_data.h:213
+msgid "Neodymium"
+msgstr "Neodimio"
+
+#: table_data.h:214
+msgid "Promethium"
+msgstr "Promezio"
+
+#: table_data.h:215
+msgid "Samarium"
+msgstr "Samario"
+
+#: table_data.h:216
+msgid "Europium"
+msgstr "Europio"
+
+#: table_data.h:217
+msgid "Gadolinium"
+msgstr "Gadolinio"
+
+#: table_data.h:218
+msgid "Terbium"
+msgstr "Terbio"
+
+#: table_data.h:219
+msgid "Dysprosium"
+msgstr "Disprosio"
+
+#: table_data.h:220
+msgid "Holmium"
+msgstr "Olmio"
+
+#: table_data.h:221
+msgid "Erbium"
+msgstr "Erbio"
+
+#: table_data.h:222
+msgid "Thulium"
+msgstr "Tulio"
+
+#: table_data.h:223
+msgid "Ytterbium"
+msgstr "Ytterbio"
+
+#: table_data.h:225
+msgid "Lutetium"
+msgstr "Lutezio"
+
+#: table_data.h:226
+msgid "Hafnium"
+msgstr "Afnio"
+
+#: table_data.h:227
+msgid "Tantalum"
+msgstr "Tantalio"
+
+#: table_data.h:228
+msgid "Tungsten"
+msgstr "Tungsteno"
+
+#: table_data.h:229
+msgid "Rhenium"
+msgstr "Renio"
+
+#: table_data.h:230
+msgid "Osmium"
+msgstr "Osmio"
+
+#: table_data.h:231
+msgid "Iridium"
+msgstr "Iridio"
+
+#: table_data.h:232
+msgid "Platinum"
+msgstr "Platino"
+
+#: table_data.h:233
+msgid "Gold"
+msgstr "Oro"
+
+#: table_data.h:234
+msgid "Mercury"
+msgstr "Mercurio"
+
+#: table_data.h:235
+msgid "Thallium"
+msgstr "Tallio"
+
+#: table_data.h:236
+msgid "Lead"
+msgstr "Piombo"
+
+#: table_data.h:237
+msgid "Bismuth"
+msgstr "Bismuto"
+
+#: table_data.h:238
+msgid "Polonium"
+msgstr "Polonio"
+
+#: table_data.h:239
+msgid "Astatine"
+msgstr "Astato"
+
+#: table_data.h:240
+msgid "Radon"
+msgstr "Radon"
+
+#: table_data.h:242
+msgid "Francium"
+msgstr "Francio"
+
+#: table_data.h:243
+msgid "Radium"
+msgstr "Radio"
+
+#: table_data.h:245
+msgid "Actinium"
+msgstr "Attinio"
+
+#: table_data.h:246
+msgid "Thorium"
+msgstr "Torio"
+
+#: table_data.h:247
+msgid "Protactinium"
+msgstr "Protoattinio"
+
+#: table_data.h:248
+msgid "Uranium"
+msgstr "Uranio"
+
+#: table_data.h:249
+msgid "Neptunium"
+msgstr "Nettunio"
+
+#: table_data.h:250
+msgid "Plutonium"
+msgstr "Plutonio"
+
+#: table_data.h:251
+msgid "Americium"
+msgstr "Americio"
+
+#: table_data.h:252
+msgid "Curium"
+msgstr "Curio"
+
+#: table_data.h:253
+msgid "Berkelium"
+msgstr "Berkelio"
+
+#: table_data.h:254
+msgid "Californium"
+msgstr "Californio"
+
+#: table_data.h:255
+msgid "Einsteinium"
+msgstr "Einstenio"
+
+#: table_data.h:256
+msgid "Fermium"
+msgstr "Fermio"
+
+#: table_data.h:257
+msgid "Mendelevium"
+msgstr "Mendelevio"
+
+#: table_data.h:258
+msgid "Nobelium"
+msgstr "Nobelio"
+
+#: table_data.h:260
+msgid "Lawrencium"
+msgstr "Lawrencio"
+
+#: table_data.h:261
+msgid "Rutherfordium"
+msgstr "Rutherfordio"
+
+#: table_data.h:262
+msgid "Dubnium"
+msgstr "Dubnio"
+
+#: table_data.h:263
+msgid "Seaborgium"
+msgstr "Seaborgio"
+
+#: table_data.h:264
+msgid "Bohrium"
+msgstr "Bohrio"
+
+#: table_data.h:265
+msgid "Hassium"
+msgstr "Hassio"
+
+#: table_data.h:266
+msgid "Meitnerium"
+msgstr "Meitnerio"
+
+#: table_data.h:267
+msgid "Ununnilium"
+msgstr "Ununnilio"
+
+#: table_data.h:268
+msgid "Unununium"
+msgstr "Unununio"
+
+#: table_data.h:269
+msgid "Ununbium"
+msgstr "Unumbio"
+
+#: table_data.h:270
+msgid "Ununtrium"
+msgstr "Ununtrio"
+
+#: table_data.h:271
+msgid "Ununquadium"
+msgstr "Ununquadio"
+
+#: table_data.h:272
+msgid "Ununpentium"
+msgstr "Unumpentio"
+
+#: table_data.h:273
+msgid "Ununhexium"
+msgstr "Ununhexio"
+
+#: table_data.h:274
+msgid "Ununseptium"
+msgstr "Ununseptio"
+
+#: table_data.h:275
+msgid "Ununoctium"
+msgstr "Ununoctio"

@@ -1,0 +1,22 @@
+GPeriodic a gtk+ [and command line] application.
+
+Copyright © 2003 Jonas Frantz frantz@acclab.helsinki.fi, All Rights Reserved.
+  http://www.acclab.helsinki.fi/~frantz
+
+This program is copyrighted under the GNU GPL.  Please see the file gpl.txt,
+Or, to obtain a copy of the GNU GPL, please visit:
+  http://www.gnu.org/
+
+See the file AUTHORS for a list of who has contributed to the application.
+
+
+
+Introduction
+--------------------------------------------------------------------------------
+The original purpose of this projct was to help me learn gtk+.  The latest
+version of the software can be found at:
+  http://www.acclab.helsinki.fi/~frantz/software/gperiodic.php
+
+See the file Changes for more information about this software.
+
+

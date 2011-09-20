@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=Education;Science;Chemistry;Physics;
+Comment=A program for looking up data of elements from the periodic table.
+Comment[da]=Et program til at vise data om grundstofferne i det priodiske system.
+Comment[pl]=Program do wyszukiwania danych pierwiastków z tablicy okresowej.
+Comment[sv]=En lathund för information om grundämnena i den periodiska tabellen.
+Exec=gperiodic
+Icon=gperiodic
+Name=GPeriodic
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
