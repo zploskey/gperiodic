@@ -32,7 +32,8 @@ Authors email : jonas.frantz@helsinki.fi
 
 /* structure to hold element data, as initialized from the static
  * table_data.c. */
-enum info_types {
+enum info_types
+{
   NAME = 0,
   SYMBOL,
   NUMBER,
@@ -60,41 +61,43 @@ enum info_types {
   DISCOVERY_DATE,
   DISCOVERED_BY,
   NAMED_AFTER,
-  MAX_INFO_NR      /* Has to be the last element */
+  MAX_INFO_NR                   /* Has to be the last element */
 };
 
-struct table_entry {
+struct table_entry
+{
   char *info[MAX_INFO_NR];
-  int   x;      /* x position in the table */
-  int   y;      /* y position in the table */
-  GdkColor    color;
-  GtkStyle    *style;
-  GtkWidget   *button;    /* associated gtk button */
-  GtkTooltips *tooltip;    /* associated gtk tooltip */
+  int x;                        /* x position in the table */
+  int y;                        /* y position in the table */
+  GdkColor color;
+  GtkStyle *style;
+  GtkWidget *button;            /* associated gtk button */
+  GtkTooltips *tooltip;         /* associated gtk tooltip */
 };
 
-struct colorscale {       /* table of maxcolor GkdColors */
+struct colorscale
+{                               /* table of maxcolor GkdColors */
   int maxcolor;
   GdkColor *scale;
 };
 
-typedef double criterion( struct table_entry *entry );
+typedef double criterion (struct table_entry *entry);
 
-void dump_table(void);
+void dump_table (void);
 
-int parse_table(void);
+int parse_table (void);
 
-int interactive_shell(void);
+int interactive_shell (void);
 
 /* debugging macro, does nothing unless _DEBUG is defined... */
 #if defined(_DEBUG)
-#  define _DBG(a) (a)
+#define _DBG(a) (a)
 #else
-#  define _DBG(a)
+#define _DBG(a)
 #endif
 
 /************************************************************************************************/
-/* 					ABOUT INFO 						*/
+/*                     ABOUT INFO                         */
 /************************************************************************************************/
 
 #define PROGNAME "gperiodic"
@@ -104,5 +107,3 @@ int interactive_shell(void);
 #define HOMEPAGEURL "http://www.frantz.fi/software/gperiodic.php"
 #define HOMEPAGELABEL "gperiodic homepage"
 #define AUTHORS {"Jonas Frantz", "Kyle R. Burton", "Arno W. Peters", "Costantino Ceoldo", NULL}
-
-
