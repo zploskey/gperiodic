@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
-"PO-Revision-Date: 2014-06-02 13:27+0300\n"
+"PO-Revision-Date: 2014-06-02 15:56+0300\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: gperiodic.h:103
 msgid "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
-msgstr ""
+msgstr "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
 
 #: gperiodic.h:104
 msgid "This program shows the periodic table of elements and information about these elements"
@@ -378,7 +378,7 @@ msgstr "Väte"
 
 #: table_data.h:149
 msgid "0.0708 (@ -253&#176;C)"
-msgstr ""
+msgstr "0.0708 (@ -253&#176;C)"
 
 #: table_data.h:149
 #: table_data.h:150
@@ -415,7 +415,7 @@ msgstr ""
 #: table_data.h:254
 #: table_data.h:255
 msgid "HEX"
-msgstr ""
+msgstr "HEX"
 
 #: table_data.h:149
 #: table_data.h:159
@@ -440,7 +440,7 @@ msgstr "Helium"
 
 #: table_data.h:150
 msgid "0.147 (@ -270&#176;C)"
-msgstr ""
+msgstr "0.147 (@ -270&#176;C)"
 
 #: table_data.h:150
 msgid "Inert, colorless, odorless, tasteless gas"
@@ -464,7 +464,7 @@ msgstr "Litium"
 
 #: table_data.h:152
 msgid "68 (+1e) or 76 (+1e)"
-msgstr ""
+msgstr "68 (+1e) eller 76 (+1e)"
 
 #: table_data.h:152
 #: table_data.h:161
@@ -484,7 +484,7 @@ msgstr ""
 #: table_data.h:243
 #: table_data.h:244
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: table_data.h:152
 #: table_data.h:161
@@ -534,7 +534,7 @@ msgstr "Bor"
 #: table_data.h:235
 #: table_data.h:238
 msgid "RHL"
-msgstr ""
+msgstr "RHL"
 
 #: table_data.h:154
 msgid "Hard, brittle, lustrous black semimetal"
@@ -558,15 +558,15 @@ msgstr "Kol"
 
 #: table_data.h:155
 msgid "2.25 (graphite)"
-msgstr ""
+msgstr "2.25 (grafit)"
 
 #: table_data.h:155
 msgid "1860.00 (diamond)"
-msgstr ""
+msgstr "1860.00 (diamond)"
 
 #: table_data.h:155
 msgid "HEX (graphite), DIA (diamond)"
-msgstr ""
+msgstr "HEX (grafit), DIA (diamond)"
 
 #: table_data.h:155
 msgid "Dense, Black (graphite)"
@@ -614,19 +614,19 @@ msgstr "Kväve"
 
 #: table_data.h:156
 msgid "0.808 (@ -195.8&#176;C)"
-msgstr ""
+msgstr "0.808 (@ -195.8&#176;C)"
 
 #: table_data.h:156
 msgid "HEX or CUB"
-msgstr ""
+msgstr "HEX eller CUB"
 
 #: table_data.h:156
 msgid "4.039 (HEX)"
-msgstr ""
+msgstr "4.039 (HEX)"
 
 #: table_data.h:156
 msgid "1.651 (HEX)"
-msgstr ""
+msgstr "1.651 (HEX)"
 
 #: table_data.h:156
 msgid "Colorless, odorless, tasteless, and generally inert gas"
@@ -650,15 +650,15 @@ msgstr "Syre"
 
 #: table_data.h:157
 msgid "1.149 (@ -183&#176;C)"
-msgstr ""
+msgstr "1.149 (@ -183&#176;C)"
 
 #: table_data.h:157
 msgid "MCL or CUB"
-msgstr ""
+msgstr "MCL eller CUB"
 
 #: table_data.h:157
 msgid "6.830 (CUB)"
-msgstr ""
+msgstr "6.830 (CUB)"
 
 #: table_data.h:157
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
@@ -682,12 +682,12 @@ msgstr "Flor"
 
 #: table_data.h:158
 msgid "1.108 (@ -189&#176;C)"
-msgstr ""
+msgstr "1.108 (@ -189&#176;C)"
 
 #: table_data.h:158
 #: table_data.h:251
 msgid "MCL"
-msgstr ""
+msgstr "MCL"
 
 #: table_data.h:158
 msgid "Greenish-yellow, pungent, corrosive gas"
@@ -712,7 +712,7 @@ msgstr "Neon"
 
 #: table_data.h:159
 msgid "1.204 (@ -246&#176;C)"
-msgstr ""
+msgstr "1.204 (@ -246&#176;C)"
 
 #: table_data.h:159
 #: table_data.h:163
@@ -737,7 +737,7 @@ msgstr ""
 #: table_data.h:246
 #: table_data.h:247
 msgid "FCC"
-msgstr ""
+msgstr "FCC"
 
 #: table_data.h:159
 #: table_data.h:206
@@ -820,7 +820,7 @@ msgstr "Kisel"
 #: table_data.h:164
 #: table_data.h:183
 msgid "DIA"
-msgstr ""
+msgstr "DIA"
 
 #: table_data.h:164
 msgid "Amorphous form is brown powder; crystalline form has a gray"
@@ -876,7 +876,7 @@ msgstr "Svavel"
 #: table_data.h:249
 #: table_data.h:250
 msgid "ORC"
-msgstr ""
+msgstr "ORC"
 
 #: table_data.h:166
 msgid "Tasteless, odorless, light-yellow, brittle solid"
@@ -892,7 +892,7 @@ msgstr "Klor"
 
 #: table_data.h:167
 msgid "1.56 (@ -33.6&#176;C)"
-msgstr ""
+msgstr "1.56 (@ -33.6&#176;C)"
 
 #: table_data.h:167
 msgid "Greenish-yellow, disagreeable gas"
@@ -918,7 +918,7 @@ msgstr "Argon"
 
 #: table_data.h:168
 msgid "1.40 (@ -189,35&#176;C)"
-msgstr ""
+msgstr "1.40 (@ -189,35&#176;C)"
 
 #: table_data.h:168
 msgid "Colorless, tasteless, odorless noble gas"
@@ -1049,7 +1049,7 @@ msgstr "Mangan"
 #: table_data.h:176
 #: table_data.h:239
 msgid "CUB"
-msgstr ""
+msgstr "CUB"
 
 #: table_data.h:176
 msgid "Hard, brittle, gray-white metal"
@@ -1195,7 +1195,7 @@ msgstr "24.44 (grå arsen)"
 #: table_data.h:184
 #: table_data.h:203
 msgid "TRG"
-msgstr ""
+msgstr "TRG"
 
 #: table_data.h:184
 msgid "Steel gray, brittle semimetal"
@@ -1243,7 +1243,7 @@ msgstr "Krypton"
 
 #: table_data.h:187
 msgid "2.155 (@ -153&#176;C)"
-msgstr ""
+msgstr "2.155 (@ -153&#176;C)"
 
 #: table_data.h:187
 msgid "Dense, colorless, odorless, and tasteless gas"
@@ -1488,7 +1488,7 @@ msgstr "Indium"
 #: table_data.h:202
 #: table_data.h:248
 msgid "TET"
-msgstr ""
+msgstr "TET"
 
 #: table_data.h:201
 msgid "Very soft, silvery-white metal"
@@ -1572,7 +1572,7 @@ msgstr "Xenon"
 
 #: table_data.h:206
 msgid "3.52 (@ -107.05&#176;C)"
-msgstr ""
+msgstr "3.52 (@ -107.05&#176;C)"
 
 #: table_data.h:206
 msgid "Heavy, colorless, and odorless noble gas"
@@ -1699,7 +1699,7 @@ msgstr "Prometium"
 
 #: table_data.h:215
 msgid "(+3e)97.9 or (+3e)111"
-msgstr ""
+msgstr "(+3e)97.9 eller (+3e)111"
 
 #: table_data.h:215
 msgid "Light-grey, radioactive element"
@@ -2026,7 +2026,7 @@ msgstr "Guld"
 
 #: table_data.h:234
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
-msgstr ""
+msgstr "(-3e) 185 (+1e) 137 eller (+3e) 85 (+1e) 137"
 
 #: table_data.h:234
 msgid "Soft, malleable, yellow metal"
@@ -2042,7 +2042,7 @@ msgstr "Kvicksilver"
 
 #: table_data.h:235
 msgid "13.546 (@ +20&#176;C)"
-msgstr ""
+msgstr "13.546 (@ +20&#176;C)"
 
 #: table_data.h:235
 msgid "Heavy, silver-white metal that is in its liquid state at"
@@ -2141,7 +2141,7 @@ msgstr "Radon"
 
 #: table_data.h:241
 msgid "4.4 (@ -62&#176;C)"
-msgstr ""
+msgstr "4.4 (@ -62&#176;C)"
 
 #: table_data.h:241
 msgid "Heavy radioactive gas"
@@ -2181,7 +2181,7 @@ msgstr "Radium"
 
 #: table_data.h:244
 msgid "5.5 (@ +20&#176;C)"
-msgstr ""
+msgstr "5.5 (@ +20&#176;C)"
 
 #: table_data.h:244
 msgid "Silvery white, radioactive element"
@@ -2283,7 +2283,7 @@ msgstr "Plutonium"
 
 #: table_data.h:251
 msgid "71-100 or (+4e) 93 (+3e) 108"
-msgstr ""
+msgstr "71-100 eller (+4e) 93 (+3e) 108"
 
 #: table_data.h:251
 msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
@@ -2646,3 +2646,4 @@ msgstr "2006 (Ryssland/USA)"
 #: table_data.h:276
 msgid "Un (one) un (one) octium (eight)"
 msgstr "Un (1) un (1) octium (8)"
+

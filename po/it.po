@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gperiodic 2.0.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
-"PO-Revision-Date: 2014-06-02 13:26+0300\n"
+"PO-Revision-Date: 2014-06-02 15:41+0300\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Italian <debian-l10n-italian@lists.debian.org>\n"
 "Language: it\n"
@@ -158,21 +158,21 @@ msgstr "A_iuto"
 
 #: gperiodic.c:335
 msgid "E_xit"
-msgstr ""
+msgstr "U_scita"
 
 #: gperiodic.c:335
 msgid "Exit the program"
-msgstr ""
+msgstr "Uscire dal programma"
 
 #: gperiodic.c:337
 #: gperiodic.c:339
 msgid "_About"
-msgstr ""
+msgstr "_Informazioni"
 
 #: gperiodic.c:337
 #: gperiodic.c:339
 msgid "About gperiodic"
-msgstr ""
+msgstr "Informazioni su gperiodic"
 
 #: gperiodic.c:357
 msgid "GPeriodic"
@@ -224,7 +224,7 @@ msgstr ""
 
 #: gperiodic.h:103
 msgid "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
-msgstr ""
+msgstr "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
 
 #: gperiodic.h:104
 msgid "This program shows the periodic table of elements and information about these elements"
@@ -365,7 +365,7 @@ msgstr "Idrogeno"
 
 #: table_data.h:149
 msgid "0.0708 (@ -253&#176;C)"
-msgstr ""
+msgstr "0.0708 (@ -253&#176;C)"
 
 #: table_data.h:149
 #: table_data.h:150
@@ -402,7 +402,7 @@ msgstr ""
 #: table_data.h:254
 #: table_data.h:255
 msgid "HEX"
-msgstr ""
+msgstr "HEX"
 
 #: table_data.h:149
 #: table_data.h:159
@@ -427,7 +427,7 @@ msgstr "Elio"
 
 #: table_data.h:150
 msgid "0.147 (@ -270&#176;C)"
-msgstr ""
+msgstr "0.147 (@ -270&#176;C)"
 
 #: table_data.h:150
 msgid "Inert, colorless, odorless, tasteless gas"
@@ -451,7 +451,7 @@ msgstr "Litio"
 
 #: table_data.h:152
 msgid "68 (+1e) or 76 (+1e)"
-msgstr ""
+msgstr "68 (+1e) o 76 (+1e)"
 
 #: table_data.h:152
 #: table_data.h:161
@@ -471,7 +471,7 @@ msgstr ""
 #: table_data.h:243
 #: table_data.h:244
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: table_data.h:152
 #: table_data.h:161
@@ -521,7 +521,7 @@ msgstr "Boro"
 #: table_data.h:235
 #: table_data.h:238
 msgid "RHL"
-msgstr ""
+msgstr "RHL"
 
 #: table_data.h:154
 msgid "Hard, brittle, lustrous black semimetal"
@@ -545,19 +545,19 @@ msgstr "Carbonio"
 
 #: table_data.h:155
 msgid "2.25 (graphite)"
-msgstr ""
+msgstr "2.25 (grafite)"
 
 #: table_data.h:155
 msgid "1860.00 (diamond)"
-msgstr ""
+msgstr "1860.00 (diamante)"
 
 #: table_data.h:155
 msgid "HEX (graphite), DIA (diamond)"
-msgstr ""
+msgstr "HEX (grafite), DIA (diamante)"
 
 #: table_data.h:155
 msgid "Dense, Black (graphite)"
-msgstr ""
+msgstr "Denso, nero (grafite)"
 
 #: table_data.h:155
 #: table_data.h:166
@@ -601,19 +601,19 @@ msgstr "Azoto"
 
 #: table_data.h:156
 msgid "0.808 (@ -195.8&#176;C)"
-msgstr ""
+msgstr "0.808 (@ -195.8&#176;C)"
 
 #: table_data.h:156
 msgid "HEX or CUB"
-msgstr ""
+msgstr "HEX o CUB"
 
 #: table_data.h:156
 msgid "4.039 (HEX)"
-msgstr ""
+msgstr "4.039 (HEX)"
 
 #: table_data.h:156
 msgid "1.651 (HEX)"
-msgstr ""
+msgstr "1.651 (HEX)"
 
 #: table_data.h:156
 msgid "Colorless, odorless, tasteless, and generally inert gas"
@@ -637,15 +637,15 @@ msgstr "Ossigeno"
 
 #: table_data.h:157
 msgid "1.149 (@ -183&#176;C)"
-msgstr ""
+msgstr "1.149 (@ -183&#176;C)"
 
 #: table_data.h:157
 msgid "MCL or CUB"
-msgstr ""
+msgstr "MCL o CUB"
 
 #: table_data.h:157
 msgid "6.830 (CUB)"
-msgstr ""
+msgstr "6.830 (CUB)"
 
 #: table_data.h:157
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
@@ -669,12 +669,12 @@ msgstr "Fluoro"
 
 #: table_data.h:158
 msgid "1.108 (@ -189&#176;C)"
-msgstr ""
+msgstr "1.108 (@ -189&#176;C)"
 
 #: table_data.h:158
 #: table_data.h:251
 msgid "MCL"
-msgstr ""
+msgstr "MCL"
 
 #: table_data.h:158
 msgid "Greenish-yellow, pungent, corrosive gas"
@@ -699,7 +699,7 @@ msgstr "Neon"
 
 #: table_data.h:159
 msgid "1.204 (@ -246&#176;C)"
-msgstr ""
+msgstr "1.204 (@ -246&#176;C)"
 
 #: table_data.h:159
 #: table_data.h:163
@@ -724,7 +724,7 @@ msgstr ""
 #: table_data.h:246
 #: table_data.h:247
 msgid "FCC"
-msgstr ""
+msgstr "FCC"
 
 #: table_data.h:159
 #: table_data.h:206
@@ -807,7 +807,7 @@ msgstr "Silicio"
 #: table_data.h:164
 #: table_data.h:183
 msgid "DIA"
-msgstr ""
+msgstr "DIA"
 
 #: table_data.h:164
 msgid "Amorphous form is brown powder; crystalline form has a gray"
@@ -863,7 +863,7 @@ msgstr "Zolfo"
 #: table_data.h:249
 #: table_data.h:250
 msgid "ORC"
-msgstr ""
+msgstr "ORC"
 
 #: table_data.h:166
 msgid "Tasteless, odorless, light-yellow, brittle solid"
@@ -879,7 +879,7 @@ msgstr "Cloro"
 
 #: table_data.h:167
 msgid "1.56 (@ -33.6&#176;C)"
-msgstr ""
+msgstr "1.56 (@ -33.6&#176;C)"
 
 #: table_data.h:167
 msgid "Greenish-yellow, disagreeable gas"
@@ -905,7 +905,7 @@ msgstr "Argon"
 
 #: table_data.h:168
 msgid "1.40 (@ -189,35&#176;C)"
-msgstr ""
+msgstr "1.40 (@ -189,35&#176;C)"
 
 #: table_data.h:168
 msgid "Colorless, tasteless, odorless noble gas"
@@ -1036,7 +1036,7 @@ msgstr "Manganese"
 #: table_data.h:176
 #: table_data.h:239
 msgid "CUB"
-msgstr ""
+msgstr "CUB"
 
 #: table_data.h:176
 msgid "Hard, brittle, gray-white metal"
@@ -1182,7 +1182,7 @@ msgstr ""
 #: table_data.h:184
 #: table_data.h:203
 msgid "TRG"
-msgstr ""
+msgstr "TRG"
 
 #: table_data.h:184
 msgid "Steel gray, brittle semimetal"
@@ -1230,7 +1230,7 @@ msgstr "Kripton"
 
 #: table_data.h:187
 msgid "2.155 (@ -153&#176;C)"
-msgstr ""
+msgstr "2.155 (@ -153&#176;C)"
 
 #: table_data.h:187
 msgid "Dense, colorless, odorless, and tasteless gas"
@@ -1475,7 +1475,7 @@ msgstr "Indio"
 #: table_data.h:202
 #: table_data.h:248
 msgid "TET"
-msgstr ""
+msgstr "TET"
 
 #: table_data.h:201
 msgid "Very soft, silvery-white metal"
@@ -1559,7 +1559,7 @@ msgstr "Xeno"
 
 #: table_data.h:206
 msgid "3.52 (@ -107.05&#176;C)"
-msgstr ""
+msgstr "3.52 (@ -107.05&#176;C)"
 
 #: table_data.h:206
 msgid "Heavy, colorless, and odorless noble gas"
@@ -1686,7 +1686,7 @@ msgstr "Promezio"
 
 #: table_data.h:215
 msgid "(+3e)97.9 or (+3e)111"
-msgstr ""
+msgstr "(+3e)97.9 o (+3e)111"
 
 #: table_data.h:215
 msgid "Light-grey, radioactive element"
@@ -2013,7 +2013,7 @@ msgstr "Oro"
 
 #: table_data.h:234
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
-msgstr ""
+msgstr "(-3e) 185 (+1e) 137 o (+3e) 85 (+1e) 137"
 
 #: table_data.h:234
 msgid "Soft, malleable, yellow metal"
@@ -2029,7 +2029,7 @@ msgstr "Mercurio"
 
 #: table_data.h:235
 msgid "13.546 (@ +20&#176;C)"
-msgstr ""
+msgstr "13.546 (@ +20&#176;C)"
 
 #: table_data.h:235
 msgid "Heavy, silver-white metal that is in its liquid state at"
@@ -2128,7 +2128,7 @@ msgstr "Radon"
 
 #: table_data.h:241
 msgid "4.4 (@ -62&#176;C)"
-msgstr ""
+msgstr "4.4 (@ -62&#176;C)"
 
 #: table_data.h:241
 msgid "Heavy radioactive gas"
@@ -2168,7 +2168,7 @@ msgstr "Radio"
 
 #: table_data.h:244
 msgid "5.5 (@ +20&#176;C)"
-msgstr ""
+msgstr "5.5 (@ +20&#176;C)"
 
 #: table_data.h:244
 msgid "Silvery white, radioactive element"
@@ -2270,7 +2270,7 @@ msgstr "Plutonio"
 
 #: table_data.h:251
 msgid "71-100 or (+4e) 93 (+3e) 108"
-msgstr ""
+msgstr "71-100 o (+4e) 93 (+3e) 108"
 
 #: table_data.h:251
 msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
@@ -2568,7 +2568,7 @@ msgstr ""
 
 #: table_data.h:271
 msgid "Un (one) un (one) trium (three)"
-msgstr ""
+msgstr "Un (1) un (1) trium (3)"
 
 #: table_data.h:272
 msgid "Flerovium"
@@ -2592,7 +2592,7 @@ msgstr ""
 
 #: table_data.h:273
 msgid "Un (one) un (one) pentium (five)"
-msgstr ""
+msgstr "Un (1) un (1) pentium (5)"
 
 #: table_data.h:274
 msgid "Livermorium"
@@ -2620,7 +2620,7 @@ msgstr ""
 
 #: table_data.h:275
 msgid "Un (one) un (one) septium (seven)"
-msgstr ""
+msgstr "Un (1) un (1) septium (7)"
 
 #: table_data.h:276
 msgid "Ununoctium"
@@ -2632,4 +2632,5 @@ msgstr ""
 
 #: table_data.h:276
 msgid "Un (one) un (one) octium (eight)"
-msgstr ""
+msgstr "Un (1) un (1) octium (8)"
+
