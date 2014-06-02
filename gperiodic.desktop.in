@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GPeriodic
+_Comment=A program for looking up data of elements from the periodic table
+Exec=gperiodic
+Icon=gperiodic
+Terminal=false
+Type=Application
+Categories=Education;Science;Chemistry;

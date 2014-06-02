@@ -1,0 +1,5 @@
+You need to install gtk2-devel and intltool before, after:
+
+   make
+
+   make install
