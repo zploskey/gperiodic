@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the gperiodic package.
 # Piotr Najman <picio@bogucice.pl>, 2003 first initial version
 # Arkadiusz Lipiec <alipiec@elka.pw.edu.pl>, 2003 corrections and full translation
-#
+# Ireneusz Imiolek <imiolek.i@googlemail.com>, 2014 translation of updates
+
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
-"PO-Revision-Date: 2014-06-02 15:49+0300\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"PO-Revision-Date: 2014-06-02 20:02+0100\n"
+"Last-Translator: Ireneusz Imiolek <imiolek.i@googlemail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -262,7 +263,7 @@ msgstr ""
 
 #: gperiodic.h:107
 msgid "gperiodic homepage"
-msgstr ""
+msgstr "strona domowa gperiodic"
 
 #: table_data.h:33
 msgid "Name: "
@@ -1263,7 +1264,7 @@ msgstr "Rubid"
 
 #: table_data.h:189
 msgid "Soft, silvery-white, highly reactive metal"
-msgstr ""
+msgstr "Miękki, srebrzysto-biały, bardzo reaktywny metal"
 
 #: table_data.h:189
 msgid "1861 (Germany)"
@@ -1564,7 +1565,7 @@ msgstr "Bernard Courtois"
 
 #: table_data.h:205
 msgid "Greek: iodes (violet colored)."
-msgstr ""
+msgstr "Greckie: iodes (fioletowy)."
 
 #: table_data.h:206
 msgid "Xenon"
@@ -1703,7 +1704,7 @@ msgstr "(+3e)97.9 lub (+3e)111"
 
 #: table_data.h:215
 msgid "Light-grey, radioactive element"
-msgstr ""
+msgstr "Jasnoszary, radioaktywny pierwiastek"
 
 #: table_data.h:215
 msgid "1945 (United States)"
@@ -2010,7 +2011,7 @@ msgstr "Bardzo ciężki, miękki, srebrzystobiały metal"
 
 #: table_data.h:233
 msgid "1557 (Italy), but Incas use before"
-msgstr ""
+msgstr "1557 (Włochy), wcześniej używany przez Inków"
 
 #: table_data.h:233
 msgid "Julius Scaliger"
@@ -2429,7 +2430,7 @@ msgstr "1963 (Związek Radziecki)"
 #: table_data.h:262
 #: table_data.h:263
 msgid "Dubna"
-msgstr ""
+msgstr "Dubna"
 
 #: table_data.h:259
 msgid "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize."
@@ -2516,7 +2517,7 @@ msgstr "1984 (Niemcy)"
 
 #: table_data.h:266
 msgid "Named in honor of Hessen Land, Germany. Latin: Hassia."
-msgstr ""
+msgstr "Nazwany na cześć Hesji w Niemczech. Łacińskie: Hassia."
 
 #: table_data.h:267
 msgid "Meitnerium"
@@ -2532,7 +2533,7 @@ msgstr "Nazwany ku czci Lise Meitner"
 
 #: table_data.h:268
 msgid "Darmstadtium"
-msgstr ""
+msgstr "Darmsztadt"
 
 #: table_data.h:268
 #: table_data.h:269
@@ -2541,19 +2542,19 @@ msgstr "1994 (Niemcy)"
 
 #: table_data.h:268
 msgid "Named after Darmstadt, Germany, the city of its discovery."
-msgstr ""
+msgstr "Nazwany na cześć miasta Darmstadt w Niemczech, miasto jego odkrycia."
 
 #: table_data.h:269
 msgid "Roentgenium"
-msgstr ""
+msgstr "Roentgen"
 
 #: table_data.h:269
 msgid "Named in honor of physicist Wilhelm Conrad Roentgen."
-msgstr ""
+msgstr "Nazwany ku czci fizyka Wilhelma Conrada Röntgena"
 
 #: table_data.h:270
 msgid "Copernicium"
-msgstr ""
+msgstr "Kopernik"
 
 #: table_data.h:270
 msgid "1996 (Germany)"
@@ -2561,7 +2562,7 @@ msgstr "1996 (Niemcy)"
 
 #: table_data.h:270
 msgid "Named in honor of Nicolaus Copernicus"
-msgstr ""
+msgstr "Nazwany ku czci Mikołaja Kopernika"
 
 #: table_data.h:271
 msgid "Ununtrium"
@@ -2577,7 +2578,7 @@ msgstr "2004 (Rosja/Stany Zjednoczone)"
 #: table_data.h:275
 #: table_data.h:276
 msgid "Dubna/Livermore"
-msgstr ""
+msgstr "Dubna/Livermore"
 
 #: table_data.h:271
 msgid "Un (one) un (one) trium (three)"
@@ -2585,7 +2586,7 @@ msgstr "Un (1) un (1) trium (3)"
 
 #: table_data.h:272
 msgid "Flerovium"
-msgstr ""
+msgstr "Flerow"
 
 #: table_data.h:272
 msgid "1998 (Russia/United States)"
@@ -2593,7 +2594,7 @@ msgstr "1998 (Rosja/Stany Zjednoczone)"
 
 #: table_data.h:272
 msgid "Named in honor of Soviet physicist Flerov"
-msgstr ""
+msgstr "Nazwany ku czci sowieckiego fizyka Florowa"
 
 #: table_data.h:273
 msgid "Ununpentium"
@@ -2609,7 +2610,7 @@ msgstr "Un (1) un (1) pentium (5)"
 
 #: table_data.h:274
 msgid "Livermorium"
-msgstr ""
+msgstr "Liwermor"
 
 #: table_data.h:274
 msgid "2000 (Russia/United States)"
@@ -2617,7 +2618,7 @@ msgstr "2000 (Rosja/Stany Zjednoczone)"
 
 #: table_data.h:274
 msgid "Dubna, Dimitrovgrad, Lesnoy/Livermore"
-msgstr ""
+msgstr "Dubna, Dimitrowgrad, Lesnoj/Livermore"
 
 #: table_data.h:274
 msgid "Named in honor of Livermore"
