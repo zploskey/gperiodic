@@ -2,8 +2,8 @@
                                                                                                                                                              
 gperiodic - a program for browsing the periodic table and looking up
             information on elements.
-                                                                                                                                                             
-Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov
+
+Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov
                                                                                                                                                              
     This file is part of gperiodic.
                                                                                                                                                              
@@ -20,8 +20,6 @@ Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-       
-Authors email : jonas@frantz.fi, loginov.alex.valer@gmail.com
        
 */
 
@@ -100,7 +98,7 @@ int interactive_shell(void);
 /************************************************************************************************/
 
 #define PROGNAME "gperiodic"
-#define COPYRIGHT gettext("Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov")
+#define COPYRIGHT gettext("Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov")
 #define COMMENTS gettext("This program shows the periodic table of elements and information about these elements")
 #define LICENSE gettext("gperiodic is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2 of the License, or\n(at your option) any later version.\n\ngperiodic is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program; if not, write to the Free Software\nFoundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n")
 #define HOMEPAGEURL "http://code.google.com/p/gperiodic"

@@ -226,8 +226,8 @@ msgid ""
 msgstr ""
 
 #: gperiodic.h:103
-msgid "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
-msgstr "Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov"
+msgid "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov"
+msgstr "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov"
 
 #: gperiodic.h:104
 msgid "This program shows the periodic table of elements and information about these elements"

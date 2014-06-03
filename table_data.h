@@ -3,7 +3,7 @@
 gperiodic - a program for browsing the periodic table and looking up
             information on elements.
                                                                                                                                                                     
-Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov
+Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov
                                                                                                                                                                     
     This file is part of gperiodic.
                                                                                                                                                                     
@@ -20,8 +20,6 @@ Copyright (C) 1999-2007 Jonas Frantz, 2014 Alexey Loginov
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
-Authors email : jonas@frantz.fi, loginov.alex.valer@gmail.com
 
 */
 
