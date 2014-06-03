@@ -10,6 +10,7 @@
    Add i18n for desktop file with intltool
    Make displayed element data selectable/copyable
    Decorate buttons with element information
+   Return German, Spanish, Dutch, Portugese translations from gperiodic-1.3.3
 
 2.0.10 Jul 11 2007
    Minor code update & include translations
