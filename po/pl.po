@@ -1,9 +1,9 @@
-# Polish translation for gperiodic
-# Copyright (C) 2003 Free Software Foundation
+# Polish translation for gperiodic.
+# Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gperiodic package.
-# Piotr Najman <picio@bogucice.pl>, 2003 first initial version
-# Arkadiusz Lipiec <alipiec@elka.pw.edu.pl>, 2003 corrections and full translation
-# Ireneusz Imiolek <imiolek.i@googlemail.com>, 2014 translation of updates
+# Piotr Najman <?>, 2003 first initial version.
+# Arkadiusz Lipiec <?>, 2003 corrections and full translation.
+# Ireneusz Imiolek <imiolek.i@googlemail.com>, 2014 translation of updates.
 
 msgid ""
 msgstr ""

@@ -1,12 +1,11 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Translation of gperiodic to Italian.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gperiodic package.
+# Andrea Tasso <andrea@tasso.info>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gperiodic 2.0.6\n"
+"Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
 "PO-Revision-Date: 2014-06-02 15:41+0300\n"

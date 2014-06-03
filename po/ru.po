@@ -1,11 +1,12 @@
-# Русская локализация для GPeriodic
+# Translation of gperiodic to Russian (Русская локализация для GPeriodic).
 # Copyright (C) 2014 Free Software Foundation, Inc.
-# Michael Shigorin <mike@altlinux.org>, 1999-2007
-# Alexey Loginov <loginov.alex.valer@gmail.com>, 2014
+# This file is distributed under the same license as the gperiodic package.
+# Michael Shigorin <mike@altlinux.org>, 1999-2007.
+# Alexey Loginov <loginov.alex.valer@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gperiodic-1.2.6\n"
+"Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
 "PO-Revision-Date: 2014-06-02 13:24+0300\n"

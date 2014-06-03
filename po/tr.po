@@ -1,10 +1,10 @@
-# Translation of gperiodic to Turkish
-# This file is distributed under the same license as the Gperiodic package.
-# Copyright (C) Osman Köşeli <ansione@hotmail.com>, 2003
+# Translation of gperiodic to Turkish.
+# This file is distributed under the same license as the gperiodic package.
+# Copyright (C) Osman Köşeli <?>, 2003.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tr\n"
+"Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
 "PO-Revision-Date: 2014-06-02 16:04+0300\n"
