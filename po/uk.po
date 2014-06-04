@@ -228,7 +228,7 @@ msgstr "Атомна маса (а.о.м.): "
 
 #: table_data.h:35
 msgid "Density (g/cm&#179;): "
-msgstr "щільність (г/см&#179;): "
+msgstr "Щільність (г/см&#179;): "
 
 #: table_data.h:36
 msgid "Melting Point (K): "

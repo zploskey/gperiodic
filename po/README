@@ -72,12 +72,12 @@ Using a translation
 -------------------
 
 A user must have localizations enabled for a translation to be used.
-To enable a localization, the LANG environment variable should be set
+To enable a localization, the LANGUAGE environment variable should be set
 via the command line or the shell login startup files.
 
 For example, to see the Swedish translation, a user should be able to:
 
 From bash:
-	export LANG=sv_SE
+	export LANGUAGE=sv
 or from csh
-	setenv LANG sv_SE
+	setenv LANGUAGE sv
