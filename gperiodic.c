@@ -192,14 +192,17 @@ void show_usage( void )
 {
     printf("GPeriodic - ");
     printf(gettext("A program for looking up data of elements from the periodic table"));
-    printf("\n");
+    printf("\n\n");
     printf(gettext("gperiodic [opts]\n"
 	   "Options are:\n"
-	   "    -h         show this help screen.\n"
+	   "    -h         show this help screen\n"
 	   "    -c <Temp>  color the elements according to their phase at\n"
-	   "               temperature <Temp> in Kelvins.\n"
-	   "    -D         dump the periodic table.\n"
+	   "               temperature <Temp> in Kelvins\n"
+	   "    -D         dump the periodic table\n"
 	   "    -v         be verbose\n\n"));
+    printf(gettext("or\n\n"
+           "gperiodic [element_symbol | atomic_number]\n"
+	   "               display information on the element with the given element symbol or atomic number\n\n"));
 }
 
 
