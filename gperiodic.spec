@@ -26,11 +26,11 @@ element. This program also features a non-graphical interface.
 
 # Icons
 mkdir -p %{buildroot}%{_iconsdir}/hicolor/16x16/apps/
-convert -geometry 16x16 gperiodic.png %{buildroot}%{_iconsdir}/hicolor/16x16/apps/%{name}.png
+convert -geometry 16x16 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/16x16/apps/%{name}.png
 mkdir -p %{buildroot}%{_iconsdir}/hicolor/32x32/apps/
-convert -geometry 32x32 gperiodic.png %{buildroot}%{_iconsdir}/hicolor/32x32/apps/%{name}.png
+convert -geometry 32x32 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/32x32/apps/%{name}.png
 mkdir -p %{buildroot}%{_iconsdir}/hicolor/48x48/apps/
-convert -geometry 48x48 gperiodic.png %{buildroot}%{_iconsdir}/hicolor/48x48/apps/%{name}.png
+convert -geometry 48x48 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/48x48/apps/%{name}.png
 
 %find_lang %{name}
 
@@ -40,3 +40,5 @@ convert -geometry 48x48 gperiodic.png %{buildroot}%{_iconsdir}/hicolor/48x48/app
 %{_iconsdir}/hicolor/*/apps/*.png
 %{_datadir}/applications/*.desktop
 %{_datadir}/pixmaps/*.png
+%{_datadir}/pixmaps/*.xpm
+%{_mandir}/man1/*.1*

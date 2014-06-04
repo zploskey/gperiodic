@@ -1,0 +1,55 @@
+.\" Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH "GPERIODIC" "1" "June 04, 2014" "gperiodic" "User manuals"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH "NAME"
+gperiodic \- periodic table application
+
+.SH "SYNOPSIS"
+\fBgperiodic\fR [\fIoption(s)\fR] [\fIelement_symbol\fR | \fIatomic_number\fR]
+
+.SH "DESCRIPTION"
+\fBgperiodic\fR is a small X/GTK+\-based program which allows you to
+browse through a periodic table of chemical elements, and view
+somewhat detailed information on each of the elements.
+118 elements are currently listed.
+
+.SH "OPTIONS"
+Zero options will start \fBgperiodic\fR.
+.TP
+\fB\-h\fR
+Show the help screen.
+.TP
+\fB\-c\fR <\fITemp\fR>
+Color the elements according to their phase at temperature <Temp> in Kelvins.
+.TP
+\fB\-D\fR
+Dump the periodic table.
+.TP
+\fB\-v\fR
+Be verbose.
+.PP
+Possible arguments:
+.TP
+\fIelement_symbol\fR | \fIatomic_number\fR
+Display information on the element with the given element symbol or atomic number.
+
+.SH "AUTHOR"
+The program was originally written by Kyle R. Burton, then Jonas Frantz.
+The current author is Alexey Loginov <\&loginov.alex.valer@gmail.com\&>.
+.PP
+This manual page was written by Sebastien Bacher <\&seb128@debian.org\&>,
+for the Debian GNU/Linux system (but may be used by others).
