@@ -7,7 +7,6 @@ Group:		Sciences/Chemistry
 License:	GPLv2+
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	gtk2-devel
-BuildRequires:	imagemagick
 BuildRequires:	intltool
 
 %description
@@ -23,14 +22,6 @@ element. This program also features a non-graphical interface.
 
 %install
 %makeinstall_std
-
-# Icons
-mkdir -p %{buildroot}%{_iconsdir}/hicolor/16x16/apps/
-convert -geometry 16x16 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/16x16/apps/%{name}.png
-mkdir -p %{buildroot}%{_iconsdir}/hicolor/32x32/apps/
-convert -geometry 32x32 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/32x32/apps/%{name}.png
-mkdir -p %{buildroot}%{_iconsdir}/hicolor/48x48/apps/
-convert -geometry 48x48 icons/%{name}.png %{buildroot}%{_iconsdir}/hicolor/48x48/apps/%{name}.png
 
 %find_lang %{name}
 

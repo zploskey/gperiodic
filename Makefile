@@ -7,6 +7,7 @@ override LIBS += `pkg-config --libs gtk+-2.0`
 bindir ?= /usr/bin
 datadir ?= /usr/share
 mandir ?= /usr/share/man/man1
+iconsdir ?= /usr/share/icons
 enable_nls ?= 1
 
 .c.o:
@@ -37,6 +38,14 @@ install:
 	install -m 644 icons/gperiodic.xpm $(DESTDIR)$(datadir)/pixmaps
 	mkdir -p $(DESTDIR)$(mandir)
 	install -m 644 gperiodic.1 $(DESTDIR)$(mandir)
+	mkdir -p $(DESTDIR)$(iconsdir)/hicolor/16x16/apps
+	mkdir -p $(DESTDIR)$(iconsdir)/hicolor/32x32/apps
+	mkdir -p $(DESTDIR)$(iconsdir)/hicolor/48x48/apps
+	mkdir -p $(DESTDIR)$(iconsdir)/hicolor/64x64/apps
+	install -m 644 icons/hicolor/16x16/apps/gperiodic.png $(DESTDIR)$(iconsdir)/hicolor/16x16/apps
+	install -m 644 icons/hicolor/32x32/apps/gperiodic.png $(DESTDIR)$(iconsdir)/hicolor/32x32/apps
+	install -m 644 icons/hicolor/48x48/apps/gperiodic.png $(DESTDIR)$(iconsdir)/hicolor/48x48/apps
+	install -m 644 icons/hicolor/64x64/apps/gperiodic.png $(DESTDIR)$(iconsdir)/hicolor/64x64/apps
 	make -C po/ install enable_nls=$(enable_nls) datadir=$(datadir) DESTDIR=$(DESTDIR)
 
 uninstall:
@@ -44,7 +53,11 @@ uninstall:
 	      $(datadir)/applications/gperiodic.desktop \
 	      $(datadir)/pixmaps/gperiodic.png \
 	      $(datadir)/pixmaps/gperiodic.xpm \
-	      $(mandir)/gperiodic.1
+	      $(mandir)/gperiodic.1 \
+	      $(iconsdir)/hicolor/16x16/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/32x32/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/48x48/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/64x64/apps/gperiodic.png
 	make -C po/ uninstall enable_nls=$(enable_nls) datadir=$(datadir) DESTDIR=$(DESTDIR)
 
 clean:
