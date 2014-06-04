@@ -1,6 +1,6 @@
-Kyle R. Burton <?>                                                    the first author (1999-2002)
-Jonas Frantz <jonas@frantz.fi>                                        the second author (2003-2007), Swedish translation
-Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author (2014), Russian translation
+Kyle R. Burton <?>                                                    the first author for gperiodic-1.x.x (1999-2002)
+Jonas Frantz <jonas@frantz.fi>                                        the second author for gperiodic-2.x.x (2003-2007), Swedish translation
+Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author for gperiodic-3.x.x (2014), Russian translation
 
 Piotr Najman <?>                                                      Polish translation, patches
 Arno W. Peters <a.w.peters@ieee.org>                                  added in gettext support, and other source changes

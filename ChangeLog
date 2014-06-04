@@ -1,19 +1,21 @@
-3.0.0 Jun 02 2014
+3.0.0 Jun 04 2014
    Update authors and changelog
    Fix i18n and update all translations
-   Fix many erratum
-   Fix degree, angstrom, upper indexes for i18n and for console mode
-   Fix and update table of elements
-   Remove the DEPRECATED flags
-   Remove markup on console
-   Use appropriate menu icons
+   Fix many erratum (Michael Shigorin and Alexey Loginov)
+   Fix degree, angstrom, upper indexes for i18n and for console mode (Daniel Leidert and Alexey Loginov)
+   Fix and update table of elements (Daniel Leidert, Theppitak Karoonboonyanan and Alexey Loginov)
+   Remove the DEPRECATED flags (Sebastien Bacher and Michael Shigorin)
+   Remove markup on console (Daniel Leidert)
+   Use appropriate menu icons (Theppitak Karoonboonyanan and Daniel Leidert)
    Add i18n for desktop file with intltool
-   Make displayed element data selectable/copyable
-   Decorate buttons with element information
+   Make displayed element data selectable/copyable (Zach Ploskey)
+   Decorate buttons with element information (Theppitak Karoonboonyanan)
    Return German, Spanish, Dutch, Portugese translations from gperiodic-1.3.3
-   Add manual from Debian with little changes
+   Add manual from Debian with little changes (Sebastien Bacher and Alexey Loginov)
    Add hicolor icons
-   Add Ukrainian translation from Mishchenko Oleksandr
+   Add Ukrainian translation (Mishchenko Oleksandr)
+   Update Polish translation (Ireneusz Imiolek)
+   Update Russian translation (Alexey Loginov)
 
 2.0.10 Jul 11 2007
    Minor code update & include translations
