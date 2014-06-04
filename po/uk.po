@@ -1,7 +1,7 @@
 # Translation of gperiodic to Ukrainian.
 # Copyright (C) 2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gperiodic package.
-# Mishchenko Oleksandr <sasha.mishchenko@gmail.com>, 2014
+# Oleksandr Mishchenko <sasha.mishchenko@gmail.com>, 2014
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 13:23+0400\n"
 "PO-Revision-Date: 2014-06-02 13:24+0300\n"
-"Last-Translator: Mishchenko Oleksandr <sasha.mishchenko@gmail.com>\n"
+"Last-Translator: Oleksandr Mishchenko <sasha.mishchenko@gmail.com>\n"
 "Language-Team: Ukrainian <ru@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
