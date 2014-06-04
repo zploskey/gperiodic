@@ -2,6 +2,7 @@
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gperiodic package.
 # Georges Khaznadar <?>, 2003.
+# Sebastien Bacher <seb128@debian.org>, 2003.
 #
 msgid ""
 msgstr ""
