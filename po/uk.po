@@ -1,0 +1,2661 @@
+# Translation of gperiodic to Ukrainian.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gperiodic package.
+# Mishchenko Oleksandr <sasha.mishchenko@gmail.com>, 2014
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gperiodic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-02 13:23+0400\n"
+"PO-Revision-Date: 2014-06-02 13:24+0300\n"
+"Last-Translator: Mishchenko Oleksandr <sasha.mishchenko@gmail.com>\n"
+"Language-Team: Ukrainian <ru@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gperiodic.c:196
+#, c-format
+msgid "A program for looking up data of elements from the periodic table"
+msgstr "Перегляд елементів періодичної таблиці з інформацією про них"
+
+#: gperiodic.c:198
+#, c-format
+msgid ""
+"gperiodic [opts]\n"
+"Options are:\n"
+"    -h         show this help screen.\n"
+"    -c <Temp>  color the elements according to their phase at\n"
+"               temperature <Temp> in Kelvins.\n"
+"    -D         dump the periodic table.\n"
+"    -v         be verbose\n"
+"\n"
+msgstr ""
+"gperiodic [опции]\n"
+"    -h         це екран довідки\n"
+"    -c <Temp>  розфарбувати елементи відповідно до фазового стану\n"
+"               при вказаній температурі (К)\n"
+"    -D         вивести дамп періодичної таблиці\n"
+"    -v         більш детальний вивід\n"
+"\n"
+
+#: gperiodic.c:288
+#: gperiodic.c:289
+#: table_data.h:84
+#: table_data.h:100
+#: table_data.h:150
+#: table_data.h:152
+#: table_data.h:155
+#: table_data.h:156
+#: table_data.h:157
+#: table_data.h:158
+#: table_data.h:159
+#: table_data.h:161
+#: table_data.h:163
+#: table_data.h:164
+#: table_data.h:165
+#: table_data.h:166
+#: table_data.h:167
+#: table_data.h:168
+#: table_data.h:170
+#: table_data.h:171
+#: table_data.h:172
+#: table_data.h:173
+#: table_data.h:174
+#: table_data.h:175
+#: table_data.h:176
+#: table_data.h:177
+#: table_data.h:178
+#: table_data.h:179
+#: table_data.h:180
+#: table_data.h:181
+#: table_data.h:182
+#: table_data.h:183
+#: table_data.h:184
+#: table_data.h:185
+#: table_data.h:186
+#: table_data.h:187
+#: table_data.h:189
+#: table_data.h:190
+#: table_data.h:193
+#: table_data.h:194
+#: table_data.h:196
+#: table_data.h:197
+#: table_data.h:198
+#: table_data.h:199
+#: table_data.h:201
+#: table_data.h:202
+#: table_data.h:203
+#: table_data.h:204
+#: table_data.h:205
+#: table_data.h:206
+#: table_data.h:208
+#: table_data.h:209
+#: table_data.h:212
+#: table_data.h:213
+#: table_data.h:214
+#: table_data.h:215
+#: table_data.h:216
+#: table_data.h:217
+#: table_data.h:218
+#: table_data.h:219
+#: table_data.h:220
+#: table_data.h:221
+#: table_data.h:222
+#: table_data.h:223
+#: table_data.h:224
+#: table_data.h:226
+#: table_data.h:227
+#: table_data.h:228
+#: table_data.h:229
+#: table_data.h:231
+#: table_data.h:232
+#: table_data.h:233
+#: table_data.h:234
+#: table_data.h:237
+#: table_data.h:238
+#: table_data.h:239
+#: table_data.h:240
+#: table_data.h:241
+#: table_data.h:243
+#: table_data.h:244
+#: table_data.h:246
+#: table_data.h:247
+#: table_data.h:248
+#: table_data.h:249
+#: table_data.h:250
+#: table_data.h:251
+#: table_data.h:252
+#: table_data.h:253
+#: table_data.h:254
+#: table_data.h:255
+#: table_data.h:256
+#: table_data.h:257
+#: table_data.h:258
+#: table_data.h:259
+#: table_data.h:261
+#: table_data.h:262
+#: table_data.h:263
+#: table_data.h:264
+#: table_data.h:265
+#: table_data.h:266
+#: table_data.h:267
+#: table_data.h:268
+#: table_data.h:269
+#: table_data.h:270
+#: table_data.h:271
+#: table_data.h:272
+#: table_data.h:273
+#: table_data.h:274
+#: table_data.h:275
+#: table_data.h:276
+msgid "n/a"
+msgstr "-"
+
+#: gperiodic.c:333
+msgid "_File"
+msgstr "_Файл"
+
+#: gperiodic.c:334
+msgid "_Help"
+msgstr "_Довідка"
+
+#: gperiodic.c:335
+msgid "E_xit"
+msgstr "_Вихід"
+
+#: gperiodic.c:335
+msgid "Exit the program"
+msgstr "Вийти з додатку"
+
+#: gperiodic.c:337
+#: gperiodic.c:339
+msgid "_About"
+msgstr "_Про додаток"
+
+#: gperiodic.c:337
+#: gperiodic.c:339
+msgid "About gperiodic"
+msgstr "Про додаток GPeriodic"
+
+#: gperiodic.c:357
+msgid "GPeriodic"
+msgstr "GPeriodic"
+
+#: gperiodic.c:400
+msgid "No symbol for index"
+msgstr "Немає символу для індексу"
+
+#: gperiodic.c:407
+msgid "Error button was null?"
+msgstr "Кнопка \"Помилка\" була нульовою?"
+
+#: gperiodic.c:418
+#, c-format
+msgid "%s(%d) Setting color:  %d %d %d"
+msgstr "%s(%d) Налаштування кольору: %d %d %d"
+
+#: gperiodic.c:455
+#, c-format
+msgid "%s  n:%s w:%s"
+msgstr "%s - Z=%s, M=%s а.о.м."
+
+#: gperiodic.c:497
+#, c-format
+msgid " Option -c error : %s is not a number.\n"
+msgstr " Хибний параметр опції -c: %s не є числом\n"
+
+#: gperiodic.c:501
+#, c-format
+msgid " Option -c error : %s is not a valid number (must be > 0).\n"
+msgstr " Хибний параметр опції -c: %s повинно бути додатнім числом\n"
+
+#: gperiodic.c:529
+#, c-format
+msgid ""
+"\n"
+" Unknown element : %s. Exiting.\n"
+"\n"
+msgstr ""
+"\n"
+" Невідомий елемент: %s. Завершення роботи.\n"
+"\n"
+
+#: gperiodic.c:534
+#, c-format
+msgid ""
+"\n"
+" Element number exceeds existing elements. Exiting.\n"
+"\n"
+msgstr ""
+"\n"
+" Номер елементу більший ніж кількість доступних. Завершення роботи.\n"
+"\n"
+
+#: gperiodic.h:103
+msgid "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov"
+msgstr "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov"
+
+#: gperiodic.h:104
+msgid "This program shows the periodic table of elements and information about these elements"
+msgstr "Ця програма виводить періодичну таблицю елементів та відомості про них"
+
+#: gperiodic.h:105
+msgid ""
+"gperiodic is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"gperiodic is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+msgstr ""
+"gperiodic є вільним додатком; ви можете поширювати його\n"
+"та/або модифікувати відповідно до ліцензії\n"
+"GNU General Public License, яку опубліковано\n"
+"Free Software Foundation; або версією 2 ліцензії, або\n"
+"(на ваш вибір) бідь-якою більш пізньою версією.\n"
+"\n"
+"gperiodic поширюється з надією, що вона буде корисною,\n"
+"але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ; навіть без неявної гарантії\n"
+"КОМЕРЦІЙНО ЦІННОСТІ або ПРИДАТНОСТІ ДО ПЕВНИХ ЦІЛЕЙ.\n"
+"Дивіться GNU General Public License для подробиць.\n"
+"\n"
+"Ви повинні були отримати копію GNU General Public License\n"
+"з додатком; якщо ні, то напишіть в Free Software\n"
+"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+
+#: gperiodic.h:107
+msgid "gperiodic homepage"
+msgstr "Домашня сторінка gperiodic"
+
+#: table_data.h:33
+msgid "Name: "
+msgstr "Назва: "
+
+#: table_data.h:34
+msgid "Symbol: "
+msgstr "Символ: "
+
+#: table_data.h:35
+msgid "Atomic Number: "
+msgstr "Номер: "
+
+#: table_data.h:36
+msgid "Atomic Weight (u.m): "
+msgstr "Атомна маса (а.о.м.): "
+
+#: table_data.h:37
+msgid "Density (g/cm&#179;): "
+msgstr "щільність (г/см&#179;): "
+
+#: table_data.h:38
+msgid "Melting Point (K): "
+msgstr "Температура плавлення (K): "
+
+#: table_data.h:39
+msgid "Boiling Point (K): "
+msgstr "Температура кипіння (K): "
+
+#: table_data.h:40
+msgid "Atomic Radius (pm): "
+msgstr "Радіус атома (пм): "
+
+#: table_data.h:41
+msgid "Covalent Radius (pm): "
+msgstr "Ковалентний радіус (пм): "
+
+#: table_data.h:42
+msgid "Ionic Radius (pm): "
+msgstr "Радіус іона (пм): "
+
+#: table_data.h:43
+msgid "Atomic Volume (cm&#179;/mol): "
+msgstr "Молярний об'єм (см&#179;/моль): "
+
+#: table_data.h:44
+msgid "Specific Heat (@20&#176;C J/(K*mol)): "
+msgstr "Питома теплоємність (при 20&#176;C Дж/(К*моль)): "
+
+#: table_data.h:45
+msgid "Fusion Heat (kJ/mol): "
+msgstr "Теплота плавлення (кДж/моль): "
+
+#: table_data.h:46
+msgid "Evaporation Heat (kJ/mol): "
+msgstr "Теплота випаровуваня (кДж/моль): "
+
+#: table_data.h:47
+msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
+msgstr "Теплопровідність (при 25&#176;C Вт/(м*К)): "
+
+#: table_data.h:48
+msgid "Debye temperature (K): "
+msgstr "Температура Дебая (К): "
+
+#: table_data.h:49
+msgid "Pauling Negativity Number: "
+msgstr "Електронегативняість: "
+
+#: table_data.h:50
+msgid "First Ionizing Energy (kJ/mol): "
+msgstr "Енергія іонізації (кДж/моль): "
+
+#: table_data.h:51
+msgid "Oxidation states: "
+msgstr "Ступені окислення: "
+
+#: table_data.h:52
+msgid "Electronic Configuration: "
+msgstr "Електронна конфігурація: "
+
+#: table_data.h:53
+msgid "Lattice structure: "
+msgstr "Структура ґратки: "
+
+#: table_data.h:54
+msgid "Lattice constant (&#x212B;): "
+msgstr "Період ґратки (&#x212B;): "
+
+#: table_data.h:55
+msgid "Lattice c/a ratio: "
+msgstr "Відношення c/a ґратки: "
+
+#: table_data.h:56
+msgid "Appearance: "
+msgstr "Вид: "
+
+#: table_data.h:57
+msgid "Discovery date: "
+msgstr "Дата відкриття: "
+
+#: table_data.h:58
+msgid "Discovered by: "
+msgstr "Відкритий: "
+
+#: table_data.h:59
+msgid "Named after: "
+msgstr "Названо в честь: "
+
+#: table_data.h:149
+msgid "Hydrogen"
+msgstr "водень"
+
+#: table_data.h:149
+msgid "0.0708 (@ -253&#176;C)"
+msgstr "0.0708 (при -253&#176;C)"
+
+#: table_data.h:149
+#: table_data.h:150
+#: table_data.h:153
+#: table_data.h:162
+#: table_data.h:172
+#: table_data.h:173
+#: table_data.h:178
+#: table_data.h:181
+#: table_data.h:185
+#: table_data.h:191
+#: table_data.h:192
+#: table_data.h:195
+#: table_data.h:196
+#: table_data.h:200
+#: table_data.h:204
+#: table_data.h:211
+#: table_data.h:213
+#: table_data.h:214
+#: table_data.h:215
+#: table_data.h:218
+#: table_data.h:219
+#: table_data.h:220
+#: table_data.h:221
+#: table_data.h:222
+#: table_data.h:223
+#: table_data.h:226
+#: table_data.h:227
+#: table_data.h:230
+#: table_data.h:231
+#: table_data.h:236
+#: table_data.h:252
+#: table_data.h:253
+#: table_data.h:254
+#: table_data.h:255
+msgid "HEX"
+msgstr "HEX (гексагональна)"
+
+#: table_data.h:149
+#: table_data.h:159
+msgid "Colorless, odorless, tasteless gas"
+msgstr "газ без кольору, смаку та запаху"
+
+#: table_data.h:149
+msgid "1766 (England)"
+msgstr "1766 (Англія)"
+
+#: table_data.h:149
+msgid "Henry Cavendish"
+msgstr "Генрі Кавендиш"
+
+#: table_data.h:149
+msgid "Greek: hydro (water) and genes (generate)"
+msgstr "грец. гідро (вода) та генез (створювати)"
+
+#: table_data.h:150
+msgid "Helium"
+msgstr "гелій"
+
+#: table_data.h:150
+msgid "0.147 (@ -270&#176;C)"
+msgstr "0.147 (при -270&#176;C)"
+
+#: table_data.h:150
+msgid "Inert, colorless, odorless, tasteless gas"
+msgstr "інертний газ без кольору, смаку та запаху"
+
+#: table_data.h:150
+msgid "1895 (Scotland/Sweden)"
+msgstr "1895 (Шотландія/Швеція)"
+
+#: table_data.h:150
+msgid "Sir William Ramsey, Nils Langet, P.T.Cleve"
+msgstr "Вільям Рамзай, Нільс Лангет, П.Клеве"
+
+#: table_data.h:150
+msgid "Greek: helios (sun)."
+msgstr "грец. геліос (сонце)"
+
+#: table_data.h:152
+msgid "Lithium"
+msgstr "літій"
+
+#: table_data.h:152
+msgid "68 (+1e) or 76 (+1e)"
+msgstr "68 (+1e) або 76 (+1e)"
+
+#: table_data.h:152
+#: table_data.h:161
+#: table_data.h:165
+#: table_data.h:170
+#: table_data.h:174
+#: table_data.h:175
+#: table_data.h:177
+#: table_data.h:189
+#: table_data.h:193
+#: table_data.h:194
+#: table_data.h:208
+#: table_data.h:209
+#: table_data.h:217
+#: table_data.h:228
+#: table_data.h:229
+#: table_data.h:243
+#: table_data.h:244
+msgid "BCC"
+msgstr "BCC (кубічна об'ємноцентрована)"
+
+#: table_data.h:152
+#: table_data.h:161
+#: table_data.h:217
+msgid "Soft, silvery-white metal"
+msgstr "м'який сріблястий-білий метал"
+
+#: table_data.h:152
+#: table_data.h:185
+msgid "1817 (Sweden)"
+msgstr "1817 (Швеція)"
+
+#: table_data.h:152
+msgid "Johann Arfwedson"
+msgstr "Іоган Арфведсон"
+
+#: table_data.h:152
+msgid "Greek: lithos (stone)."
+msgstr "грец. літос (камінь)"
+
+#: table_data.h:153
+msgid "Beryllium"
+msgstr "берилій"
+
+#: table_data.h:153
+msgid "Hard, brittle, steel-gray metal"
+msgstr "твердий крихкий метал сталевого кольору"
+
+#: table_data.h:153
+msgid "1798 (France)"
+msgstr "1798 (Франція)"
+
+#: table_data.h:153
+msgid "Louis-Nicolas Vauquelin"
+msgstr "Луї-Ніколас Вакулін"
+
+#: table_data.h:153
+msgid "Greek: beryllos, 'beryl' (a mineral)."
+msgstr "грец. берилос, берил (мінерал)"
+
+#: table_data.h:154
+msgid "Boron"
+msgstr "бор"
+
+#: table_data.h:154
+#: table_data.h:216
+#: table_data.h:235
+#: table_data.h:238
+msgid "RHL"
+msgstr "RHL (ромбоедрична)"
+
+#: table_data.h:154
+msgid "Hard, brittle, lustrous black semimetal"
+msgstr "твердий крихкий блискучий чорний металоїд"
+
+#: table_data.h:154
+msgid "1808 (England/France)"
+msgstr "1808 (Англія/Франція)"
+
+#: table_data.h:154
+msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
+msgstr "Гемфрі Деві, Жан Гей-Люссак, Луї Тенар"
+
+#: table_data.h:154
+msgid "The Arabic and Persian words for borax."
+msgstr "араб.-перс. бура"
+
+#: table_data.h:155
+msgid "Carbon"
+msgstr "вуглець"
+
+#: table_data.h:155
+msgid "2.25 (graphite)"
+msgstr "2.25 (графіт)"
+
+#: table_data.h:155
+msgid "1860.00 (diamond)"
+msgstr "1860.00 (алмаз)"
+
+#: table_data.h:155
+msgid "HEX (graphite), DIA (diamond)"
+msgstr "HEX (гексагональна) (графіт), DIA (алмазна) (алмаз)"
+
+#: table_data.h:155
+msgid "Dense, Black (graphite)"
+msgstr "щільна чорна речовина (графіт)"
+
+#: table_data.h:155
+#: table_data.h:166
+#: table_data.h:177
+#: table_data.h:180
+#: table_data.h:181
+#: table_data.h:184
+#: table_data.h:199
+#: table_data.h:202
+#: table_data.h:203
+#: table_data.h:234
+#: table_data.h:235
+#: table_data.h:237
+#: table_data.h:238
+msgid "n/a (Unknown)"
+msgstr "- (-)"
+
+#: table_data.h:155
+#: table_data.h:166
+#: table_data.h:177
+#: table_data.h:180
+#: table_data.h:181
+#: table_data.h:184
+#: table_data.h:199
+#: table_data.h:202
+#: table_data.h:203
+#: table_data.h:234
+#: table_data.h:235
+#: table_data.h:237
+#: table_data.h:238
+msgid "Known to the ancients."
+msgstr "відомий з давнини"
+
+#: table_data.h:155
+msgid "Latin: carbo (charcoal)."
+msgstr "лат. carbo (деревне вугілля)"
+
+#: table_data.h:156
+msgid "Nitrogen"
+msgstr "азот"
+
+#: table_data.h:156
+msgid "0.808 (@ -195.8&#176;C)"
+msgstr "0.808 (при -195.8&#176;C)"
+
+#: table_data.h:156
+msgid "HEX or CUB"
+msgstr "HEX (гексагональна) або CUB (кубічна)"
+
+#: table_data.h:156
+msgid "4.039 (HEX)"
+msgstr "4.039 (HEX) (гексагональна)"
+
+#: table_data.h:156
+msgid "1.651 (HEX)"
+msgstr "1.651 (HEX) (гексагональна)"
+
+#: table_data.h:156
+msgid "Colorless, odorless, tasteless, and generally inert gas"
+msgstr "переважно інертний газ без кольору, смаку та запаху"
+
+#: table_data.h:156
+msgid "1772 (Scotland)"
+msgstr "1772 (Шотландія)"
+
+#: table_data.h:156
+msgid "Daniel Rutherford"
+msgstr "Даніель Резерфорд"
+
+#: table_data.h:156
+msgid "Greek: nitron and genes (soda forming)."
+msgstr "грец. нітрон та генез (той, що дає соду)"
+
+#: table_data.h:157
+msgid "Oxygen"
+msgstr "кисень"
+
+#: table_data.h:157
+msgid "1.149 (@ -183&#176;C)"
+msgstr "1.149 (при -183&#176;C)"
+
+#: table_data.h:157
+msgid "MCL or CUB"
+msgstr "MCL (моноклінна) або CUB (кубічна)"
+
+#: table_data.h:157
+msgid "6.830 (CUB)"
+msgstr "6.830 (CUB) (кубічна)"
+
+#: table_data.h:157
+msgid "Colorless, odorless, tasteless gas; pale blue liquid"
+msgstr "газ без кольору, смаку та запаху; блідо-блакитна рідина"
+
+#: table_data.h:157
+msgid "1774 (England/Sweden)"
+msgstr "1774 (Англія/Швеція)"
+
+#: table_data.h:157
+msgid "Joseph Priestly, Carl Wilhelm Scheele"
+msgstr "Джозеф Прістлі, Карл Вільгельм Шееле"
+
+#: table_data.h:157
+msgid "Greek: oxys and genes (acid former)."
+msgstr "грец. оксис та генез (той, що дає кислоту)"
+
+#: table_data.h:158
+msgid "Fluorine"
+msgstr "фтор"
+
+#: table_data.h:158
+msgid "1.108 (@ -189&#176;C)"
+msgstr "1.108 (при -189&#176;C)"
+
+#: table_data.h:158
+#: table_data.h:251
+msgid "MCL"
+msgstr "MCL (моноклінна)"
+
+#: table_data.h:158
+msgid "Greenish-yellow, pungent, corrosive gas"
+msgstr "зеленувато-жовтий їдкий роз'їдаючий газ"
+
+#: table_data.h:158
+#: table_data.h:220
+msgid "1886 (France)"
+msgstr "1886 (Франція)"
+
+#: table_data.h:158
+msgid "Henri Moissan"
+msgstr "Генрі Муассан"
+
+#: table_data.h:158
+msgid "Latin: fluere (flow)."
+msgstr "лат. fluere (текти)"
+
+#: table_data.h:159
+msgid "Neon"
+msgstr "неон"
+
+#: table_data.h:159
+msgid "1.204 (@ -246&#176;C)"
+msgstr "1.204 (при -246&#176;C)"
+
+#: table_data.h:159
+#: table_data.h:163
+#: table_data.h:168
+#: table_data.h:171
+#: table_data.h:179
+#: table_data.h:180
+#: table_data.h:187
+#: table_data.h:190
+#: table_data.h:197
+#: table_data.h:198
+#: table_data.h:199
+#: table_data.h:206
+#: table_data.h:212
+#: table_data.h:224
+#: table_data.h:232
+#: table_data.h:233
+#: table_data.h:234
+#: table_data.h:237
+#: table_data.h:240
+#: table_data.h:241
+#: table_data.h:246
+#: table_data.h:247
+msgid "FCC"
+msgstr "FCC (кубічна гранецентрована)"
+
+#: table_data.h:159
+#: table_data.h:206
+msgid "1898 (England)"
+msgstr "1898 (Англія)"
+
+#: table_data.h:159
+#: table_data.h:187
+#: table_data.h:206
+msgid "Sir William Ramsey, M.W. Travers"
+msgstr "Вільям Рамзай, Моріс Треверс"
+
+#: table_data.h:159
+msgid "Greek: neos (new)."
+msgstr "грец. неос (новий)"
+
+#: table_data.h:161
+msgid "Sodium"
+msgstr "натрій"
+
+#: table_data.h:161
+#: table_data.h:170
+msgid "1807 (England)"
+msgstr "1807 (Англія)"
+
+#: table_data.h:161
+#: table_data.h:162
+#: table_data.h:170
+#: table_data.h:171
+#: table_data.h:209
+msgid "Sir Humphrey Davy"
+msgstr "Гемфрі Деви"
+
+#: table_data.h:161
+msgid "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium carbonate)."
+msgstr "середньовічна латина: sodanum (засіб від головного болю); символ від лат. natrium (карбонат натрію)"
+
+#: table_data.h:162
+msgid "Magnesium"
+msgstr "магній"
+
+#: table_data.h:162
+msgid "Lightweight, malleable, silvery-white metal"
+msgstr "легкий тягучий сріблясто-білий метал"
+
+#: table_data.h:162
+#: table_data.h:171
+#: table_data.h:209
+msgid "1808 (England)"
+msgstr "1808 (Англія)"
+
+#: table_data.h:162
+msgid "Magnesia, ancient city in district of Thessaly, Greece."
+msgstr "Магнезія, давнє місто в області Фесалія (Греція)"
+
+#: table_data.h:163
+msgid "Aluminum"
+msgstr "алюминій"
+
+#: table_data.h:163
+msgid "Soft, lightweight, silvery-white metal"
+msgstr "м'який легкий сріблясто-білий метал"
+
+#: table_data.h:163
+msgid "1825 (Denmark)"
+msgstr "1825 (Данія)"
+
+#: table_data.h:163
+msgid "Hans Christian Oersted"
+msgstr "Ганс Христіан Ерстед"
+
+#: table_data.h:163
+msgid "Latin: alumen, aluminis (alum)."
+msgstr "лат. alumen, aluminis (галуни)"
+
+#: table_data.h:164
+msgid "Silicon"
+msgstr "кремній"
+
+#: table_data.h:164
+#: table_data.h:183
+msgid "DIA"
+msgstr "DIA (алмазна)"
+
+#: table_data.h:164
+msgid "Amorphous form is brown powder; crystalline form has a gray"
+msgstr "аморфна форма - бурий порошок, кристалічна має сірий колір"
+
+#: table_data.h:164
+msgid "1825 (Sweden)"
+msgstr "1825 (Швеція)"
+
+#: table_data.h:164
+#: table_data.h:185
+#: table_data.h:247
+msgid "Jons Jacob Berzelius"
+msgstr "Єнс Якоб Берцеліус"
+
+#: table_data.h:164
+msgid "Latin: silex, silicus (flint)."
+msgstr "лат. silex, silicus (кремінь)"
+
+#: table_data.h:165
+msgid "Phosphorus"
+msgstr "фосфор"
+
+#: table_data.h:165
+msgid "1.82 (white phosphorus)"
+msgstr "1.82 (білий фосфор)"
+
+#: table_data.h:165
+msgid "The most common white form is a waxy, phosphorescent solid"
+msgstr "воскоподібна речовина, що світиться (звичайна біла форма)"
+
+#: table_data.h:165
+msgid "1669 (Germany)"
+msgstr "1669 (Німеччина)"
+
+#: table_data.h:165
+msgid "Hennig Brand"
+msgstr "Хеніг Брант"
+
+#: table_data.h:165
+msgid "Greek: phosphoros (bringer of light)."
+msgstr "грец. фосфорос (світлоносний)"
+
+#: table_data.h:166
+msgid "Sulfur"
+msgstr "сірка"
+
+#: table_data.h:166
+#: table_data.h:167
+#: table_data.h:182
+#: table_data.h:186
+#: table_data.h:205
+#: table_data.h:249
+#: table_data.h:250
+msgid "ORC"
+msgstr "ORC (орторомбічна)"
+
+#: table_data.h:166
+msgid "Tasteless, odorless, light-yellow, brittle solid"
+msgstr "крихке світло-жовта речовина без смаку та запаху"
+
+#: table_data.h:166
+msgid "Latin: sulphur (brimstone)."
+msgstr "лат. sulphur (мінерал сірка)"
+
+#: table_data.h:167
+msgid "Chlorine"
+msgstr "хлор"
+
+#: table_data.h:167
+msgid "1.56 (@ -33.6&#176;C)"
+msgstr "1.56 (при -33.6&#176;C)"
+
+#: table_data.h:167
+msgid "Greenish-yellow, disagreeable gas"
+msgstr "зеленувато-жовтий неприємний газ"
+
+#: table_data.h:167
+#: table_data.h:176
+msgid "1774 (Sweden)"
+msgstr "1774 (Швеція)"
+
+#: table_data.h:167
+#: table_data.h:194
+msgid "Carl Wilhelm Scheele"
+msgstr "Карл Вільгельм Шееле"
+
+#: table_data.h:167
+msgid "Greek: chloros (greenish yellow)."
+msgstr "грец. хлорос (зеленувато-жовтий)"
+
+#: table_data.h:168
+msgid "Argon"
+msgstr "аргон"
+
+#: table_data.h:168
+msgid "1.40 (@ -189,35&#176;C)"
+msgstr "1.40 (при -189,35&#176;C)"
+
+#: table_data.h:168
+msgid "Colorless, tasteless, odorless noble gas"
+msgstr "шляхетний газ без кольору, смаку та запаху"
+
+#: table_data.h:168
+msgid "1894 (Scotland)"
+msgstr "1894 (Шотландія)"
+
+#: table_data.h:168
+msgid "Sir William Ramsey, Baron Rayleigh"
+msgstr "Вільям Рамзай, Барон Релей"
+
+#: table_data.h:168
+msgid "Greek: argos (inactive)."
+msgstr "грец. аргос (неактивний)"
+
+#: table_data.h:170
+msgid "Potassium"
+msgstr "калій"
+
+#: table_data.h:170
+msgid "Soft, waxy, silvery-white metal"
+msgstr "м'який сріблясто-білий метал"
+
+#: table_data.h:170
+msgid "English: pot ash; symbol from Latin: kalium (alkali)."
+msgstr "лат. kalium (луг)"
+
+#: table_data.h:171
+msgid "Calcium"
+msgstr "кальцій"
+
+#: table_data.h:171
+msgid "Fairly hard, silvery-white metal"
+msgstr "доволі твердий сріблясто-білий метал"
+
+#: table_data.h:171
+msgid "Latin: calx, calcis (lime)."
+msgstr "лат. calx, calcis (вапно)"
+
+#: table_data.h:172
+msgid "Scandium"
+msgstr "скандій"
+
+#: table_data.h:172
+msgid "Fairly soft, silvery-white metal"
+msgstr "доволі м'який сріблясто-білий метал"
+
+#: table_data.h:172
+#: table_data.h:223
+msgid "1879 (Sweden)"
+msgstr "1879 (Швеція)"
+
+#: table_data.h:172
+msgid "Lars Nilson"
+msgstr "Ларс Нільсон"
+
+#: table_data.h:172
+msgid "Latin: Scandia (Scandinavia)."
+msgstr "лат. Scandia (Скандинавія)"
+
+#: table_data.h:173
+msgid "Titanium"
+msgstr "титан"
+
+#: table_data.h:173
+msgid "Shiny, dark-gray metal"
+msgstr "блискучий тёмно-сірий метал"
+
+#: table_data.h:173
+msgid "1791 (England)"
+msgstr "1791 (Англія)"
+
+#: table_data.h:173
+msgid "William Gregor"
+msgstr "Вільям Грегор"
+
+#: table_data.h:173
+msgid "Greek: titanos (Titans)."
+msgstr "грец. титанос (титани)"
+
+#: table_data.h:174
+msgid "Vanadium"
+msgstr "ванадій"
+
+#: table_data.h:174
+#: table_data.h:218
+msgid "Soft, ductile, silvery-white metal"
+msgstr "м'який тягучий сріблясто-білий метал"
+
+#: table_data.h:174
+msgid "1830 (Sweden)"
+msgstr "1830 (Швеція)"
+
+#: table_data.h:174
+msgid "Nils Gabriel Sefstrom"
+msgstr "Нільс Габріель Сефстрем"
+
+#: table_data.h:174
+msgid "The scandinavian goddess, Vanadis."
+msgstr "скандинавська богиня Ванадіс"
+
+#: table_data.h:175
+msgid "Chromium"
+msgstr "хром"
+
+#: table_data.h:175
+msgid "Very hard, crystalline, steel-gray metal"
+msgstr "дуже твердий кристалічний метал сталевого кольору"
+
+#: table_data.h:175
+msgid "1797 (France)"
+msgstr "1797 (Франція)"
+
+#: table_data.h:175
+msgid "Louis Vauquelin"
+msgstr "Луї Вакулін"
+
+#: table_data.h:175
+msgid "Greek: chroma (color)."
+msgstr "грец. хрома (колір)"
+
+#: table_data.h:176
+msgid "Manganese"
+msgstr "марганець"
+
+#: table_data.h:176
+#: table_data.h:239
+msgid "CUB"
+msgstr "CUB (кубічна)"
+
+#: table_data.h:176
+msgid "Hard, brittle, gray-white metal"
+msgstr "твердий крихкий сіро-білий метал"
+
+#: table_data.h:176
+msgid "Johann Gahn"
+msgstr "Иоганн Ган"
+
+#: table_data.h:176
+msgid "Latin: magnes (magnet); Italian: manganese."
+msgstr "лат. magnes (магніт); італ. manganese"
+
+#: table_data.h:177
+msgid "Iron"
+msgstr "залізо"
+
+#: table_data.h:177
+msgid "Malleable, ductile, silvery-white metal"
+msgstr "ковкий тягучий сріблясто-білий метал"
+
+#: table_data.h:177
+msgid "Anglo-Saxon: iron; symbol from Latin: ferrum (iron)."
+msgstr "лат. ferrum (залізо)"
+
+#: table_data.h:178
+msgid "Cobalt"
+msgstr "кобальт"
+
+#: table_data.h:178
+msgid "Hard, ductile, lustrous bluish-gray metal"
+msgstr "твердий тягучий блискучий синювато-сірий метал"
+
+#: table_data.h:178
+msgid "1735 (Sweden)"
+msgstr "1735 (Швеція)"
+
+#: table_data.h:178
+msgid "George Brandt"
+msgstr "Джордж Брандт"
+
+#: table_data.h:178
+msgid "German: kobold (goblin)."
+msgstr "нім. kobold (домовий)"
+
+#: table_data.h:179
+msgid "Nickel"
+msgstr "нікель"
+
+#: table_data.h:179
+msgid "Hard, malleable, silvery-white metal"
+msgstr "твердий ковкий сріблясто-білий метал"
+
+#: table_data.h:179
+msgid "1751 (Sweden)"
+msgstr "1751 (Швеція)"
+
+#: table_data.h:179
+msgid "Axel Cronstedt"
+msgstr "Аксель Кронстедт"
+
+#: table_data.h:179
+msgid "German: kupfernickel (false copper)."
+msgstr "нім. kupfernickel (фальшива мідь)"
+
+#: table_data.h:180
+msgid "Copper"
+msgstr "мідь"
+
+#: table_data.h:180
+msgid "Malleable, ductile, reddish-brown metal"
+msgstr "ковкий тягучий краснувато-коричньовий метал"
+
+#: table_data.h:180
+msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)."
+msgstr "лат. cuprum (о. Кіпр, відомий мідними копальнями)"
+
+#: table_data.h:181
+msgid "Zinc"
+msgstr "цинк"
+
+#: table_data.h:181
+msgid "Bluish-silver, ductile metal"
+msgstr "синьо-сріблястий тягучий метал"
+
+#: table_data.h:181
+msgid "German: Zink (German for zinc)."
+msgstr "нім. zink (олово)"
+
+#: table_data.h:182
+msgid "Gallium"
+msgstr "галій"
+
+#: table_data.h:182
+msgid "Soft, blue-white metal"
+msgstr "м'який синювато-білий метал"
+
+#: table_data.h:182
+msgid "1875 (France)"
+msgstr "1875 (Франція)"
+
+#: table_data.h:182
+#: table_data.h:220
+msgid "Paul-Emile Lecoq de Boisbaudran"
+msgstr "Поль-Еміль Лекок де Буабодран"
+
+#: table_data.h:182
+msgid "Latin: Gallia (France)."
+msgstr "лат. Gallia (Франція)"
+
+#: table_data.h:183
+msgid "Germanium"
+msgstr "германій"
+
+#: table_data.h:183
+msgid "Grayish-white metal"
+msgstr "сріблясто-білий метал"
+
+#: table_data.h:183
+msgid "1886 (Germany)"
+msgstr "1886 (Німеччина)"
+
+#: table_data.h:183
+msgid "Clemens Winkler"
+msgstr "Клеменс Вінклер"
+
+#: table_data.h:183
+msgid "Latin: Germania (Germany)."
+msgstr "лат. Germania (Німеччина)"
+
+#: table_data.h:184
+msgid "Arsenic"
+msgstr "Арсен"
+
+#: table_data.h:184
+msgid "5.73 (grey arsenic)"
+msgstr "5.73 (сірий миш'як)"
+
+#: table_data.h:184
+msgid "24.44 (grey arsenic)"
+msgstr "24.44 (сірий миш'як)"
+
+#: table_data.h:184
+#: table_data.h:203
+msgid "TRG"
+msgstr "TRG (тригональна)"
+
+#: table_data.h:184
+msgid "Steel gray, brittle semimetal"
+msgstr "крихкий металоїд сталевого кольору"
+
+#: table_data.h:184
+msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)."
+msgstr "грец. arsenikon, лат. arsenicum (імена жовтого пігменту)"
+
+#: table_data.h:185
+msgid "Selenium"
+msgstr "селен"
+
+#: table_data.h:185
+msgid "A soft metalloid similar to sulfur"
+msgstr "м'який сіруватий металоїд"
+
+#: table_data.h:185
+msgid "Greek: selene (moon)."
+msgstr "грец. селена (місяць)"
+
+#: table_data.h:186
+msgid "Bromine"
+msgstr "бром"
+
+#: table_data.h:186
+msgid "Reddish-brown liquid"
+msgstr "червоно-бура смердюча їдка рідина"
+
+#: table_data.h:186
+msgid "1826 (France)"
+msgstr "1826 (Франція)"
+
+#: table_data.h:186
+msgid "Antoine J. Balard"
+msgstr "Антуан Балард"
+
+#: table_data.h:186
+msgid "Greek: bromos (stench)."
+msgstr "грец. бромос (сморід)"
+
+#: table_data.h:187
+msgid "Krypton"
+msgstr "криптон"
+
+#: table_data.h:187
+msgid "2.155 (@ -153&#176;C)"
+msgstr "2.155 (при -153&#176;C)"
+
+#: table_data.h:187
+msgid "Dense, colorless, odorless, and tasteless gas"
+msgstr "щільний шляхетний газ без кольору, смаку та запаху"
+
+#: table_data.h:187
+msgid "1898 (Great Britain)"
+msgstr "1898 (Великобританія)"
+
+#: table_data.h:187
+msgid "Greek: kryptos (hidden)."
+msgstr "грец. криптос (прихований)"
+
+#: table_data.h:189
+msgid "Rubidium"
+msgstr "рубидій"
+
+#: table_data.h:189
+msgid "Soft, silvery-white, highly reactive metal"
+msgstr "М'який, сріблясто-білий, дуже реактивний метал"
+
+#: table_data.h:189
+msgid "1861 (Germany)"
+msgstr "1861 (Німеччина)"
+
+#: table_data.h:189
+msgid "R. Bunsen, G. Kirchoff"
+msgstr "Роберт Бунзен, Густав Кірхгоф"
+
+#: table_data.h:189
+msgid "Latin: rubidus (deep red); the color its salts impart to flames."
+msgstr "лат. rubidus (глибоко червоний), за кольором, що надають полум'ю солями"
+
+#: table_data.h:190
+msgid "Strontium"
+msgstr "стронцій"
+
+#: table_data.h:190
+msgid "Silvery, malleable metal"
+msgstr "сріблястий ковкий метал"
+
+#: table_data.h:190
+msgid "1790 (Scotland)"
+msgstr "1790 (Шотландія)"
+
+#: table_data.h:190
+msgid "A. Crawford"
+msgstr "А.Кроуфорд"
+
+#: table_data.h:190
+msgid "The Scottish town, Strontian."
+msgstr "шотландське місто Strontian"
+
+#: table_data.h:191
+msgid "Yttrium"
+msgstr "ітрій"
+
+#: table_data.h:191
+msgid "Silvery, ductile, fairly reactive metal"
+msgstr "сріблястий тягучий метал, доволі активний"
+
+#: table_data.h:191
+msgid "1794 (Finland)"
+msgstr "1794 (Фінляндія)"
+
+#: table_data.h:191
+msgid "Johann Gadolin"
+msgstr "Іоган Гадолін"
+
+#: table_data.h:191
+msgid "The Swedish village, Ytterby, where one of its minerals was first found."
+msgstr "шведське село Ytterby, де було знайдено один з мінералів"
+
+#: table_data.h:192
+msgid "Zirconium"
+msgstr "цирконій"
+
+#: table_data.h:192
+msgid "Gray-white, lustrous, corrosion-resistant metal"
+msgstr "сіро-білий блискучий нержавіючий метал"
+
+#: table_data.h:192
+#: table_data.h:249
+msgid "1789 (Germany)"
+msgstr "1789 (Німеччина)"
+
+#: table_data.h:192
+#: table_data.h:249
+msgid "Martin Klaproth"
+msgstr "Мартин Клапрот"
+
+#: table_data.h:192
+msgid "The mineral, zircon."
+msgstr "мінерал циркон"
+
+#: table_data.h:193
+msgid "Niobium"
+msgstr "ніобій"
+
+#: table_data.h:193
+msgid "Shiny white, soft, ductile metal"
+msgstr "блискучий білий м'який ковкий метал"
+
+#: table_data.h:193
+msgid "1801 (England)"
+msgstr "1801 (Англія)"
+
+#: table_data.h:193
+msgid "Charles Hatchet"
+msgstr "Чарльз Хатчет"
+
+#: table_data.h:193
+msgid "Niobe; daughter of the mythical Greek king Tantalus."
+msgstr "Ніоба, донька Тантала (грец. міф.)"
+
+#: table_data.h:194
+msgid "Molybdenum"
+msgstr "молібден"
+
+#: table_data.h:194
+#: table_data.h:197
+msgid "Silvery white, hard metal"
+msgstr "сріблясто-білий твердий метал"
+
+#: table_data.h:194
+msgid "1778 (Sweden)"
+msgstr "1778 (Швеція)"
+
+#: table_data.h:194
+msgid "Greek: molybdos (lead)."
+msgstr "грец. молібдос (свинець)"
+
+#: table_data.h:195
+msgid "Technetium"
+msgstr "технецій"
+
+#: table_data.h:195
+#: table_data.h:239
+msgid "Silvery-gray metal"
+msgstr "сріблясто-сірий метал"
+
+#: table_data.h:195
+msgid "1937 (Italy)"
+msgstr "1937 (Італія)"
+
+#: table_data.h:195
+msgid "Carlo Perrier, Emilio Segre"
+msgstr "Карло Пер'є, Еміліо Сєгре"
+
+#: table_data.h:195
+msgid "Greek: technetos (artificial)."
+msgstr "грец. технетос (штучний)"
+
+#: table_data.h:196
+msgid "Ruthenium"
+msgstr "рутеній"
+
+#: table_data.h:196
+msgid "Rare, silver-gray, extremely brittle metal"
+msgstr "рідкий сріблясто-сірий вкрай крихкий метал"
+
+#: table_data.h:196
+msgid "1844 (Russia)"
+msgstr "1844 (Росія)"
+
+#: table_data.h:196
+msgid "Karl Klaus"
+msgstr "Карл Клаус"
+
+#: table_data.h:196
+msgid "Latin: Ruthenia (Russia)."
+msgstr "лат. Ruthenia (Росія)"
+
+#: table_data.h:197
+msgid "Rhodium"
+msgstr "родій"
+
+#: table_data.h:197
+#: table_data.h:198
+msgid "1803 (England)"
+msgstr "1803 (Англія)"
+
+#: table_data.h:197
+#: table_data.h:198
+msgid "William Wollaston"
+msgstr "Вільям Волластон"
+
+#: table_data.h:197
+msgid "Greek: rhodon (rose). Its salts give a rosy solution."
+msgstr "грец. родон (роза), солі дають рожеві розчини"
+
+#: table_data.h:198
+msgid "Palladium"
+msgstr "паладій"
+
+#: table_data.h:198
+#: table_data.h:202
+msgid "Silvery-white, soft, malleable and ductile metal"
+msgstr "сріблясто-білий ковкий та тягучий метал"
+
+#: table_data.h:198
+msgid "Named after the asteroid, Pallas, discovered in 1803."
+msgstr "Названо в честь відкритого в 1803 р. астероїду Паллас"
+
+#: table_data.h:199
+msgid "Silver"
+msgstr "срібло"
+
+#: table_data.h:199
+msgid "Silvery-ductile, and malleable metal"
+msgstr "сріблястий тягучий та ковкий метал"
+
+#: table_data.h:199
+msgid "Anglo-Saxon: siolful (silver); symbol from Latin: argentum."
+msgstr "лат. argentum (срібло)"
+
+#: table_data.h:200
+msgid "Cadmium"
+msgstr "кадмій"
+
+#: table_data.h:200
+msgid "Soft, malleable, blue-white metal"
+msgstr "м'який ковкий синювато-білий метал"
+
+#: table_data.h:200
+msgid "1817 (Germany)"
+msgstr "1817 (Німеччина)"
+
+#: table_data.h:200
+msgid "Fredrich Stromeyer"
+msgstr "Фрідрих Штромейєр"
+
+#: table_data.h:200
+msgid "Greek: kadmeia (ancient name for calamine (zinc oxide))."
+msgstr "грец. кадмея, давня назва окису цинку"
+
+#: table_data.h:201
+msgid "Indium"
+msgstr "індій"
+
+#: table_data.h:201
+#: table_data.h:202
+#: table_data.h:248
+msgid "TET"
+msgstr "TET (тетрагональна)"
+
+#: table_data.h:201
+msgid "Very soft, silvery-white metal"
+msgstr "дуже м'який сріблястий-білий метал"
+
+#: table_data.h:201
+msgid "1863 (Germany)"
+msgstr "1863 (Німеччина)"
+
+#: table_data.h:201
+msgid "Ferdinand Reich, T. Richter"
+msgstr "Фердинанд Райх, Т.Ріхтер"
+
+#: table_data.h:201
+msgid "Latin: indicum (color indigo), the color it shows in a spectroscope."
+msgstr "лат. indicum (колір індиго), по забарвленню ліній в спектроскопі"
+
+#: table_data.h:202
+msgid "Tin"
+msgstr "олово"
+
+#: table_data.h:202
+msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)."
+msgstr "лат. stannum (стійкий, міцний)"
+
+#: table_data.h:203
+msgid "Antimony"
+msgstr "сурма"
+
+#: table_data.h:203
+msgid "Hard, silvery-white, brittle semimetal"
+msgstr "твердий сріблястий-білий крихкий метал"
+
+#: table_data.h:203
+msgid "Greek: anti and monos (not alone); symbol from mineral stibnite."
+msgstr "мінерал стибніт"
+
+#: table_data.h:204
+msgid "Tellurium"
+msgstr "телур"
+
+#: table_data.h:204
+msgid "Silvery-white, brittle semimetal"
+msgstr "сріблястий-білий крихкий метал"
+
+#: table_data.h:204
+msgid "1782 (Romania)"
+msgstr "1782 (Румунія)"
+
+#: table_data.h:204
+msgid "Franz Joseph Meller von Reichenstein"
+msgstr "Франц Йозеф Меллер фон Райхенштейн"
+
+#: table_data.h:204
+msgid "Latin: tellus (earth)."
+msgstr "лат. tellus (земля)"
+
+#: table_data.h:205
+msgid "Iodine"
+msgstr "йод"
+
+#: table_data.h:205
+msgid "Shiny, black nonmetallic solid"
+msgstr "блискучий чорний неметал"
+
+#: table_data.h:205
+msgid "1811 (France)"
+msgstr "1811 (Франція)"
+
+#: table_data.h:205
+msgid "Bernard Courtois"
+msgstr "Бернар Куртуа"
+
+#: table_data.h:205
+msgid "Greek: iodes (violet colored)."
+msgstr "грец. йодес (фіолетовий колір)"
+
+#: table_data.h:206
+msgid "Xenon"
+msgstr "ксенон"
+
+#: table_data.h:206
+msgid "3.52 (@ -107.05&#176;C)"
+msgstr "3.52 (при -107.05&#176;C)"
+
+#: table_data.h:206
+msgid "Heavy, colorless, and odorless noble gas"
+msgstr "важкий шляхетний газ без кольору, смаку та запаху"
+
+#: table_data.h:206
+msgid "Greek: xenos (strange)."
+msgstr "грец. ксенос (чужий)"
+
+#: table_data.h:208
+msgid "Cesium"
+msgstr "цезій"
+
+#: table_data.h:208
+msgid "Very soft, ductile, light gray metal"
+msgstr "дуже м'який ковкий світло-сірий метал"
+
+#: table_data.h:208
+msgid "1860 (Germany)"
+msgstr "1860 (Німеччина)"
+
+#: table_data.h:208
+msgid "Gustov Kirchoff, Robert Bunsen"
+msgstr "Густав Кирхгоф, Роберт Бунзен"
+
+#: table_data.h:208
+msgid "Latin: coesius (sky blue); for the blue lines of its spectrum."
+msgstr "лат. coesius (небесно-блакитний) по кольору ліній в спектрі"
+
+#: table_data.h:209
+msgid "Barium"
+msgstr "барій"
+
+#: table_data.h:209
+msgid "Soft, slightly malleable, silver-white metal"
+msgstr "мало ковкий м'який сріблясто-білий метал"
+
+#: table_data.h:209
+msgid "Greek: barys (heavy or dense)."
+msgstr "грец. баріс (важкий або щільний)"
+
+#: table_data.h:211
+msgid "Lanthanum"
+msgstr "лантан"
+
+#: table_data.h:211
+msgid "Silvery-white, soft, malleable, and ductile metal"
+msgstr "сріблясто-білий м'який ковкий тягучий метал"
+
+#: table_data.h:211
+msgid "1839 (Sweden)"
+msgstr "1839 (Швеція)"
+
+#: table_data.h:211
+#: table_data.h:219
+#: table_data.h:222
+msgid "Carl Mosander"
+msgstr "Карл Мосандер"
+
+#: table_data.h:211
+msgid "Greek: lanthanein (to be hidden)."
+msgstr "грец. лантанейн (бути прихованим)"
+
+#: table_data.h:212
+msgid "Cerium"
+msgstr "церій"
+
+#: table_data.h:212
+msgid "Malleable, ductile, iron-gray metal"
+msgstr "ковкий тягучий метал сірого кольору"
+
+#: table_data.h:212
+msgid "1803 (Sweden/Germany)"
+msgstr "1803 (Швеція/Німеччина)"
+
+#: table_data.h:212
+msgid "W. von Hisinger, J. Berzelius, M. Klaproth"
+msgstr "Вільгельм фон Гізінгер, Єнс Якоб Берцеліус, Мартин Клапрот"
+
+#: table_data.h:212
+msgid "Named after the asteroid, Ceres, discovered two years before the element."
+msgstr "Названо в честь астероїд Церес, виявленого двума роками раніше"
+
+#: table_data.h:213
+msgid "Praseodymium"
+msgstr "празеодим"
+
+#: table_data.h:213
+msgid "Silvery white, moderately soft, malleable, and ductile metal"
+msgstr "сріблясто-білий помірно м'який ковкий тягучий метал"
+
+#: table_data.h:213
+msgid "1885 (Austria)"
+msgstr "1885 (Австрія)"
+
+#: table_data.h:213
+#: table_data.h:214
+msgid "C.F. Aver von Welsbach"
+msgstr "К.Ауер фон Вельсбах"
+
+#: table_data.h:213
+msgid "Greek: prasios and didymos (green twin); from its green salts."
+msgstr "грец. празеос та діміос (зелений близнюк), за кольором солей"
+
+#: table_data.h:214
+msgid "Neodymium"
+msgstr "неодим"
+
+#: table_data.h:214
+msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
+msgstr "сріблясто-білий легкоокислюваний рідкісноземельний метал"
+
+#: table_data.h:214
+msgid "1925 (Austria)"
+msgstr "1925 (Австрія)"
+
+#: table_data.h:214
+msgid "Greek: neos and didymos (new twin)."
+msgstr "грец. неос та дідимос (новий близнюк)"
+
+#: table_data.h:215
+msgid "Promethium"
+msgstr "прометій"
+
+#: table_data.h:215
+msgid "(+3e)97.9 or (+3e)111"
+msgstr "(+3e)97.9 або (+3e)111"
+
+#: table_data.h:215
+msgid "Light-grey, radioactive element"
+msgstr "світло-сірий радіоактивний метал"
+
+#: table_data.h:215
+msgid "1945 (United States)"
+msgstr "1945 (США)"
+
+#: table_data.h:215
+msgid "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
+msgstr "Дж.Маринський, Л.Гленденін, Ч.Коріелл"
+
+#: table_data.h:215
+msgid "Named for the Greek god, Prometheus."
+msgstr "Прометей (грец. міф.)"
+
+#: table_data.h:216
+msgid "Samarium"
+msgstr "самарій"
+
+#: table_data.h:216
+msgid "Silvery rare-earth metal"
+msgstr "сріблястий рідкісноземельний метал"
+
+#: table_data.h:216
+msgid "1880 (France)"
+msgstr "1880 (Франція)"
+
+#: table_data.h:216
+#: table_data.h:218
+#: table_data.h:224
+msgid "Jean Charles Galissard de Marignac"
+msgstr "Жан де Марин'як"
+
+#: table_data.h:216
+msgid "Named after the mineral samarskite."
+msgstr "мінерал самарскіт"
+
+#: table_data.h:217
+msgid "Europium"
+msgstr "европій"
+
+#: table_data.h:217
+msgid "1901 (France)"
+msgstr "1901 (Франція)"
+
+#: table_data.h:217
+msgid "Eugene-Antole Demarcay"
+msgstr "Ежен Анатоль Демарсе"
+
+#: table_data.h:217
+msgid "Named for the continent of Europe."
+msgstr "континент Європа"
+
+#: table_data.h:218
+msgid "Gadolinium"
+msgstr "гадоліній"
+
+#: table_data.h:218
+msgid "1880 (Switzerland)"
+msgstr "1880 (Швейцарія)"
+
+#: table_data.h:218
+msgid "Named after the mineral gadolinite."
+msgstr "мінерал гадолініт"
+
+#: table_data.h:219
+msgid "Terbium"
+msgstr "тербій"
+
+#: table_data.h:219
+msgid "Soft, ductile, silvery-gray, rare-earth metal"
+msgstr "м'який тягучий сріблясто-сірий рідкісноземельний метал"
+
+#: table_data.h:219
+#: table_data.h:222
+msgid "1843 (Sweden)"
+msgstr "1843 (Швеція)"
+
+#: table_data.h:219
+msgid "Named after Ytterby, a village in Sweden."
+msgstr "шведская деревня Ytterby"
+
+#: table_data.h:220
+msgid "Dysprosium"
+msgstr "диспрозий"
+
+#: table_data.h:220
+msgid "Soft. lustrous, silvery metal"
+msgstr "м'який блискучий сріблястий метал"
+
+#: table_data.h:220
+msgid "Greek: dysprositos (hard to get at)."
+msgstr "грец. диспрозитос (труднодоступный)"
+
+#: table_data.h:221
+msgid "Holmium"
+msgstr "гольмий"
+
+#: table_data.h:221
+msgid "Fairly soft, malleable, lustrous, silvery metal"
+msgstr "довольно м'який ковкий блискучий сріблястий метал"
+
+#: table_data.h:221
+msgid "1879 (Switzerland)"
+msgstr "1879 (Швейцарія)"
+
+#: table_data.h:221
+msgid "J.L. Soret"
+msgstr "Дж.Л.Соре"
+
+#: table_data.h:221
+msgid "Holmia, the Latinized name for Stockholm, Sweden."
+msgstr "лат. Holmia, название Стокгольма, Швеція"
+
+#: table_data.h:222
+msgid "Erbium"
+msgstr "эрбий"
+
+#: table_data.h:222
+msgid "Soft, malleable, silvery metal"
+msgstr "м'який ковкий сріблястий метал"
+
+#: table_data.h:222
+msgid "Named after the Swedish town, Ytterby."
+msgstr "шведская деревня Ytterby"
+
+#: table_data.h:223
+msgid "Thulium"
+msgstr "тулий"
+
+#: table_data.h:223
+msgid "Soft, malleable, ductile, silvery metal"
+msgstr "м'який ковкий тягучий сріблястий метал"
+
+#: table_data.h:223
+msgid "Per Theodor Cleve"
+msgstr "Теодор Клеве"
+
+#: table_data.h:223
+msgid "Thule, ancient name of Scandinavia."
+msgstr "Туле, древнее название Скандинавии"
+
+#: table_data.h:224
+msgid "Ytterbium"
+msgstr "иттербий"
+
+#: table_data.h:224
+msgid "Silvery, lustrous, malleable, and ductile metal"
+msgstr "сріблястий блискучий ковкий тягучий метал"
+
+#: table_data.h:224
+msgid "1878 (Switzerland)"
+msgstr "1878 (Швейцарія)"
+
+#: table_data.h:224
+msgid "Named for the Swedish village of Ytterby."
+msgstr "шведская деревня Ytterby"
+
+#: table_data.h:226
+msgid "Lutetium"
+msgstr "лютеций"
+
+#: table_data.h:226
+msgid "Silvery-white, hard, dense, rare-earth metal"
+msgstr "сріблястий-білий твердий щільний рідкісноземельний метал"
+
+#: table_data.h:226
+msgid "1907 (France)"
+msgstr "1907 (Франція)"
+
+#: table_data.h:226
+msgid "Georges Urbain"
+msgstr "Жорж Урбен"
+
+#: table_data.h:226
+msgid "Named for the ancient name of Paris, Lutecia."
+msgstr "давня назва Парижу, Лютеція"
+
+#: table_data.h:227
+msgid "Hafnium"
+msgstr "гафній"
+
+#: table_data.h:227
+msgid "Silvery, ductile metal"
+msgstr "сріблястий ковкий метал"
+
+#: table_data.h:227
+msgid "1923 (Denmark)"
+msgstr "1923 (Данія)"
+
+#: table_data.h:227
+msgid "Dirk Coster, Georg von Hevesy"
+msgstr "Дірк Костер, Георг де Хевеші"
+
+#: table_data.h:227
+msgid "Hafnia, the Latin name of Copenhagen."
+msgstr "Hafnia, латинска назва Копенгагена"
+
+#: table_data.h:228
+msgid "Tantalum"
+msgstr "тантал"
+
+#: table_data.h:228
+msgid "Gray, heavy, hard metal"
+msgstr "сірий важкий твердий метал"
+
+#: table_data.h:228
+msgid "1802 (Sweden)"
+msgstr "1802 (Швеція)"
+
+#: table_data.h:228
+msgid "Anders Ekeberg"
+msgstr "Андерс Екеберг"
+
+#: table_data.h:228
+msgid "King Tantalus of Greek mythology, father of Niobe."
+msgstr "Тантал, батько Ніоби (грец. міф.)"
+
+#: table_data.h:229
+msgid "Tungsten"
+msgstr "вольфрам"
+
+#: table_data.h:229
+msgid "Tough, steel-gray to white metal"
+msgstr "щільний метал сріблясто-сіро-білого кольору"
+
+#: table_data.h:229
+msgid "1783 (Spain)"
+msgstr "1783 (Іспанія)"
+
+#: table_data.h:229
+msgid "Juan Jose, Fausto Elhuyar"
+msgstr "Хуан Хосе, Фаусто Ельгуяр"
+
+#: table_data.h:229
+msgid "Swedish: tung sten (heavy stone): symbol from its German name wolfram."
+msgstr "нім. wolfram (вовча піна), мінерал вольфраміт"
+
+#: table_data.h:230
+msgid "Rhenium"
+msgstr "реній"
+
+#: table_data.h:230
+msgid "Dense, silvery-white metal"
+msgstr "щільний сріблясто-білий метал"
+
+#: table_data.h:230
+msgid "1925 (Germany)"
+msgstr "1925 (Німеччина)"
+
+#: table_data.h:230
+msgid "Walter Noddack, Ida Tacke, Otto Berg"
+msgstr "Вальтер Ноддак, Іда Такке, Отто Берг"
+
+#: table_data.h:230
+msgid "Latin: Rhenus, the Rhine River."
+msgstr "лат. Rhenus, річка Рейн"
+
+#: table_data.h:231
+msgid "Osmium"
+msgstr "осмій"
+
+#: table_data.h:231
+msgid "Blue-white, lustrous, hard metal"
+msgstr "синювато-білий блискучий твердий метал"
+
+#: table_data.h:231
+msgid "1804 (England)"
+msgstr "1804 (Англія)"
+
+#: table_data.h:231
+msgid "Smithson Tenant"
+msgstr "Смітсон Тенант"
+
+#: table_data.h:231
+msgid "Greek: osme (odor)."
+msgstr "грец. осме (запах)"
+
+#: table_data.h:232
+msgid "Iridium"
+msgstr "іридій"
+
+#: table_data.h:232
+msgid "White, brittle metal"
+msgstr "крихкий білий метал"
+
+#: table_data.h:232
+msgid "1804 (England/France)"
+msgstr "1804 (Англія/Франція)"
+
+#: table_data.h:232
+msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
+msgstr "Смітсон Тенант, Антуан де Фукруа, Луї-Ніколас Вакулін, Г.Коллет-Десколт"
+
+#: table_data.h:232
+msgid "Latin: iris (rainbow)."
+msgstr "лат. iris (веселка)"
+
+#: table_data.h:233
+msgid "Platinum"
+msgstr "платина"
+
+#: table_data.h:233
+msgid "Very heavy, soft, silvery-white metal"
+msgstr "дуже важкий м'який сріблясто-білий метал"
+
+#: table_data.h:233
+msgid "1557 (Italy), but Incas use before"
+msgstr "1557 (Італія), проте інки використовували раніше"
+
+#: table_data.h:233
+msgid "Julius Scaliger"
+msgstr "Юліус Скалігер"
+
+#: table_data.h:233
+msgid "Spanish: platina (little silver)."
+msgstr "ісп. platina (маленьке срібло)"
+
+#: table_data.h:234
+msgid "Gold"
+msgstr "золото"
+
+#: table_data.h:234
+msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
+msgstr "(-3e) 185 (+1e) 137 або (+3e) 85 (+1e) 137"
+
+#: table_data.h:234
+msgid "Soft, malleable, yellow metal"
+msgstr "м'який ковкий жовтий метал"
+
+#: table_data.h:234
+msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)."
+msgstr "лат. aurum"
+
+#: table_data.h:235
+msgid "Mercury"
+msgstr "ртуть"
+
+#: table_data.h:235
+msgid "13.546 (@ +20&#176;C)"
+msgstr "13.546 (при +20&#176;C)"
+
+#: table_data.h:235
+msgid "Heavy, silver-white metal that is in its liquid state at"
+msgstr "важкий сріблясто-білий метал, рідкий при кімнатній температурі"
+
+#: table_data.h:235
+msgid "The Roman god Mercury; symbol from Latin: hydrargyrus (liquid silver)."
+msgstr "лат. hydrargyrus (рідке срібло)"
+
+#: table_data.h:236
+msgid "Thallium"
+msgstr "талій"
+
+#: table_data.h:236
+msgid "Soft, gray metal"
+msgstr "м'який сірий метал"
+
+#: table_data.h:236
+msgid "1861 (England)"
+msgstr "1861 (Англія)"
+
+#: table_data.h:236
+msgid "Sir William Crookes"
+msgstr "Вільям Крукс"
+
+#: table_data.h:236
+msgid "Greek: thallos (green twig), for a bright green line in its spectrum."
+msgstr "грец. таллос (зеланая гілка), по яскраво-зеленому кольору ліній в спектрі"
+
+#: table_data.h:237
+msgid "Lead"
+msgstr "свинець"
+
+#: table_data.h:237
+msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
+msgstr "дуже м'який синювато-білий блискучий метал, легко піддається куванню та тягнеться"
+
+#: table_data.h:237
+msgid "Anglo-Saxon: lead; symbol from Latin: plumbum."
+msgstr "лат. plumbum"
+
+#: table_data.h:238
+msgid "Bismuth"
+msgstr "вісмут"
+
+#: table_data.h:238
+msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
+msgstr "твердий крихкий метал сталевого кольору з рожевим відтінком"
+
+#: table_data.h:238
+msgid "German: bisemutum (white mass), Now spelled wismut."
+msgstr "нем. bisemutum (біла масса), нині wismut"
+
+#: table_data.h:239
+msgid "Polonium"
+msgstr "полоній"
+
+#: table_data.h:239
+#: table_data.h:244
+msgid "1898 (France/Poland)"
+msgstr "1898 (Франція/Польша)"
+
+#: table_data.h:239
+#: table_data.h:244
+msgid "Pierre and Marie Curie-Sklodowska"
+msgstr "П'єр Кюри та Марія Склодовська-Кюрі"
+
+#: table_data.h:239
+msgid "Named for Poland, native country of Marie Curie."
+msgstr "лат. Polonia, Польща (батьківщина Марії)"
+
+#: table_data.h:240
+msgid "Astatine"
+msgstr "астат"
+
+#: table_data.h:240
+msgid "Unstable, radioactive halogen"
+msgstr "нестабільний радіоактивний галоген"
+
+#: table_data.h:240
+#: table_data.h:251
+msgid "1940 (United States)"
+msgstr "1940 (США)"
+
+#: table_data.h:240
+msgid "D.R.Corson, K.R.MacKenzie, E. Segre"
+msgstr "Д.Корсон, К.Макензі, Е.Сегре"
+
+#: table_data.h:240
+msgid "Greek: astatos (unstable)."
+msgstr "грец. астатос (нестійкий)"
+
+#: table_data.h:241
+msgid "Radon"
+msgstr "радон"
+
+#: table_data.h:241
+msgid "4.4 (@ -62&#176;C)"
+msgstr "4.4 (при -62&#176;C)"
+
+#: table_data.h:241
+msgid "Heavy radioactive gas"
+msgstr "важкий радіоактивний газ"
+
+#: table_data.h:241
+msgid "1898 (Germany/England)"
+msgstr "1898 (Німеччина/Англія)"
+
+#: table_data.h:241
+msgid "Fredrich Ernst Dorn, Ernest Rutherford"
+msgstr "Фредерік Ернст Дорн, Ернест Резерфорд"
+
+#: table_data.h:241
+msgid "Variation of the name of another element, radium."
+msgstr "варіація імені іншого елементу, радію"
+
+#: table_data.h:243
+msgid "Francium"
+msgstr "францій"
+
+#: table_data.h:243
+msgid "1939 (France)"
+msgstr "1939 (Франція)"
+
+#: table_data.h:243
+msgid "Marguerite Derey"
+msgstr "Маргарита Перей"
+
+#: table_data.h:243
+msgid "Named for France, the nation of its discovery."
+msgstr "Названий за іменем країни(Франція) громадянами, що винайшли його"
+
+#: table_data.h:244
+msgid "Radium"
+msgstr "радій"
+
+#: table_data.h:244
+msgid "5.5 (@ +20&#176;C)"
+msgstr "5.5 (при +20&#176;C)"
+
+#: table_data.h:244
+msgid "Silvery white, radioactive element"
+msgstr "сріблястий-білий радіоактивний метал"
+
+#: table_data.h:244
+msgid "Latin: radius (ray)."
+msgstr "лат. radius (промінь)"
+
+#: table_data.h:246
+msgid "Actinium"
+msgstr "актиній"
+
+#: table_data.h:246
+msgid "Heavy, Silvery-white metal that is very radioactive"
+msgstr "важкий сріблясто-білий метал з високою радіоактивністю"
+
+#: table_data.h:246
+msgid "1899 (France)"
+msgstr "1899 (Франція)"
+
+#: table_data.h:246
+msgid "Andre-Louis Debierne"
+msgstr "Андре-Луї Деб'єрн"
+
+#: table_data.h:246
+msgid "Greek: akis, aktinos (ray)."
+msgstr "грец. акис, актинос (промінь)"
+
+#: table_data.h:247
+msgid "Thorium"
+msgstr "торій"
+
+#: table_data.h:247
+msgid "Gray, soft, malleable, ductile, radioactive metal"
+msgstr "сірий м'який ковкий тягучий радіоактивний метал"
+
+#: table_data.h:247
+msgid "1828 (Sweden)"
+msgstr "1828 (Швеція)"
+
+#: table_data.h:247
+msgid "Named for Thor, Norse god of thunder."
+msgstr "Тор, скандинавський бог грому"
+
+#: table_data.h:248
+msgid "Protactinium"
+msgstr "протактиній"
+
+#: table_data.h:248
+#: table_data.h:251
+#: table_data.h:252
+msgid "Silvery-white, radioactive metal"
+msgstr "сріблястий-білий радіоактивний метал"
+
+#: table_data.h:248
+msgid "1918 (England/France)"
+msgstr "1918 (Англія/Франція)"
+
+#: table_data.h:248
+msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
+msgstr "Фредерик Содді, Джон Кренстон, Отто Ган, Ліза Мейтнер"
+
+#: table_data.h:248
+msgid "Greek: proto and actinium (parent of actinium); it forms actinium when it radioactively decays."
+msgstr "грец. прото та актиніум (батько актинія); при радіоактивному розпаді дає актиній"
+
+#: table_data.h:249
+msgid "Uranium"
+msgstr "уран"
+
+#: table_data.h:249
+msgid "Silvery-white, dense, ductile and malleable, radioactive metal."
+msgstr "сріблястий-білий щільний тягучий ковкий радіоактивний метал"
+
+#: table_data.h:249
+msgid "Named for the planet Uranus."
+msgstr "Названий в честь планети Уран"
+
+#: table_data.h:250
+msgid "Neptunium"
+msgstr "нептуній"
+
+#: table_data.h:250
+msgid "Silvery metal"
+msgstr "сріблястий метал"
+
+#: table_data.h:250
+msgid "E.M. McMillan, P.H. Abelson"
+msgstr "Е.Макміллан, П.Абельсон"
+
+#: table_data.h:250
+msgid "Named for the planet Neptune."
+msgstr "Названий в честь планети Нептун"
+
+#: table_data.h:251
+msgid "Plutonium"
+msgstr "плутоній"
+
+#: table_data.h:251
+msgid "71-100 or (+4e) 93 (+3e) 108"
+msgstr "71-100 або (+4e) 93 (+3e) 108"
+
+#: table_data.h:251
+msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+msgstr "Гленн Сіборг, Дж.В.Кеннеді, Е.Макміллан, Артур Валь"
+
+#: table_data.h:251
+msgid "Named for the planet Pluto."
+msgstr "Названий в честь планети Плутон"
+
+#: table_data.h:252
+msgid "Americium"
+msgstr "америцій"
+
+#: table_data.h:252
+#: table_data.h:253
+msgid "1944 (United States)"
+msgstr "1944 (США)"
+
+#: table_data.h:252
+msgid "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
+msgstr "Гленн Сіборг, Р.Джеймс, Л.Морган, А.Гіорсо"
+
+#: table_data.h:252
+msgid "Named for the American continent, by analogy with europium."
+msgstr "Названий в честь континенту Америка, за аналогією з європієм"
+
+#: table_data.h:253
+msgid "Curium"
+msgstr "кюрій"
+
+#: table_data.h:253
+msgid "Silvery, malleable, synthetic radioactive metal"
+msgstr "сріблястий ковкий штучний радіоактивний метал"
+
+#: table_data.h:253
+msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
+msgstr "Гленн Сіборг, Р.Джеймс, А.Гіорсо"
+
+#: table_data.h:253
+msgid "Named in honor of Pierre and Marie Curie."
+msgstr "Названий в честь П'єра та Марії Кюрі"
+
+#: table_data.h:254
+msgid "Berkelium"
+msgstr "беркелій"
+
+#: table_data.h:254
+msgid "Radioactive synthetic metal"
+msgstr "радіоактивний штучний метал"
+
+#: table_data.h:254
+msgid "1949 (United States)"
+msgstr "1949 (США)"
+
+#: table_data.h:254
+msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
+msgstr "Гленн Сіборг, Стенлі Томпсон, А.Гіорсо"
+
+#: table_data.h:254
+msgid "Named after Berkeley, California the city of its discovery."
+msgstr "Названо в честь міста Беркли (Калифорния), де він був винайдений"
+
+#: table_data.h:255
+msgid "Californium"
+msgstr "калифорній"
+
+#: table_data.h:255
+msgid "Powerful neutron emitter"
+msgstr "потужний випромінювач нейтронів"
+
+#: table_data.h:255
+msgid "1950 (United States)"
+msgstr "1950 (США)"
+
+#: table_data.h:255
+#: table_data.h:258
+msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
+msgstr "Гленн Сіборг, Стенлі Томпсон, А.Гіорсо, К.Стріт"
+
+#: table_data.h:255
+msgid "Named after the state and University of California."
+msgstr "Названо в честь штату, а також университету Каліфорнії"
+
+#: table_data.h:256
+msgid "Einsteinium"
+msgstr "ейнштейній"
+
+#: table_data.h:256
+#: table_data.h:257
+#: table_data.h:258
+#: table_data.h:259
+#: table_data.h:261
+#: table_data.h:262
+#: table_data.h:263
+#: table_data.h:264
+#: table_data.h:265
+msgid "Radioactive, synthetic metal"
+msgstr "радіоактивний штучний метал"
+
+#: table_data.h:256
+#: table_data.h:257
+msgid "1952 (United States)"
+msgstr "1952 (США)"
+
+#: table_data.h:256
+#: table_data.h:257
+msgid "Argonne, Los Alamos, University of California"
+msgstr "Аргонна, Лос-Аламос, Університет Каліфорнії"
+
+#: table_data.h:256
+msgid "Named in honor of the scientist Albert Einstein."
+msgstr "Названо в честь Альберта Ейнштейна"
+
+#: table_data.h:257
+msgid "Fermium"
+msgstr "Фермій"
+
+#: table_data.h:257
+msgid "Named in honor of the scientist Enrico Fermi."
+msgstr "Названо в честь Енріко Фермі"
+
+#: table_data.h:258
+msgid "Mendelevium"
+msgstr "менделєвій"
+
+#: table_data.h:258
+msgid "1955 (United States)"
+msgstr "1955 (США)"
+
+#: table_data.h:258
+msgid "Named in honor of the scientist Dmitri Ivanovitch Mendeleyev, who devised the periodic table."
+msgstr "Названо в честь Дмитра Івановича Менделєєва, що винайшов періодичну систему хімічних елементів"
+
+#: table_data.h:259
+msgid "Nobelium"
+msgstr "нобелій"
+
+#: table_data.h:259
+msgid "1963 (USSR)"
+msgstr "1963 (СССР)"
+
+#: table_data.h:259
+#: table_data.h:262
+#: table_data.h:263
+msgid "Dubna"
+msgstr "Дубна"
+
+#: table_data.h:259
+msgid "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize."
+msgstr "Названо в честь Альфреда Нобеля, що винайшов динаміт та заснував премію Нобеля."
+
+#: table_data.h:261
+msgid "Lawrencium"
+msgstr "лоуренсій"
+
+#: table_data.h:261
+msgid "1961 (USSR/United States)"
+msgstr "1961 (СССР/США)"
+
+#: table_data.h:261
+#: table_data.h:263
+#: table_data.h:264
+msgid "Soviet Nuclear Research/University of California at Berkeley"
+msgstr "Дубна/унів. Калифорнії в Берклі"
+
+#: table_data.h:261
+msgid "Named in honor of Ernest O. Lawrence, inventor of the cyclotron."
+msgstr "Ернест Лоуренц"
+
+#: table_data.h:262
+msgid "Rutherfordium"
+msgstr "резерфордій"
+
+#: table_data.h:262
+msgid "1964 (USSR)"
+msgstr "1964 (СССР)"
+
+#: table_data.h:262
+msgid "Named in honor of Ernest Rutherford"
+msgstr "Ернест Резерфорд"
+
+#: table_data.h:263
+msgid "Dubnium"
+msgstr "дубній"
+
+#: table_data.h:263
+msgid "1970 (USSR/United States)"
+msgstr "1970 (СССР/США)"
+
+#: table_data.h:264
+msgid "Seaborgium"
+msgstr "сіборгій"
+
+#: table_data.h:264
+msgid "1974 (USSR/United States)"
+msgstr "1974 (СССР/США)"
+
+#: table_data.h:264
+msgid "Named in honor of Glenn Seaborg, American physical chemist known for research on transuranium elements."
+msgstr "Названо в честь Глена Сіборга, американського хіміка, що займався трансурановими елементами"
+
+#: table_data.h:265
+msgid "Bohrium"
+msgstr "борій"
+
+#: table_data.h:265
+msgid "1976 (Germany)"
+msgstr "1976 (Німеччина)"
+
+#: table_data.h:265
+#: table_data.h:266
+#: table_data.h:267
+#: table_data.h:268
+#: table_data.h:269
+#: table_data.h:270
+msgid "Heavy Ion Research Laboratory (HIRL)"
+msgstr "Центр дорсліждування важких іонів"
+
+#: table_data.h:265
+msgid "Named in honor of Niels Bohr"
+msgstr "Названо в честь Нільса Бора"
+
+#: table_data.h:266
+msgid "Hassium"
+msgstr "хассій"
+
+#: table_data.h:266
+msgid "1984 (Germany)"
+msgstr "1984 (Німеччина)"
+
+#: table_data.h:266
+msgid "Named in honor of Hessen Land, Germany. Latin: Hassia."
+msgstr "німецька земля Гессен, лат: Hassia"
+
+#: table_data.h:267
+msgid "Meitnerium"
+msgstr "мейтнерій"
+
+#: table_data.h:267
+msgid "1982 (Germany)"
+msgstr "1982 (Німеччина)"
+
+#: table_data.h:267
+msgid "Named in honor of Lise Meitner"
+msgstr "Названо в честь Лизи Мейтнер"
+
+#: table_data.h:268
+msgid "Darmstadtium"
+msgstr "дармштадтій"
+
+#: table_data.h:268
+#: table_data.h:269
+msgid "1994 (Germany)"
+msgstr "1994 (Німеччина)"
+
+#: table_data.h:268
+msgid "Named after Darmstadt, Germany, the city of its discovery."
+msgstr "названо як німецьке місто Дармштадт, в якому він був відкритий"
+
+#: table_data.h:269
+msgid "Roentgenium"
+msgstr "рентгеній"
+
+#: table_data.h:269
+msgid "Named in honor of physicist Wilhelm Conrad Roentgen."
+msgstr "Названо в честь Вільгельма Конрада Рентгена"
+
+#: table_data.h:270
+msgid "Copernicium"
+msgstr "коперницій"
+
+#: table_data.h:270
+msgid "1996 (Germany)"
+msgstr "1996 (Німеччина)"
+
+#: table_data.h:270
+msgid "Named in honor of Nicolaus Copernicus"
+msgstr "Названо в честь Миколи Коперника"
+
+#: table_data.h:271
+msgid "Ununtrium"
+msgstr "унунтрій"
+
+#: table_data.h:271
+msgid "2004 (Russia/United States)"
+msgstr "2004 (Росія/США)"
+
+#: table_data.h:271
+#: table_data.h:272
+#: table_data.h:273
+#: table_data.h:275
+#: table_data.h:276
+msgid "Dubna/Livermore"
+msgstr "Дубна/Лівермор"
+
+#: table_data.h:271
+msgid "Un (one) un (one) trium (three)"
+msgstr "Un (один) un (один) trium (три)"
+
+#: table_data.h:272
+msgid "Flerovium"
+msgstr "флеровій"
+
+#: table_data.h:272
+msgid "1998 (Russia/United States)"
+msgstr "1998 (Росія/США)"
+
+#: table_data.h:272
+msgid "Named in honor of Soviet physicist Flerov"
+msgstr "радянський академік Фльоров"
+
+#: table_data.h:273
+msgid "Ununpentium"
+msgstr "унунпентій"
+
+#: table_data.h:273
+msgid "2003 (Russia/United States)"
+msgstr "2003 (Росія/США)"
+
+#: table_data.h:273
+msgid "Un (one) un (one) pentium (five)"
+msgstr "Un (один) un (один) pentium (п'ять)"
+
+#: table_data.h:274
+msgid "Livermorium"
+msgstr "ліверморій"
+
+#: table_data.h:274
+msgid "2000 (Russia/United States)"
+msgstr "2000 (Росія/США)"
+
+#: table_data.h:274
+msgid "Dubna, Dimitrovgrad, Lesnoy/Livermore"
+msgstr "Дубна, Димитровград, Лісний/Лівермор"
+
+#: table_data.h:274
+msgid "Named in honor of Livermore"
+msgstr "Названо в честь міста Лівермор, США"
+
+#: table_data.h:275
+msgid "Ununseptium"
+msgstr "унунсептій"
+
+#: table_data.h:275
+msgid "2009 (Russia/United States)"
+msgstr "2009 (Росія/США)"
+
+#: table_data.h:275
+msgid "Un (one) un (one) septium (seven)"
+msgstr "Un (один) un (один) septium (сім)"
+
+#: table_data.h:276
+msgid "Ununoctium"
+msgstr "унуноктій"
+
+#: table_data.h:276
+msgid "2006 (Russia/United States)"
+msgstr "2006 (Росія/США)"
+
+#: table_data.h:276
+msgid "Un (one) un (one) octium (eight)"
+msgstr "Un (один) un (один) octium (вісім)"
