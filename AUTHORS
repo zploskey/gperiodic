@@ -1,28 +1,29 @@
-Jonas Frantz <jonas@frantz.fi>
-Kyle R. Burton <?>
-Piotr Najman <?>
-Arno W. Peters <a.w.peters@ieee.org>
-Georges Khaznadar <?>
-Mauricio Rivera <?>
-Lalo Martins <?>
-Sven Neumann <?>
-Christian Klein <?>
-Koen Kooi <?>
-Ambrogio Oliva <?>
-Felix Natter <?>
-Michael Shigorin <mike@altlinux.org>
-Costantino Ceoldo <?>
-Arkadiusz Lipiec <?>
-Sebastien Bacher <seb128@debian.org>
-Daniel Leidert <daniel.leidert@wgdd.de>
-Theppitak Karoonboonyanan <thep@linux.thai.net>
-Zach Ploskey <zploskey@gmail.com>
-Jon Abbott <?>
-Andrew Dalke <?>
-Gunner Poulsen <?>
-Gonzalo Regueiro Iglesias <gonzalo.regueiro.iglesias@gmail.com>
-Leandro Regueiro <leandro.regueiro@gmail.com>
-Andrea Tasso <andrea@tasso.info>
-Osman Köşeli <?>
-Ireneusz Imiolek <imiolek.i@googlemail.com>
-Alexey Loginov <loginov.alex.valer@gmail.com>
+Kyle R. Burton <?>                                                    the first author (1999-2002)
+Jonas Frantz <jonas@frantz.fi>                                        the second author (2003-2007), Swedish translation
+Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author (2014), Russian translation
+
+Piotr Najman <?>                                                      Polish translation, patches
+Arno W. Peters <a.w.peters@ieee.org>                                  added in gettext support, and other source changes
+Georges Khaznadar <?>                                                 French translation and related code
+Mauricio Rivera <?>                                                   Spanish translation
+Lalo Martins <?>                                                      Portuguese translation
+Sven Neumann <?>                                                      German translation
+Christian Klein <?>                                                   German translation
+Koen Kooi <?>                                                         Dutch translation
+Ambrogio Oliva <?>                                                    Italian translation
+Felix Natter <?>                                                      patches
+Michael Shigorin <mike@altlinux.org>                                  Russian translation and patches
+Costantino Ceoldo <?>                                                 New data and code for the table
+Arkadiusz Lipiec <?>                                                  Polish translation and patches
+Sebastien Bacher <seb128@debian.org>                                  French translation, manual page, patches
+Daniel Leidert <daniel.leidert@wgdd.de>                               patches
+Theppitak Karoonboonyanan <thep@linux.thai.net>                       patches
+Zach Ploskey <zploskey@gmail.com>                                     patches from his fork of gperiodic
+Jon Abbott <?>                                                        provided updates to the table
+Andrew Dalke <?>                                                      corrected errors in the table
+Gunner Poulsen <?>                                                    Dansk translation
+Gonzalo Regueiro Iglesias <gonzalo.regueiro.iglesias@gmail.com>       Galician translation
+Leandro Regueiro <leandro.regueiro@gmail.com>                         Galician translation
+Andrea Tasso <andrea@tasso.info>                                      Italian translation
+Osman Köşeli <?>                                                      Turkish translation
+Ireneusz Imiolek <imiolek.i@googlemail.com>                           Polish translation

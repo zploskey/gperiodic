@@ -2,6 +2,7 @@
 # Copyright (C) 1999 Christian Klein.
 # This file is distributed under the same license as the gperiodic package.
 # Christian Klein <?>, 1999.
+# Sven Neumann <?>, 1999.
 #
 msgid ""
 msgstr ""
