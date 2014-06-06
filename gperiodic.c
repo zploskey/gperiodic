@@ -40,7 +40,7 @@ Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Logi
 #define PACKAGE "gperiodic"
 #define GPERIODIC_LOCALE_DIR "/usr/share/locale"
 
-#define HEADERTEXTLEN 40
+#define HEADERTEXTLEN 50
 
   char *optstr            = "c:hDv";		/* cmdline option string... */
   int  enable_colorscale  = 0;
@@ -69,9 +69,9 @@ void gpparse_print_element_data_for_num(int num)
 
     printf("\n");
     for (row = 0; row < MAX_INFO_NR; row++) {
-	pango_parse_markup (header.info[row], -1, 0, NULL, &escaped_header, NULL, NULL);
-	pango_parse_markup (table[num-1].info[row], -1, 0, NULL, &escaped_info, NULL, NULL);
-	n = g_utf8_strlen(escaped_header, HEADERTEXTLEN);
+	pango_parse_markup (_(header.info[row]), -1, 0, NULL, &escaped_header, NULL, NULL);
+	pango_parse_markup (_(table[num-1].info[row]), -1, 0, NULL, &escaped_info, NULL, NULL);
+	n = g_utf8_strlen(escaped_header, -1);
 	n = HEADERTEXTLEN - n;
 	for (i=0;i<HEADERTEXTLEN;i++) fillout[i] = ' ';
 	fillout[n] = (char) NULL;

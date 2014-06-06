@@ -1,5 +1,5 @@
 # Spanish translation for gperiodic.
-# Copyright (C) 2003-2014 Free Software Foundation.
+# Copyright (C) 1999-2014 Free Software Foundation.
 # This file is distributed under the same license as the gperiodic package.
 # Mauricio Rivera <?>, 1999.
 # Juan Rafael Fernández <jrfern@telefonica.net>, 2014.
