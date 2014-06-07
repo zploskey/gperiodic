@@ -114,7 +114,7 @@ msgstr "Errore, il bottone era vuoto?"
 
 #: gperiodic.c:419
 #, c-format
-msgid "%s(%d) Setting color:  %d %d %d"
+msgid "%s(%d) Setting color: %d %d %d"
 msgstr ""
 
 #: gperiodic.c:456

@@ -416,7 +416,7 @@ void main_prog(void)
 
       table[i].style = gtk_style_copy(button_style);
 
-      _DBG( g_message(gettext("%s(%d) Setting color:  %d %d %d"),__FILE__,__LINE__,
+      _DBG( g_message(gettext("%s(%d) Setting color: %d %d %d"),__FILE__,__LINE__,
         table[i].color.red,
         table[i].color.green,
         table[i].color.blue ) );

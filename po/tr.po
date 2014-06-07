@@ -211,7 +211,7 @@ msgstr "Hata düğmesi geçersiz mi?"
 
 #: gperiodic.c:419
 #, c-format
-msgid "%s(%d) Setting color:  %d %d %d"
+msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Renk ayarları: %d %d %d"
 
 #: gperiodic.c:456

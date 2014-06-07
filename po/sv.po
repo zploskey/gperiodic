@@ -122,8 +122,8 @@ msgstr "Programfel, knappen är NULL ?"
 
 #: gperiodic.c:419
 #, c-format
-msgid "%s(%d) Setting color:  %d %d %d"
-msgstr "%s(%d) Sätter färg:  %d %d %d"
+msgid "%s(%d) Setting color: %d %d %d"
+msgstr "%s(%d) Sätter färg: %d %d %d"
 
 #: gperiodic.c:456
 #, c-format
