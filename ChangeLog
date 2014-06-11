@@ -1,4 +1,4 @@
-3.0.0 Jun 04 2014
+3.0.0 Jun 11 2014
    Update authors and changelog
    Fix i18n and update all translations
    Fix many erratum (Michael Shigorin and Alexey Loginov)
@@ -18,6 +18,7 @@
    Update Russian translation (Alexey Loginov)
    Update Spanish translation (Juan Rafael Fernández)
    Update Turkish translation (Fırat Kutlu)
+   Add Czech translation (Pavel Fric)
 
 2.0.10 Jul 11 2007
    Minor code update & include translations
