@@ -412,7 +412,7 @@ msgstr "Nommé après : "
 
 #: table_data.h:147
 msgid "Hydrogen"
-msgstr "Hydrogène : "
+msgstr "Hydrogène"
 
 #: table_data.h:147
 msgid "0.0708 (@ -253&#176;C)"
