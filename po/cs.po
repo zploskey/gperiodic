@@ -41,11 +41,10 @@ msgstr ""
 "    -c <Temp>  Obarvit prvky podle jejich skupenství\n"
 "               při teplotě <Temp> v Kelvinech\n"
 "    -D         Vypsat periodickou tabulku prvků\n"
-"    -v          Být podrobný\n"
+"    -v         Být podrobný\n"
 "\n"
 
 #: gperiodic.c:203
-#, fuzzy, c-format
 msgid ""
 "or\n"
 "\n"
@@ -172,7 +171,6 @@ msgstr ""
 "Tento program ukazuje periodickou tabulku prvků a informace o těchto prvcích"
 
 #: gperiodic.h:103
-#, fuzzy
 msgid ""
 "gperiodic is free software; you can redistribute it and/or modify\n"
 "it under the terms of the GNU General Public License as published by\n"
@@ -323,7 +321,6 @@ msgid "HEX"
 msgstr "HEX"
 
 #: table_data.h:147 table_data.h:157
-#, fuzzy
 msgid "Colorless, odorless, tasteless gas"
 msgstr ""
 
