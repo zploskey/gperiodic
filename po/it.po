@@ -1933,7 +1933,7 @@ msgid "Juan Jose, Fausto Elhuyar"
 msgstr ""
 
 #: table_data.h:227
-msgid "Swedish: tung sten (heavy stone): symbol from its German name wolfram"
+msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
 msgstr "«Tung sten» in svedese significa «pietra pesante»"
 
 #: table_data.h:228

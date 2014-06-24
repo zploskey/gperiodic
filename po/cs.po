@@ -1748,9 +1748,9 @@ msgid "Juan Jose, Fausto Elhuyar"
 msgstr "Juan Jose, Fausto Elhuyar"
 
 #: table_data.h:227
-msgid "Swedish: tung sten (heavy stone): symbol from its German name wolfram"
+msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
 msgstr ""
-"Švédština: tung sten (těžký kámen): symbol z jeho německého názvu wolfram"
+"Švédština: tung sten (těžký kámen); symbol z jeho německého názvu wolfram"
 
 #: table_data.h:228
 msgid "Rhenium"

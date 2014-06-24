@@ -1952,7 +1952,7 @@ msgid "Juan Jose, Fausto Elhuyar"
 msgstr "Хуан Хасэ, Фаўста Эльгуяр"
 
 #: table_data.h:227
-msgid "Swedish: tung sten (heavy stone): symbol from its German name wolfram"
+msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
 msgstr "нямецк. wolfram (воўчы шум), мінерал вольфраміт"
 
 #: table_data.h:228
