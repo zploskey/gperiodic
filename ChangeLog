@@ -1,4 +1,4 @@
-3.0.0 Jun 24 2014
+3.0.0 Jun 25 2014
    Update authors and changelog
    Fix i18n and update all translations
    Fix many erratum (Michael Shigorin and Alexey Loginov)
@@ -23,6 +23,7 @@
    Add Brazilian Portuguese translation (Marcio Padula)
    Add Belarusian translation (Uladyslau Ahromenka)
    Update Danish translation (Rémi Verschelde)
+   Update German translation (Marc Lattemann)
 
 2.0.10 Jul 11 2007
    Minor code update & include translations
