@@ -263,7 +263,7 @@ msgstr "Ionenradius (pm): "
 
 #: table_data.h:41
 msgid "Atomic Volume (cm&#179;/mol): "
-msgstr "atomare Volumen (cm&#179;/mol): "
+msgstr "Atomare Volumen (cm&#179;/mol): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
@@ -275,7 +275,7 @@ msgstr "Schmelzwärme (kJ/mol): "
 
 #: table_data.h:44
 msgid "Evaporation Heat (kJ/mol): "
-msgstr "Verdampfungswärme kJ/mol):"
+msgstr "Verdampfungswärme kJ/mol): "
 
 #: table_data.h:45
 msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
@@ -303,19 +303,19 @@ msgstr "Elektronische Konfiguration: "
 
 #: table_data.h:51
 msgid "Lattice structure: "
-msgstr "Gitterstruktur"
+msgstr "Gitterstruktur: "
 
 #: table_data.h:52
 msgid "Lattice constant (&#x212B;): "
-msgstr "Gitterkonstante (&#x212B;):"
+msgstr "Gitterkonstante (&#x212B;): "
 
 #: table_data.h:53
 msgid "Lattice c/a ratio: "
-msgstr "Gitter c/a Verhältnis"
+msgstr "Gitter c/a Verhältnis: "
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr "Erscheinung:"
+msgstr "Erscheinung: "
 
 #: table_data.h:55
 msgid "Discovery date: "
@@ -327,7 +327,7 @@ msgstr "Entdeckt von: "
 
 #: table_data.h:57
 msgid "Named after: "
-msgstr "Benannt nach:"
+msgstr "Benannt nach: "
 
 #: table_data.h:147
 msgid "Hydrogen"
