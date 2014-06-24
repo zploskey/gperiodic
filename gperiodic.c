@@ -453,7 +453,7 @@ void main_prog(void)
 			 G_CALLBACK(display_element_dialog), &table[i] );
 
 /* set up a string for the tooltips */
-	buff = g_strdup_printf(gettext("%s  n:%s w:%s"), _(table[i].info[NAME]),
+	buff = g_strdup_printf(gettext("%s n:%s w:%s"), _(table[i].info[NAME]),
 			       table[i].info[NUMBER], table[i].info[WEIGHT]);
 
 /* create a new tooltips object... */

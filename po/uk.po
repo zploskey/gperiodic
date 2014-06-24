@@ -214,7 +214,7 @@ msgstr "%s(%d) Налаштування кольору: %d %d %d"
 
 #: gperiodic.c:456
 #, c-format
-msgid "%s  n:%s w:%s"
+msgid "%s n:%s w:%s"
 msgstr "%s - Z=%s, M=%s а.о.м."
 
 #: gperiodic.c:498
@@ -262,7 +262,7 @@ msgid ""
 "\n"
 "gperiodic is distributed in the hope that it will be useful,\n"
 "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n"
 "GNU General Public License for more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License\n"

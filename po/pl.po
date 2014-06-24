@@ -216,8 +216,8 @@ msgstr "%s(%d) Ustawianie koloru: %d %d %d"
 
 #: gperiodic.c:456
 #, c-format
-msgid "%s  n:%s w:%s"
-msgstr "%s  n:%s w:%s"
+msgid "%s n:%s w:%s"
+msgstr "%s n:%s w:%s"
 
 #: gperiodic.c:498
 #, c-format
@@ -264,7 +264,7 @@ msgid ""
 "\n"
 "gperiodic is distributed in the hope that it will be useful,\n"
 "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n"
 "GNU General Public License for more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License\n"
