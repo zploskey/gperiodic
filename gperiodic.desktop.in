@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=GPeriodic
+GenericName=GPeriodic
 _Comment=A program for looking up data of elements from the periodic table
 Exec=gperiodic
 Icon=gperiodic
