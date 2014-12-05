@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,15 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
-msgid "A program for looking up data of elements from the periodic table"
+msgid "Periodic table application"
 msgstr ""
 
 #: gperiodic.c:196
+#, c-format
+msgid "A program for looking up data of elements from the periodic table"
+msgstr ""
+
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -35,7 +40,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: gperiodic.c:203
+#: gperiodic.c:205
 #, c-format
 msgid ""
 "or\n"
@@ -46,7 +51,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: gperiodic.c:289 gperiodic.c:290 table_data.h:82 table_data.h:98
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
 #: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
 #: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
@@ -77,63 +82,63 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr ""
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr ""
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr ""
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr ""
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr ""
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr ""
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr ""
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr ""
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr ""
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr ""
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr ""
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr ""
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr ""
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -141,7 +146,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"

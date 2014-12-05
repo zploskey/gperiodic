@@ -1,6 +1,6 @@
 Name:		gperiodic
 Summary:	A graphical application for browsing the periodic table
-Version:	3.0.0
+Version:	3.0.1
 Release:	%mkrel 1
 URL:		http://code.google.com/p/gperiodic
 Group:		Sciences/Chemistry

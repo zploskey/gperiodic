@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the gperiodic package.
 # Jonas Frantz <jonas@frantz.fi>, 2003.
 # Michael Eklund <willard@null.net>, 2014.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: 2014-06-25 12:17+0100\n"
 "Last-Translator: Michael Eklund <willard@null.net>\n"
 "Language-Team: Swedish <LL@li.org>\n"
@@ -20,10 +20,15 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
+msgid "Periodic table application"
+msgstr ""
+
+#: gperiodic.c:196
+#, c-format
 msgid "A program for looking up data of elements from the periodic table"
 msgstr "En lathund för information om grundämnena i den periodiska tabellen"
 
-#: gperiodic.c:196
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -44,7 +49,7 @@ msgstr ""
 "    -v         skriv ut extra meddelanden\n"
 "\n"
 
-#: gperiodic.c:203
+#: gperiodic.c:205
 #, c-format
 msgid ""
 "or\n"
@@ -61,7 +66,7 @@ msgstr ""
 "eller atomnummer\n"
 "\n"
 
-#: gperiodic.c:289 gperiodic.c:290 table_data.h:82 table_data.h:98
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
 #: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
 #: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
@@ -92,63 +97,63 @@ msgstr ""
 msgid "n/a"
 msgstr "okänt"
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr "_Fil"
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr "_Hjälp"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr "_Avsluta"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr "Avsluta programmet"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr "_Om"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr "Om gperiodic"
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr "GPeriodic"
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr "Ingen symbol för det indexet"
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr "Programfel, knappen är NULL?"
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Sätter färg: %d %d %d"
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr "%s n:%s v:%s"
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr " Option -c fel : %s är inte ett nummer.\n"
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr " Option -c fel : %s är inte ett korrekt nummer (måste vara > 0).\n"
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -159,7 +164,7 @@ msgstr ""
 " Okänt grundämne : %s. Avslutar.\n"
 "\n"
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"

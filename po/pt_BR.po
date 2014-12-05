@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: 2014-06-22 16:20-0300\n"
 "Last-Translator: Marcio Padula <padula1000@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt@li.org>\n"
@@ -20,10 +20,15 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
+msgid "Periodic table application"
+msgstr "Aplicação de tabela periódica"
+
+#: gperiodic.c:196
+#, c-format
 msgid "A program for looking up data of elements from the periodic table"
 msgstr "Um programa para procurar os dados dos elementos da tabela periódica"
 
-#: gperiodic.c:196
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -44,7 +49,7 @@ msgstr ""
 "    -v         ser detalhada\n"
 "\n"
 
-#: gperiodic.c:203
+#: gperiodic.c:205
 #, c-format
 msgid ""
 "or\n"
@@ -57,180 +62,98 @@ msgstr ""
 "ou\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               exibir informações sobre o elemento com o símbolo do "
-"elemento dado ou número atômico\n"
+"               exibir informações sobre o elemento com o símbolo do elemento "
+"dado ou número atômico\n"
 "\n"
 
-#: gperiodic.c:289
-#: gperiodic.c:290
-#: table_data.h:82
-#: table_data.h:98
-#: table_data.h:148
-#: table_data.h:150
-#: table_data.h:153
-#: table_data.h:154
-#: table_data.h:155
-#: table_data.h:156
-#: table_data.h:157
-#: table_data.h:159
-#: table_data.h:161
-#: table_data.h:162
-#: table_data.h:163
-#: table_data.h:164
-#: table_data.h:165
-#: table_data.h:166
-#: table_data.h:168
-#: table_data.h:169
-#: table_data.h:170
-#: table_data.h:171
-#: table_data.h:172
-#: table_data.h:173
-#: table_data.h:174
-#: table_data.h:175
-#: table_data.h:176
-#: table_data.h:177
-#: table_data.h:178
-#: table_data.h:179
-#: table_data.h:180
-#: table_data.h:181
-#: table_data.h:182
-#: table_data.h:183
-#: table_data.h:184
-#: table_data.h:185
-#: table_data.h:187
-#: table_data.h:188
-#: table_data.h:191
-#: table_data.h:192
-#: table_data.h:194
-#: table_data.h:195
-#: table_data.h:196
-#: table_data.h:197
-#: table_data.h:199
-#: table_data.h:200
-#: table_data.h:201
-#: table_data.h:202
-#: table_data.h:203
-#: table_data.h:204
-#: table_data.h:206
-#: table_data.h:207
-#: table_data.h:210
-#: table_data.h:211
-#: table_data.h:212
-#: table_data.h:213
-#: table_data.h:214
-#: table_data.h:215
-#: table_data.h:216
-#: table_data.h:217
-#: table_data.h:218
-#: table_data.h:219
-#: table_data.h:220
-#: table_data.h:221
-#: table_data.h:222
-#: table_data.h:224
-#: table_data.h:225
-#: table_data.h:226
-#: table_data.h:227
-#: table_data.h:229
-#: table_data.h:230
-#: table_data.h:231
-#: table_data.h:232
-#: table_data.h:235
-#: table_data.h:236
-#: table_data.h:237
-#: table_data.h:238
-#: table_data.h:239
-#: table_data.h:241
-#: table_data.h:242
-#: table_data.h:244
-#: table_data.h:245
-#: table_data.h:246
-#: table_data.h:247
-#: table_data.h:248
-#: table_data.h:249
-#: table_data.h:250
-#: table_data.h:251
-#: table_data.h:252
-#: table_data.h:253
-#: table_data.h:254
-#: table_data.h:255
-#: table_data.h:256
-#: table_data.h:257
-#: table_data.h:259
-#: table_data.h:260
-#: table_data.h:261
-#: table_data.h:262
-#: table_data.h:263
-#: table_data.h:264
-#: table_data.h:265
-#: table_data.h:266
-#: table_data.h:267
-#: table_data.h:268
-#: table_data.h:269
-#: table_data.h:270
-#: table_data.h:271
-#: table_data.h:272
-#: table_data.h:273
-#: table_data.h:274
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
+#: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
+#: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
+#: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
+#: table_data.h:165 table_data.h:166 table_data.h:168 table_data.h:169
+#: table_data.h:170 table_data.h:171 table_data.h:172 table_data.h:173
+#: table_data.h:174 table_data.h:175 table_data.h:176 table_data.h:177
+#: table_data.h:178 table_data.h:179 table_data.h:180 table_data.h:181
+#: table_data.h:182 table_data.h:183 table_data.h:184 table_data.h:185
+#: table_data.h:187 table_data.h:188 table_data.h:191 table_data.h:192
+#: table_data.h:194 table_data.h:195 table_data.h:196 table_data.h:197
+#: table_data.h:199 table_data.h:200 table_data.h:201 table_data.h:202
+#: table_data.h:203 table_data.h:204 table_data.h:206 table_data.h:207
+#: table_data.h:210 table_data.h:211 table_data.h:212 table_data.h:213
+#: table_data.h:214 table_data.h:215 table_data.h:216 table_data.h:217
+#: table_data.h:218 table_data.h:219 table_data.h:220 table_data.h:221
+#: table_data.h:222 table_data.h:224 table_data.h:225 table_data.h:226
+#: table_data.h:227 table_data.h:229 table_data.h:230 table_data.h:231
+#: table_data.h:232 table_data.h:235 table_data.h:236 table_data.h:237
+#: table_data.h:238 table_data.h:239 table_data.h:241 table_data.h:242
+#: table_data.h:244 table_data.h:245 table_data.h:246 table_data.h:247
+#: table_data.h:248 table_data.h:249 table_data.h:250 table_data.h:251
+#: table_data.h:252 table_data.h:253 table_data.h:254 table_data.h:255
+#: table_data.h:256 table_data.h:257 table_data.h:259 table_data.h:260
+#: table_data.h:261 table_data.h:262 table_data.h:263 table_data.h:264
+#: table_data.h:265 table_data.h:266 table_data.h:267 table_data.h:268
+#: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:272
+#: table_data.h:273 table_data.h:274
 msgid "n/a"
 msgstr "n/a"
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr "_Arquivo"
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr "_Ajuda"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr "_Sair"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr "Sair do programa"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr "_Sobre"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr "Sobre o gperiodic"
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr "GPeriodic"
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr "Sem simbolo para o i­ndice"
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr "Botão de erro era nulo?"
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Definir cor:%d %d %d"
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr "%s  n:%s p:%s"
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr " Opção -c Erro : %s não é um número.\n"
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr " Opção -c Erro : %s não é um número válido (deve ser> 0).\n"
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -241,7 +164,7 @@ msgstr ""
 " Elemento desconhecido : %s. Sair.\n"
 "\n"
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"
@@ -2556,4 +2479,3 @@ msgstr "2006 (Rússia/Estados Unidos)"
 #: table_data.h:274
 msgid "Un (one) un (one) octium (eight)"
 msgstr "Un (1) un (1) octium (8)"
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: 2014-06-09 15:07+0300\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -19,10 +19,15 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
+msgid "Periodic table application"
+msgstr "Периодическая таблица Менделеева"
+
+#: gperiodic.c:196
+#, c-format
 msgid "A program for looking up data of elements from the periodic table"
 msgstr "Просмотр элементов периодической таблицы с информацией о них"
 
-#: gperiodic.c:196
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -42,13 +47,14 @@ msgstr ""
 "    -v         более подробный вывод\n"
 "\n"
 
-#: gperiodic.c:203
+#: gperiodic.c:205
 #, c-format
 msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element symbol or atomic number\n"
+"               display information on the element with the given element "
+"symbol or atomic number\n"
 "\n"
 msgstr ""
 "или\n"
@@ -57,178 +63,94 @@ msgstr ""
 "               отобразить информацию об элементе по его символу или номеру\n"
 "\n"
 
-#: gperiodic.c:289
-#: gperiodic.c:290
-#: table_data.h:82
-#: table_data.h:98
-#: table_data.h:148
-#: table_data.h:150
-#: table_data.h:153
-#: table_data.h:154
-#: table_data.h:155
-#: table_data.h:156
-#: table_data.h:157
-#: table_data.h:159
-#: table_data.h:161
-#: table_data.h:162
-#: table_data.h:163
-#: table_data.h:164
-#: table_data.h:165
-#: table_data.h:166
-#: table_data.h:168
-#: table_data.h:169
-#: table_data.h:170
-#: table_data.h:171
-#: table_data.h:172
-#: table_data.h:173
-#: table_data.h:174
-#: table_data.h:175
-#: table_data.h:176
-#: table_data.h:177
-#: table_data.h:178
-#: table_data.h:179
-#: table_data.h:180
-#: table_data.h:181
-#: table_data.h:182
-#: table_data.h:183
-#: table_data.h:184
-#: table_data.h:185
-#: table_data.h:187
-#: table_data.h:188
-#: table_data.h:191
-#: table_data.h:192
-#: table_data.h:194
-#: table_data.h:195
-#: table_data.h:196
-#: table_data.h:197
-#: table_data.h:199
-#: table_data.h:200
-#: table_data.h:201
-#: table_data.h:202
-#: table_data.h:203
-#: table_data.h:204
-#: table_data.h:206
-#: table_data.h:207
-#: table_data.h:210
-#: table_data.h:211
-#: table_data.h:212
-#: table_data.h:213
-#: table_data.h:214
-#: table_data.h:215
-#: table_data.h:216
-#: table_data.h:217
-#: table_data.h:218
-#: table_data.h:219
-#: table_data.h:220
-#: table_data.h:221
-#: table_data.h:222
-#: table_data.h:224
-#: table_data.h:225
-#: table_data.h:226
-#: table_data.h:227
-#: table_data.h:229
-#: table_data.h:230
-#: table_data.h:231
-#: table_data.h:232
-#: table_data.h:235
-#: table_data.h:236
-#: table_data.h:237
-#: table_data.h:238
-#: table_data.h:239
-#: table_data.h:241
-#: table_data.h:242
-#: table_data.h:244
-#: table_data.h:245
-#: table_data.h:246
-#: table_data.h:247
-#: table_data.h:248
-#: table_data.h:249
-#: table_data.h:250
-#: table_data.h:251
-#: table_data.h:252
-#: table_data.h:253
-#: table_data.h:254
-#: table_data.h:255
-#: table_data.h:256
-#: table_data.h:257
-#: table_data.h:259
-#: table_data.h:260
-#: table_data.h:261
-#: table_data.h:262
-#: table_data.h:263
-#: table_data.h:264
-#: table_data.h:265
-#: table_data.h:266
-#: table_data.h:267
-#: table_data.h:268
-#: table_data.h:269
-#: table_data.h:270
-#: table_data.h:271
-#: table_data.h:272
-#: table_data.h:273
-#: table_data.h:274
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
+#: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
+#: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
+#: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
+#: table_data.h:165 table_data.h:166 table_data.h:168 table_data.h:169
+#: table_data.h:170 table_data.h:171 table_data.h:172 table_data.h:173
+#: table_data.h:174 table_data.h:175 table_data.h:176 table_data.h:177
+#: table_data.h:178 table_data.h:179 table_data.h:180 table_data.h:181
+#: table_data.h:182 table_data.h:183 table_data.h:184 table_data.h:185
+#: table_data.h:187 table_data.h:188 table_data.h:191 table_data.h:192
+#: table_data.h:194 table_data.h:195 table_data.h:196 table_data.h:197
+#: table_data.h:199 table_data.h:200 table_data.h:201 table_data.h:202
+#: table_data.h:203 table_data.h:204 table_data.h:206 table_data.h:207
+#: table_data.h:210 table_data.h:211 table_data.h:212 table_data.h:213
+#: table_data.h:214 table_data.h:215 table_data.h:216 table_data.h:217
+#: table_data.h:218 table_data.h:219 table_data.h:220 table_data.h:221
+#: table_data.h:222 table_data.h:224 table_data.h:225 table_data.h:226
+#: table_data.h:227 table_data.h:229 table_data.h:230 table_data.h:231
+#: table_data.h:232 table_data.h:235 table_data.h:236 table_data.h:237
+#: table_data.h:238 table_data.h:239 table_data.h:241 table_data.h:242
+#: table_data.h:244 table_data.h:245 table_data.h:246 table_data.h:247
+#: table_data.h:248 table_data.h:249 table_data.h:250 table_data.h:251
+#: table_data.h:252 table_data.h:253 table_data.h:254 table_data.h:255
+#: table_data.h:256 table_data.h:257 table_data.h:259 table_data.h:260
+#: table_data.h:261 table_data.h:262 table_data.h:263 table_data.h:264
+#: table_data.h:265 table_data.h:266 table_data.h:267 table_data.h:268
+#: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:272
+#: table_data.h:273 table_data.h:274
 msgid "n/a"
 msgstr "-"
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr "_Файл"
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr "_Справка"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr "_Выход"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr "Выйти из программы"
 
-#: gperiodic.c:338
-#: gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr "_О программе"
 
-#: gperiodic.c:338
-#: gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr "О программе GPeriodic"
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr "GPeriodic"
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr "Нет символа для индекса"
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr "Кнопка \"Ошибка\" была нулевой?"
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Установка цвета: %d %d %d"
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr "%s - Z=%s, M=%s а.е.м."
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr " Неверный параметр опции -c: %s не является числом\n"
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr " Неверный параметр опции -c: %s должно быть положительным числом\n"
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -239,7 +161,7 @@ msgstr ""
 " Неизвестный элемент: %s. Завершение работы.\n"
 "\n"
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"
@@ -251,8 +173,11 @@ msgstr ""
 "\n"
 
 #: gperiodic.h:102
-msgid "This program shows the periodic table of elements and information about these elements"
-msgstr "Эта программа выводит периодическую таблицу элементов и информацию о них"
+msgid ""
+"This program shows the periodic table of elements and information about "
+"these elements"
+msgstr ""
+"Эта программа выводит периодическую таблицу элементов и информацию о них"
 
 #: gperiodic.h:103
 msgid ""
@@ -268,7 +193,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA\n"
 msgstr ""
 "gperiodic - это свободная программа; вы можете распространять её\n"
 "и/или модифицировать в соответствии с лицензией\n"
@@ -283,7 +209,8 @@ msgstr ""
 "\n"
 "Вы должны были получить копию GNU General Public License\n"
 "с программой; если нет, то напишите в Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -405,45 +332,19 @@ msgstr "водород"
 msgid "0.0708 (@ -253&#176;C)"
 msgstr "0.0708 (при -253&#176;C)"
 
-#: table_data.h:147
-#: table_data.h:148
-#: table_data.h:151
-#: table_data.h:160
-#: table_data.h:170
-#: table_data.h:171
-#: table_data.h:176
-#: table_data.h:179
-#: table_data.h:183
-#: table_data.h:189
-#: table_data.h:190
-#: table_data.h:193
-#: table_data.h:194
-#: table_data.h:198
-#: table_data.h:202
-#: table_data.h:209
-#: table_data.h:211
-#: table_data.h:212
-#: table_data.h:213
-#: table_data.h:216
-#: table_data.h:217
-#: table_data.h:218
-#: table_data.h:219
-#: table_data.h:220
-#: table_data.h:221
-#: table_data.h:224
-#: table_data.h:225
-#: table_data.h:228
-#: table_data.h:229
-#: table_data.h:234
-#: table_data.h:250
-#: table_data.h:251
-#: table_data.h:252
-#: table_data.h:253
+#: table_data.h:147 table_data.h:148 table_data.h:151 table_data.h:160
+#: table_data.h:170 table_data.h:171 table_data.h:176 table_data.h:179
+#: table_data.h:183 table_data.h:189 table_data.h:190 table_data.h:193
+#: table_data.h:194 table_data.h:198 table_data.h:202 table_data.h:209
+#: table_data.h:211 table_data.h:212 table_data.h:213 table_data.h:216
+#: table_data.h:217 table_data.h:218 table_data.h:219 table_data.h:220
+#: table_data.h:221 table_data.h:224 table_data.h:225 table_data.h:228
+#: table_data.h:229 table_data.h:234 table_data.h:250 table_data.h:251
+#: table_data.h:252 table_data.h:253
 msgid "HEX"
 msgstr "HEX (гексагональная)"
 
-#: table_data.h:147
-#: table_data.h:157
+#: table_data.h:147 table_data.h:157
 msgid "Colorless, odorless, tasteless gas"
 msgstr "газ без цвета, вкуса и запаха"
 
@@ -491,34 +392,19 @@ msgstr "литий"
 msgid "68 (+1e) or 76 (+1e)"
 msgstr "68 (+1e) либо 76 (+1e)"
 
-#: table_data.h:150
-#: table_data.h:159
-#: table_data.h:163
-#: table_data.h:168
-#: table_data.h:172
-#: table_data.h:173
-#: table_data.h:175
-#: table_data.h:187
-#: table_data.h:191
-#: table_data.h:192
-#: table_data.h:206
-#: table_data.h:207
-#: table_data.h:215
-#: table_data.h:226
-#: table_data.h:227
-#: table_data.h:241
+#: table_data.h:150 table_data.h:159 table_data.h:163 table_data.h:168
+#: table_data.h:172 table_data.h:173 table_data.h:175 table_data.h:187
+#: table_data.h:191 table_data.h:192 table_data.h:206 table_data.h:207
+#: table_data.h:215 table_data.h:226 table_data.h:227 table_data.h:241
 #: table_data.h:242
 msgid "BCC"
 msgstr "BCC (кубическая объёмноцентрированная)"
 
-#: table_data.h:150
-#: table_data.h:159
-#: table_data.h:215
+#: table_data.h:150 table_data.h:159 table_data.h:215
 msgid "Soft, silvery-white metal"
 msgstr "мягкий серебристо-белый металл"
 
-#: table_data.h:150
-#: table_data.h:183
+#: table_data.h:150 table_data.h:183
 msgid "1817 (Sweden)"
 msgstr "1817 (Швеция)"
 
@@ -554,10 +440,7 @@ msgstr "греч. бериллос, берил (минерал)"
 msgid "Boron"
 msgstr "бор"
 
-#: table_data.h:152
-#: table_data.h:214
-#: table_data.h:233
-#: table_data.h:236
+#: table_data.h:152 table_data.h:214 table_data.h:233 table_data.h:236
 msgid "RHL"
 msgstr "RHL (ромбоэдрическая)"
 
@@ -597,34 +480,16 @@ msgstr "HEX (гексагональная) (графит), DIA (алмазная
 msgid "Dense, Black (graphite)"
 msgstr "плотное чёрное вещество (графит)"
 
-#: table_data.h:153
-#: table_data.h:164
-#: table_data.h:175
-#: table_data.h:178
-#: table_data.h:179
-#: table_data.h:182
-#: table_data.h:197
-#: table_data.h:200
-#: table_data.h:201
-#: table_data.h:232
-#: table_data.h:233
-#: table_data.h:235
+#: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
+#: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
+#: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "n/a (Unknown)"
 msgstr "- (-)"
 
-#: table_data.h:153
-#: table_data.h:164
-#: table_data.h:175
-#: table_data.h:178
-#: table_data.h:179
-#: table_data.h:182
-#: table_data.h:197
-#: table_data.h:200
-#: table_data.h:201
-#: table_data.h:232
-#: table_data.h:233
-#: table_data.h:235
+#: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
+#: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
+#: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "Known to the ancients"
 msgstr "известен в древности"
@@ -709,8 +574,7 @@ msgstr "фтор"
 msgid "1.108 (@ -189&#176;C)"
 msgstr "1.108 (при -189&#176;C)"
 
-#: table_data.h:156
-#: table_data.h:249
+#: table_data.h:156 table_data.h:249
 msgid "MCL"
 msgstr "MCL (моноклинная)"
 
@@ -718,8 +582,7 @@ msgstr "MCL (моноклинная)"
 msgid "Greenish-yellow, pungent, corrosive gas"
 msgstr "зеленовато-жёлтый едкий разъедающий газ"
 
-#: table_data.h:156
-#: table_data.h:218
+#: table_data.h:156 table_data.h:218
 msgid "1886 (France)"
 msgstr "1886 (Франция)"
 
@@ -739,39 +602,20 @@ msgstr "неон"
 msgid "1.204 (@ -246&#176;C)"
 msgstr "1.204 (при -246&#176;C)"
 
-#: table_data.h:157
-#: table_data.h:161
-#: table_data.h:166
-#: table_data.h:169
-#: table_data.h:177
-#: table_data.h:178
-#: table_data.h:185
-#: table_data.h:188
-#: table_data.h:195
-#: table_data.h:196
-#: table_data.h:197
-#: table_data.h:204
-#: table_data.h:210
-#: table_data.h:222
-#: table_data.h:230
-#: table_data.h:231
-#: table_data.h:232
-#: table_data.h:235
-#: table_data.h:238
-#: table_data.h:239
-#: table_data.h:244
-#: table_data.h:245
+#: table_data.h:157 table_data.h:161 table_data.h:166 table_data.h:169
+#: table_data.h:177 table_data.h:178 table_data.h:185 table_data.h:188
+#: table_data.h:195 table_data.h:196 table_data.h:197 table_data.h:204
+#: table_data.h:210 table_data.h:222 table_data.h:230 table_data.h:231
+#: table_data.h:232 table_data.h:235 table_data.h:238 table_data.h:239
+#: table_data.h:244 table_data.h:245
 msgid "FCC"
 msgstr "FCC (кубическая гранецентрированная)"
 
-#: table_data.h:157
-#: table_data.h:204
+#: table_data.h:157 table_data.h:204
 msgid "1898 (England)"
 msgstr "1898 (Англия)"
 
-#: table_data.h:157
-#: table_data.h:185
-#: table_data.h:204
+#: table_data.h:157 table_data.h:185 table_data.h:204
 msgid "Sir William Ramsey, M.W. Travers"
 msgstr "Уильям Рамзай, Морис Трэверс"
 
@@ -783,22 +627,22 @@ msgstr "греч. неос (новый)"
 msgid "Sodium"
 msgstr "натрий"
 
-#: table_data.h:159
-#: table_data.h:168
+#: table_data.h:159 table_data.h:168
 msgid "1807 (England)"
 msgstr "1807 (Англия)"
 
-#: table_data.h:159
-#: table_data.h:160
-#: table_data.h:168
-#: table_data.h:169
+#: table_data.h:159 table_data.h:160 table_data.h:168 table_data.h:169
 #: table_data.h:207
 msgid "Sir Humphrey Davy"
 msgstr "Гемфри Дэви"
 
 #: table_data.h:159
-msgid "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium carbonate)"
-msgstr "средневековая латынь: sodanum (средство от головной боли); символ от лат. natrium (карбонат натрия)"
+msgid ""
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
+"carbonate)"
+msgstr ""
+"средневековая латынь: sodanum (средство от головной боли); символ от лат. "
+"natrium (карбонат натрия)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -808,9 +652,7 @@ msgstr "магний"
 msgid "Lightweight, malleable, silvery-white metal"
 msgstr "лёгкий тягучий серебристо-белый металл"
 
-#: table_data.h:160
-#: table_data.h:169
-#: table_data.h:207
+#: table_data.h:160 table_data.h:169 table_data.h:207
 msgid "1808 (England)"
 msgstr "1808 (Англия)"
 
@@ -842,8 +684,7 @@ msgstr "лат. alumen, aluminis (квасцы)"
 msgid "Silicon"
 msgstr "кремний"
 
-#: table_data.h:162
-#: table_data.h:181
+#: table_data.h:162 table_data.h:181
 msgid "DIA"
 msgstr "DIA (алмазная)"
 
@@ -855,9 +696,7 @@ msgstr "аморфная форма - бурый порошок, кристал�
 msgid "1825 (Sweden)"
 msgstr "1825 (Швеция)"
 
-#: table_data.h:162
-#: table_data.h:183
-#: table_data.h:245
+#: table_data.h:162 table_data.h:183 table_data.h:245
 msgid "Jons Jacob Berzelius"
 msgstr "Йёнс Якоб Берцелиус"
 
@@ -893,13 +732,8 @@ msgstr "греч. фосфорос (светоносный)"
 msgid "Sulfur"
 msgstr "сера"
 
-#: table_data.h:164
-#: table_data.h:165
-#: table_data.h:180
-#: table_data.h:184
-#: table_data.h:203
-#: table_data.h:247
-#: table_data.h:248
+#: table_data.h:164 table_data.h:165 table_data.h:180 table_data.h:184
+#: table_data.h:203 table_data.h:247 table_data.h:248
 msgid "ORC"
 msgstr "ORC (орторомбическая)"
 
@@ -923,13 +757,11 @@ msgstr "1.56 (при -33.6&#176;C)"
 msgid "Greenish-yellow, disagreeable gas"
 msgstr "зеленовато-жёлтый неприятный газ"
 
-#: table_data.h:165
-#: table_data.h:174
+#: table_data.h:165 table_data.h:174
 msgid "1774 (Sweden)"
 msgstr "1774 (Швеция)"
 
-#: table_data.h:165
-#: table_data.h:192
+#: table_data.h:165 table_data.h:192
 msgid "Carl Wilhelm Scheele"
 msgstr "Карл Вильгельм Шееле"
 
@@ -993,8 +825,7 @@ msgstr "скандий"
 msgid "Fairly soft, silvery-white metal"
 msgstr "довольно мягкий серебристо-белый металл"
 
-#: table_data.h:170
-#: table_data.h:221
+#: table_data.h:170 table_data.h:221
 msgid "1879 (Sweden)"
 msgstr "1879 (Швеция)"
 
@@ -1030,8 +861,7 @@ msgstr "греч. титанос (титаны)"
 msgid "Vanadium"
 msgstr "ванадий"
 
-#: table_data.h:172
-#: table_data.h:216
+#: table_data.h:172 table_data.h:216
 msgid "Soft, ductile, silvery-white metal"
 msgstr "мягкий тягучий серебристо-белый металл"
 
@@ -1071,8 +901,7 @@ msgstr "греч. хрома (цвет)"
 msgid "Manganese"
 msgstr "марганец"
 
-#: table_data.h:174
-#: table_data.h:237
+#: table_data.h:174 table_data.h:237
 msgid "CUB"
 msgstr "CUB (кубическая)"
 
@@ -1176,8 +1005,7 @@ msgstr "мягкий синевато-белый металл"
 msgid "1875 (France)"
 msgstr "1875 (Франция)"
 
-#: table_data.h:180
-#: table_data.h:218
+#: table_data.h:180 table_data.h:218
 msgid "Paul-Emile Lecoq de Boisbaudran"
 msgstr "Поль-Эмиль Лекок де Буабодран"
 
@@ -1217,8 +1045,7 @@ msgstr "5.73 (серый мышьяк)"
 msgid "24.44 (grey arsenic)"
 msgstr "24.44 (серый мышьяк)"
 
-#: table_data.h:182
-#: table_data.h:201
+#: table_data.h:182 table_data.h:201
 msgid "TRG"
 msgstr "TRG (тригональная)"
 
@@ -1294,8 +1121,7 @@ msgstr "Мягкий, серебристо-белый, высоко реакти
 msgid "1861 (Germany)"
 msgstr "1861 (Германия)"
 
-#: table_data.h:187
-#: table_data.h:206
+#: table_data.h:187 table_data.h:206
 msgid "Gustov Kirchoff, Robert Bunsen"
 msgstr "Густав Кирхгоф, Роберт Бунзен"
 
@@ -1340,7 +1166,9 @@ msgid "Johann Gadolin"
 msgstr "Иоганн Гадолин"
 
 #: table_data.h:189
-msgid "Named after the Swedish town, Ytterby, where one of its minerals was first found"
+msgid ""
+"Named after the Swedish town, Ytterby, where one of its minerals was first "
+"found"
 msgstr "шведский городок Ytterby, где был обнаружен один из минералов"
 
 #: table_data.h:190
@@ -1351,13 +1179,11 @@ msgstr "цирконий"
 msgid "Gray-white, lustrous, corrosion-resistant metal"
 msgstr "серо-белый блестящий нержавеющий металл"
 
-#: table_data.h:190
-#: table_data.h:247
+#: table_data.h:190 table_data.h:247
 msgid "1789 (Germany)"
 msgstr "1789 (Германия)"
 
-#: table_data.h:190
-#: table_data.h:247
+#: table_data.h:190 table_data.h:247
 msgid "Martin Klaproth"
 msgstr "Мартин Клапрот"
 
@@ -1389,8 +1215,7 @@ msgstr "Ниоба, дочь Тантала (греч. миф.)"
 msgid "Molybdenum"
 msgstr "молибден"
 
-#: table_data.h:192
-#: table_data.h:195
+#: table_data.h:192 table_data.h:195
 msgid "Silvery white, hard metal"
 msgstr "серебристо-белый твёрдый металл"
 
@@ -1406,8 +1231,7 @@ msgstr "греч. молибдос (свинец)"
 msgid "Technetium"
 msgstr "технеций"
 
-#: table_data.h:193
-#: table_data.h:237
+#: table_data.h:193 table_data.h:237
 msgid "Silvery-gray metal"
 msgstr "серебристо-серый металл"
 
@@ -1447,13 +1271,11 @@ msgstr "лат. Ruthenia (Россия)"
 msgid "Rhodium"
 msgstr "родий"
 
-#: table_data.h:195
-#: table_data.h:196
+#: table_data.h:195 table_data.h:196
 msgid "1803 (England)"
 msgstr "1803 (Англия)"
 
-#: table_data.h:195
-#: table_data.h:196
+#: table_data.h:195 table_data.h:196
 msgid "William Wollaston"
 msgstr "Уильям Волластон"
 
@@ -1465,8 +1287,7 @@ msgstr "греч. родон (роза), соли дают розовые рас
 msgid "Palladium"
 msgstr "палладий"
 
-#: table_data.h:196
-#: table_data.h:200
+#: table_data.h:196 table_data.h:200
 msgid "Silvery-white, soft, malleable and ductile metal"
 msgstr "серебристо-белый ковкий и тягучий металл"
 
@@ -1510,9 +1331,7 @@ msgstr "греч. кадмиа, древнее название окиси ци�
 msgid "Indium"
 msgstr "индий"
 
-#: table_data.h:199
-#: table_data.h:200
-#: table_data.h:246
+#: table_data.h:199 table_data.h:200 table_data.h:246
 msgid "TET"
 msgstr "TET (тетрагональная)"
 
@@ -1648,9 +1467,7 @@ msgstr "серебристо-белый мягкий ковкий тягучий
 msgid "1839 (Sweden)"
 msgstr "1839 (Швеция)"
 
-#: table_data.h:209
-#: table_data.h:217
-#: table_data.h:220
+#: table_data.h:209 table_data.h:217 table_data.h:220
 msgid "Carl Mosander"
 msgstr "Карл Мосандер"
 
@@ -1675,7 +1492,8 @@ msgid "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
 msgstr "Вильгельм фон Гизингер, Йёнс Якоб Берцелиус, Мартин Клапрот"
 
 #: table_data.h:210
-msgid "Named after the asteroid, Ceres, discovered two years before the element"
+msgid ""
+"Named after the asteroid, Ceres, discovered two years before the element"
 msgstr "обнаруженный двумя годами ранее астероид Церес"
 
 #: table_data.h:211
@@ -1690,8 +1508,7 @@ msgstr "серебристо-белый умеренно мягкий ковки
 msgid "1885 (Austria)"
 msgstr "1885 (Австрия)"
 
-#: table_data.h:211
-#: table_data.h:212
+#: table_data.h:211 table_data.h:212
 msgid "C.F. Aver von Welsbach"
 msgstr "К.Ауэр фон Вельсбах"
 
@@ -1751,9 +1568,7 @@ msgstr "серебристый редкоземельный металл"
 msgid "1880 (France)"
 msgstr "1880 (Франция)"
 
-#: table_data.h:214
-#: table_data.h:216
-#: table_data.h:222
+#: table_data.h:214 table_data.h:216 table_data.h:222
 msgid "Jean Charles Galissard de Marignac"
 msgstr "Жан де Мариньяк"
 
@@ -1797,14 +1612,11 @@ msgstr "тербий"
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
 msgstr "мягкий тягучий серебристо-серый редкоземельный металл"
 
-#: table_data.h:217
-#: table_data.h:220
+#: table_data.h:217 table_data.h:220
 msgid "1843 (Sweden)"
 msgstr "1843 (Швеция)"
 
-#: table_data.h:217
-#: table_data.h:220
-#: table_data.h:222
+#: table_data.h:217 table_data.h:220 table_data.h:222
 msgid "Named after the Swedish town, Ytterby"
 msgstr "шведский городок Ytterby"
 
@@ -2010,7 +1822,8 @@ msgstr "1804 (Англия/Франция)"
 
 #: table_data.h:230
 msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
-msgstr "Смитсон Тенант, Антуан де Фукруа, Луи-Николас Вакулин, Г.Коллет-Десколт"
+msgstr ""
+"Смитсон Тенант, Антуан де Фукруа, Луи-Николас Вакулин, Г.Коллет-Десколт"
 
 #: table_data.h:230
 msgid "Greek: iris (rainbow)"
@@ -2094,7 +1907,8 @@ msgstr "свинец"
 
 #: table_data.h:235
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr "очень мягкий синевато-белый блестящий метал, легко поддаётся ковке и тянется"
+msgstr ""
+"очень мягкий синевато-белый блестящий метал, легко поддаётся ковке и тянется"
 
 #: table_data.h:235
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
@@ -2116,13 +1930,11 @@ msgstr "нем. bisemutum (белая масса), нынче wismut"
 msgid "Polonium"
 msgstr "полоний"
 
-#: table_data.h:237
-#: table_data.h:242
+#: table_data.h:237 table_data.h:242
 msgid "1898 (France/Poland)"
 msgstr "1898 (Франция/Польша)"
 
-#: table_data.h:237
-#: table_data.h:242
+#: table_data.h:237 table_data.h:242
 msgid "Pierre and Marie Curie-Sklodowska"
 msgstr "Пьер Кюри и Мария Склодовская-Кюри"
 
@@ -2138,8 +1950,7 @@ msgstr "астат"
 msgid "Unstable, radioactive halogen"
 msgstr "нестабильный радиоактивный галоген"
 
-#: table_data.h:238
-#: table_data.h:249
+#: table_data.h:238 table_data.h:249
 msgid "1940 (United States)"
 msgstr "1940 (США)"
 
@@ -2247,9 +2058,7 @@ msgstr "Тор, скандинавский бог грома"
 msgid "Protactinium"
 msgstr "протактиний"
 
-#: table_data.h:246
-#: table_data.h:249
-#: table_data.h:250
+#: table_data.h:246 table_data.h:249 table_data.h:250
 msgid "Silvery-white, radioactive metal"
 msgstr "серебристо-белый радиоактивный металл"
 
@@ -2262,8 +2071,11 @@ msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgstr "Фредерик Содди, Джон Крэнстон, Отто Ган, Лиза Мейтнер"
 
 #: table_data.h:246
-msgid "Greek: proto and actinium (parent of actinium); it forms actinium when it radioactively decays"
-msgstr "греч. прото и актиниум (отец актиния); при радиоактивном распаде даёт актиний"
+msgid ""
+"Greek: proto and actinium (parent of actinium); it forms actinium when it "
+"radioactively decays"
+msgstr ""
+"греч. прото и актиниум (отец актиния); при радиоактивном распаде даёт актиний"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2313,8 +2125,7 @@ msgstr "планета Плутон"
 msgid "Americium"
 msgstr "америций"
 
-#: table_data.h:250
-#: table_data.h:251
+#: table_data.h:250 table_data.h:251
 msgid "1944 (United States)"
 msgstr "1944 (США)"
 
@@ -2374,8 +2185,7 @@ msgstr "мощный излучатель нейтронов"
 msgid "1950 (United States)"
 msgstr "1950 (США)"
 
-#: table_data.h:253
-#: table_data.h:256
+#: table_data.h:253 table_data.h:256
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
 msgstr "Гленн Сиборг, Стэнли Томпсон, А.Гиорсо, К.Стрит"
 
@@ -2387,25 +2197,17 @@ msgstr "штат, а также университет Калифорнии"
 msgid "Einsteinium"
 msgstr "эйнштейний"
 
-#: table_data.h:254
-#: table_data.h:255
-#: table_data.h:256
-#: table_data.h:257
-#: table_data.h:259
-#: table_data.h:260
-#: table_data.h:261
-#: table_data.h:262
+#: table_data.h:254 table_data.h:255 table_data.h:256 table_data.h:257
+#: table_data.h:259 table_data.h:260 table_data.h:261 table_data.h:262
 #: table_data.h:263
 msgid "Radioactive, synthetic metal"
 msgstr "радиоактивный искусственный металл"
 
-#: table_data.h:254
-#: table_data.h:255
+#: table_data.h:254 table_data.h:255
 msgid "1952 (United States)"
 msgstr "1952 (США)"
 
-#: table_data.h:254
-#: table_data.h:255
+#: table_data.h:254 table_data.h:255
 msgid "Argonne, Los Alamos, University of California"
 msgstr "Аргонна, Лос-Аламос, Университет Калифорнии"
 
@@ -2430,7 +2232,9 @@ msgid "1955 (United States)"
 msgstr "1955 (США)"
 
 #: table_data.h:256
-msgid "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the periodic table"
+msgid ""
+"Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
+"periodic table"
 msgstr "Д.И.Менделеев"
 
 #: table_data.h:257
@@ -2441,13 +2245,13 @@ msgstr "нобелий"
 msgid "1963 (USSR)"
 msgstr "1963 (СССР)"
 
-#: table_data.h:257
-#: table_data.h:260
+#: table_data.h:257 table_data.h:260
 msgid "Dubna"
 msgstr "Дубна"
 
 #: table_data.h:257
-msgid "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
+msgid ""
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
 msgstr "Альфред Нобель"
 
 #: table_data.h:259
@@ -2458,9 +2262,7 @@ msgstr "лоуренсий"
 msgid "1961 (USSR/United States)"
 msgstr "1961 (СССР/США)"
 
-#: table_data.h:259
-#: table_data.h:261
-#: table_data.h:262
+#: table_data.h:259 table_data.h:261 table_data.h:262
 msgid "Soviet Nuclear Research/University of California at Berkeley"
 msgstr "Дубна/унив. Калифорнии в Беркли"
 
@@ -2501,7 +2303,9 @@ msgid "1974 (USSR/United States)"
 msgstr "1974 (СССР/США)"
 
 #: table_data.h:262
-msgid "Named in honor of Glenn Theodore Seaborg, American physical chemist known for research on transuranium elements"
+msgid ""
+"Named in honor of Glenn Theodore Seaborg, American physical chemist known "
+"for research on transuranium elements"
 msgstr "Гленн Сиборг"
 
 #: table_data.h:263
@@ -2512,12 +2316,8 @@ msgstr "борий"
 msgid "1976 (Germany)"
 msgstr "1976 (Германия)"
 
-#: table_data.h:263
-#: table_data.h:264
-#: table_data.h:265
-#: table_data.h:266
-#: table_data.h:267
-#: table_data.h:268
+#: table_data.h:263 table_data.h:264 table_data.h:265 table_data.h:266
+#: table_data.h:267 table_data.h:268
 msgid "Heavy Ion Research Laboratory (HIRL)"
 msgstr "Центр исследований тяжёлых ионов"
 
@@ -2553,8 +2353,7 @@ msgstr "Лиза Мейтнер"
 msgid "Darmstadtium"
 msgstr "дармштадтий"
 
-#: table_data.h:266
-#: table_data.h:267
+#: table_data.h:266 table_data.h:267
 msgid "1994 (Germany)"
 msgstr "1994 (Германия)"
 
@@ -2590,10 +2389,7 @@ msgstr "унунтрий"
 msgid "2004 (Russia/United States)"
 msgstr "2004 (Россия/США)"
 
-#: table_data.h:269
-#: table_data.h:270
-#: table_data.h:271
-#: table_data.h:273
+#: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:273
 #: table_data.h:274
 msgid "Dubna/Livermore"
 msgstr "Дубна/Ливермор"
@@ -2665,4 +2461,3 @@ msgstr "2006 (Россия/США)"
 #: table_data.h:274
 msgid "Un (one) un (one) octium (eight)"
 msgstr "Un (один) un (один) octium (восемь)"
-

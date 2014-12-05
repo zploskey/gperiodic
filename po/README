@@ -13,8 +13,8 @@ In the gperiodic top level directory, create the .po template (.pot):
 If there are any existing translations, XX.po files, then merge them:
 
 	cd po
-	msgmerge XX.po  gperiodic.pot > XX.po.new
-	mv XX.po.new XX.po
+	msgmerge XX.po gperiodic.pot > XX.po.new
+	mv -f XX.po.new XX.po
 
 Or, if this is a new translation, copy the template:
 

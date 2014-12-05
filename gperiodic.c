@@ -35,7 +35,7 @@ Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Logi
 #include "gperiodic.h"
 #include "table_data.h"
 
-#define VERSION "3.0.0"
+#define VERSION "3.0.1"
 
 #define PACKAGE "gperiodic"
 #define GPERIODIC_LOCALE_DIR "/usr/share/locale"
@@ -191,6 +191,8 @@ GCallback menu_help_about(void)
 void show_usage( void ) 
 {
     printf("GPeriodic - ");
+    printf(gettext("Periodic table application"));
+    printf("\n\n");
     printf(gettext("A program for looking up data of elements from the periodic table"));
     printf("\n\n");
     printf(gettext("gperiodic [opts]\n"

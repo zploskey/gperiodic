@@ -4,12 +4,12 @@
 # Christian Klein <?>, 1999.
 # Sven Neumann <?>, 1999.
 # Marc Lattemann <marc.lattemann@web.de>, 2014.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: 2014-06-24 21:28+0200\n"
 "Last-Translator: Marc Lattemann <marc.lattemann@web.de>\n"
 "Language-Team: German\n"
@@ -22,11 +22,16 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
+msgid "Periodic table application"
+msgstr "Das Periodensystem der Elemente"
+
+#: gperiodic.c:196
+#, c-format
 msgid "A program for looking up data of elements from the periodic table"
 msgstr ""
 "Ein Programm, um Daten von Elementen aus dem Periodensystem nach zu schauen"
 
-#: gperiodic.c:196
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -47,7 +52,7 @@ msgstr ""
 "    -v         zeige ausführliche Informationen\n"
 "\n"
 
-#: gperiodic.c:203
+#: gperiodic.c:205
 #, c-format
 msgid ""
 "or\n"
@@ -64,7 +69,7 @@ msgstr ""
 "angegebenen Element Symbol oder Atom Nummer\n"
 "\n"
 
-#: gperiodic.c:289 gperiodic.c:290 table_data.h:82 table_data.h:98
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
 #: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
 #: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
@@ -95,63 +100,63 @@ msgstr ""
 msgid "n/a"
 msgstr "n/a"
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr "_Datei"
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr "_Hilfe"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr "_Beenden"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr "Das Programm beenden"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr "_Info"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr "Über gperiodic"
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr "GPeriodic"
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr "Kein Zeichen für den Index"
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr "Fehler Ausgabe ist null?"
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Einstellung Farbe: %d %d %d"
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr "%s n:%s w:%s"
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr " Option -c Fehler : %s ist keine Zahl.\n"
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr " Option -c Fehler : %s ist keine gültige Zahl (muss größer 0 sein).\n"
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -162,7 +167,7 @@ msgstr ""
 "Unbekanntes Element : %s. Programm wird beendet.\n"
 "\n"
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"
@@ -2478,4 +2483,3 @@ msgstr "2006 (Russland/Vereinigte Staaten)"
 #: table_data.h:274
 msgid "Un (one) un (one) octium (eight)"
 msgstr "Un (1) un (1) octium (8)"
-

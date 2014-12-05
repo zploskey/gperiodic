@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 15:02+0400\n"
+"POT-Creation-Date: 2014-12-05 22:21+0300\n"
 "PO-Revision-Date: 2014-06-11 15:56+0200\n"
 "Last-Translator: Pavel <pavelfric@seznam.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -20,10 +20,15 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
+msgid "Periodic table application"
+msgstr "Periodická tabulka prvků"
+
+#: gperiodic.c:196
+#, c-format
 msgid "A program for looking up data of elements from the periodic table"
 msgstr "Program pro vyhledávání dat prvků v periodické tabulce prvků"
 
-#: gperiodic.c:196
+#: gperiodic.c:198
 #, c-format
 msgid ""
 "gperiodic [opts]\n"
@@ -44,7 +49,8 @@ msgstr ""
 "    -v         Být podrobný\n"
 "\n"
 
-#: gperiodic.c:203
+#: gperiodic.c:205
+#, c-format
 msgid ""
 "or\n"
 "\n"
@@ -54,7 +60,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: gperiodic.c:289 gperiodic.c:290 table_data.h:82 table_data.h:98
+#: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
 #: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:159
 #: table_data.h:161 table_data.h:162 table_data.h:163 table_data.h:164
@@ -85,63 +91,63 @@ msgstr ""
 msgid "n/a"
 msgstr "nedostupné"
 
-#: gperiodic.c:334
+#: gperiodic.c:336
 msgid "_File"
 msgstr "_Soubor"
 
-#: gperiodic.c:335
+#: gperiodic.c:337
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "E_xit"
 msgstr "U_končit"
 
-#: gperiodic.c:336
+#: gperiodic.c:338
 msgid "Exit the program"
 msgstr "Ukončit program"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
 msgstr "O _programu"
 
-#: gperiodic.c:338 gperiodic.c:340
+#: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
 msgstr "O programu gperiodic"
 
-#: gperiodic.c:358
+#: gperiodic.c:360
 msgid "GPeriodic"
 msgstr "GPeriodic"
 
-#: gperiodic.c:401
+#: gperiodic.c:403
 msgid "No symbol for index"
 msgstr "Žádný symbol pro index"
 
-#: gperiodic.c:408
+#: gperiodic.c:410
 msgid "Error button was null?"
 msgstr "Chybové tlačítko bylo nula?"
 
-#: gperiodic.c:419
+#: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
 msgstr "%s(%d) Nastavuje se barva: %d %d %d"
 
-#: gperiodic.c:456
+#: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
 msgstr "%s n:%s w:%s"
 
-#: gperiodic.c:498
+#: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
 msgstr " Volba -c error : %s není číslo.\n"
 
-#: gperiodic.c:502
+#: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
 msgstr " Volba -c error : %s není platné číslo (musí být > 0).\n"
 
-#: gperiodic.c:530
+#: gperiodic.c:532
 #, c-format
 msgid ""
 "\n"
@@ -152,7 +158,7 @@ msgstr ""
 " Neznámý prvek: %s. Ukončuje se.\n"
 "\n"
 
-#: gperiodic.c:535
+#: gperiodic.c:537
 #, c-format
 msgid ""
 "\n"
@@ -617,9 +623,8 @@ msgid ""
 "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
 "carbonate)"
 msgstr ""
-"Středověká latina: sodanum (lék na bolest hlavy); symbol z latinského natrium "
-"(sodium "
-"carbonate)"
+"Středověká latina: sodanum (lék na bolest hlavy); symbol z latinského "
+"natrium (sodium carbonate)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -1148,8 +1153,8 @@ msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
 msgstr ""
-"Nazváno podle švédského města zvaného Ytterby, kde byl poprvé nalezen jeden z "
-"jeho nerostů"
+"Nazváno podle švédského města zvaného Ytterby, kde byl poprvé nalezen jeden "
+"z jeho nerostů"
 
 #: table_data.h:190
 msgid "Zirconium"
@@ -2221,7 +2226,8 @@ msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
 msgstr ""
-"Nazváno po vědci D. I. Mendělejevovi, který vymyslel periodickou tabulku prvků"
+"Nazváno po vědci D. I. Mendělejevovi, který vymyslel periodickou tabulku "
+"prvků"
 
 #: table_data.h:257
 msgid "Nobelium"
@@ -2239,7 +2245,8 @@ msgstr "Dubna"
 msgid ""
 "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
 msgstr ""
-"Nazváno k poctě Alfreda Nobela, který vynalezl dynamit a založil Nobelovu cenu"
+"Nazváno k poctě Alfreda Nobela, který vynalezl dynamit a založil Nobelovu "
+"cenu"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2295,8 +2302,7 @@ msgid ""
 "for research on transuranium elements"
 msgstr ""
 "Nazváno k poctě Glenna Theodora Seaborga, amerického fyzikálního chemika "
-"známého "
-"pro výzkum transuranových prvků"
+"známého pro výzkum transuranových prvků"
 
 #: table_data.h:263
 msgid "Bohrium"
@@ -2451,5 +2457,3 @@ msgstr "2006 (Rusko/Spojené státy)"
 #: table_data.h:274
 msgid "Un (one) un (one) octium (eight)"
 msgstr "Un (jeden) un (jeden) octium (osm)"
-
-
