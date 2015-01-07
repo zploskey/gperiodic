@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-05 22:21+0300\n"
+"POT-Creation-Date: 2015-01-07 13:09+0300\n"
 "PO-Revision-Date: 2014-06-25 12:17+0100\n"
 "Last-Translator: Michael Eklund <willard@null.net>\n"
 "Language-Team: Swedish <LL@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
-msgid "Periodic table application"
-msgstr ""
+msgid "Periodic table of the elements"
+msgstr "Periodiska systemet"
 
 #: gperiodic.c:196
 #, c-format

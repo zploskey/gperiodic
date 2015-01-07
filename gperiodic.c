@@ -191,7 +191,7 @@ GCallback menu_help_about(void)
 void show_usage( void ) 
 {
     printf("GPeriodic - ");
-    printf(gettext("Periodic table application"));
+    printf(gettext("Periodic table of the elements"));
     printf("\n\n");
     printf(gettext("A program for looking up data of elements from the periodic table"));
     printf("\n\n");

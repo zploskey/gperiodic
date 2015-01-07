@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=GPeriodic
-_GenericName=Periodic table application
+_GenericName=Periodic table of the elements
 _Comment=A program for looking up data of elements from the periodic table
 Exec=gperiodic
 Icon=gperiodic

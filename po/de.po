@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-05 22:21+0300\n"
+"POT-Creation-Date: 2015-01-07 13:09+0300\n"
 "PO-Revision-Date: 2014-06-24 21:28+0200\n"
 "Last-Translator: Marc Lattemann <marc.lattemann@web.de>\n"
 "Language-Team: German\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
-msgid "Periodic table application"
+msgid "Periodic table of the elements"
 msgstr "Das Periodensystem der Elemente"
 
 #: gperiodic.c:196

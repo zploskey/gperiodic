@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-05 22:21+0300\n"
+"POT-Creation-Date: 2015-01-07 13:09+0300\n"
 "PO-Revision-Date: 2014-06-22 16:20-0300\n"
 "Last-Translator: Marcio Padula <padula1000@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 
 #: gperiodic.c:194
 #, c-format
-msgid "Periodic table application"
-msgstr "Aplicação de tabela periódica"
+msgid "Periodic table of the elements"
+msgstr "Tabela periódica dos elementos"
 
 #: gperiodic.c:196
 #, c-format
