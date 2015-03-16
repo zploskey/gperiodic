@@ -1,15 +1,41 @@
-Jonas Frantz <jonas.frantz@helsinki.fi>
-Kyle R. Burton <mortis@voicenet.com>
-Piotr Najman <picio@bogucice.pl>
-Arno W. Peters <a.w.peters@ieee.org>
-Georges Khaznadar <khazuada@univ-littoral.fr>
-Mauricio Rivera <rmrivera@hotmail.com>
-Lalo Martins <lalo@webcom.com>
-Sven Neumann <neumanns@uni-duesseldorf.de>
-Christian Klein <chris@koeln.ccc.de>
-Koen Kooi <koen_kooi@hotmail.com>
-Ambrogio Oliva <Ambrogio.Oliva@sanofi-synthelabo.fr>
-Felix Natter <f.natter@ndh.net>
-Michael Shigorin <mike@lic145.kiev.ua>
-Costantino Ceoldo <antigone34@libero.it>
-Arkadiusz Lipiec <alipiec@elka.pw.edu.pl>
+Kyle R. Burton <?>                                                    the first author for gperiodic-1.x.x (1999-2002)
+Jonas Frantz <jonas@frantz.fi>                                        the second author for gperiodic-2.x.x (2003-2007), Swedish translation
+Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author for gperiodic-3.x.x (2014), Russian translation
+
+Piotr Najman <?>                                                      Polish translation, patches
+Arno W. Peters <a.w.peters@ieee.org>                                  added in gettext support, and other source changes
+Georges Khaznadar <?>                                                 French translation and related code
+Mauricio Rivera <?>                                                   Spanish translation
+Lalo Martins <?>                                                      Portuguese translation
+Sven Neumann <?>                                                      German translation
+Christian Klein <?>                                                   German translation
+Koen Kooi <?>                                                         Dutch translation
+Ambrogio Oliva <?>                                                    Italian translation
+Felix Natter <?>                                                      patches
+Michael Shigorin <mike@altlinux.org>                                  Russian translation and patches
+Costantino Ceoldo <?>                                                 New data and code for the table
+Arkadiusz Lipiec <?>                                                  Polish translation and patches
+Sebastien Bacher <seb128@debian.org>                                  French translation, manual page, patches
+Daniel Leidert <daniel.leidert@wgdd.de>                               patches
+Theppitak Karoonboonyanan <thep@linux.thai.net>                       patches
+Zach Ploskey <zploskey@gmail.com>                                     patches from his fork of gperiodic
+Jon Abbott <?>                                                        provided updates to the table
+Andrew Dalke <?>                                                      corrected errors in the table
+Gunner Poulsen <?>                                                    Danish translation
+Gonzalo Regueiro Iglesias <gonzalo.regueiro.iglesias@gmail.com>       Galician translation
+Leandro Regueiro <leandro.regueiro@gmail.com>                         Galician translation
+Andrea Tasso <andrea@tasso.info>                                      Italian translation
+Osman Köşeli <?>                                                      Turkish translation
+Frederic Gobry <?>                                                    patches
+Ireneusz Imiolek <imiolek.i@googlemail.com>                           Polish translation
+Oleksandr Mishchenko <sasha.mishchenko@gmail.com>                     Ukrainian translation
+Juan Rafael Fernández                                                 Spanish translation
+Fırat Kutlu <firatkutlu@gmail.com>                                    Turkish translation
+Pavel Fric <pavelfric@seznam.cz>                                      Czech translation
+Yves Brungard <yves.brungard_mageia@gadz.org>                         French translation
+Marcio Padula <padula1000@gmail.com>                                  Brazilian Portuguese translation
+Uladyslau Ahromenka <ahromenka@gmail.com>                             Belarusian translation
+Rémi Verschelde <akien@mageia.org>                                    Danish translation
+André-Marie Desmottes <lebarhon@free.fr>                              French translation
+Marc Lattemann <marc.lattemann@web.de>                                German translation
+Michael Eklund <willard@null.net>                                     Swedish translation
